@@ -1,0 +1,1587 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./batmin_PB.fa
+           239 sequences; 876,939,934 total letters
+
+
+
+Query= Orenil_VTR1Ab:100695840
+
+Length=10777
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  tarseq_10_arrow                                                     3718    0.0  
+  tarseq_32_arrow                                                     235     1e-58
+  tarseq_16_arrow                                                     209     7e-51
+  tarseq_22_arrow                                                     195     2e-46
+  tarseq_9_arrow                                                      195     2e-46
+  tarseq_52_arrow                                                     193     7e-46
+  tarseq_39_arrow                                                     180     5e-42
+  tarseq_12_arrow                                                     180     5e-42
+  tarseq_63_arrow                                                     163     5e-37
+  tarseq_0_arrow                                                      161     2e-36
+  tarseq_27_arrow                                                     159     7e-36
+  tarseq_2_arrow                                                      152     1e-33
+  tarseq_28_arrow                                                     150     4e-33
+  tarseq_90_arrow                                                     145     2e-31
+  tarseq_7_arrow                                                      145     2e-31
+  tarseq_158_arrow                                                    141     2e-30
+  tarseq_5_arrow                                                      139     9e-30
+  tarseq_131_arrow                                                    137     3e-29
+  tarseq_55_arrow                                                     135     1e-28
+  tarseq_149_arrow                                                    134     4e-28
+  tarseq_76_arrow                                                     134     4e-28
+  tarseq_18_arrow                                                     134     4e-28
+  tarseq_91_arrow                                                     132     1e-27
+  tarseq_8_arrow                                                      132     1e-27
+  tarseq_88_arrow                                                     130     5e-27
+  tarseq_82_arrow                                                     130     5e-27
+  tarseq_71_arrow                                                     130     5e-27
+  tarseq_19_arrow                                                     130     5e-27
+  tarseq_6_arrow                                                      130     5e-27
+  tarseq_1_arrow                                                      130     5e-27
+  tarseq_134_arrow                                                    128     2e-26
+  tarseq_37_arrow                                                     126     7e-26
+  tarseq_17_arrow                                                     126     7e-26
+  tarseq_143_arrow                                                    124     2e-25
+  tarseq_4_arrow                                                      124     2e-25
+  tarseq_61_arrow                                                     122     9e-25
+  tarseq_26_arrow                                                     122     9e-25
+  tarseq_170_arrow                                                    121     3e-24
+  tarseq_75_arrow                                                     121     3e-24
+  tarseq_20_arrow                                                     121     3e-24
+  tarseq_11_arrow                                                     121     3e-24
+  tarseq_94_arrow                                                     119     1e-23
+  tarseq_74_arrow                                                     117     4e-23
+  tarseq_23_arrow                                                     117     4e-23
+  tarseq_100_arrow                                                    115     1e-22
+  tarseq_109_arrow                                                    113     5e-22
+  tarseq_103_arrow                                                    113     5e-22
+  tarseq_81_arrow                                                     113     5e-22
+  tarseq_79_arrow                                                     111     2e-21
+  tarseq_38_arrow                                                     111     2e-21
+  tarseq_87_arrow                                                     108     2e-20
+  tarseq_40_arrow                                                     108     2e-20
+  tarseq_21_arrow                                                     108     2e-20
+  tarseq_105_arrow                                                    106     9e-20
+  tarseq_73_arrow                                                     106     9e-20
+  tarseq_45_arrow                                                     106     9e-20
+  tarseq_54_arrow                                                     104     3e-19
+  tarseq_95_arrow                                                     102     1e-18
+  tarseq_64_arrow                                                     102     1e-18
+  tarseq_51_arrow                                                     102     1e-18
+  tarseq_72_arrow                                                     100     4e-18
+  tarseq_59_arrow                                                     100     4e-18
+  tarseq_60_arrow                                                     99.0    1e-17
+  tarseq_42_arrow                                                     99.0    1e-17
+  tarseq_118_arrow                                                    97.1    5e-17
+  tarseq_13_arrow                                                     97.1    5e-17
+  tarseq_115_arrow                                                    95.3    2e-16
+  tarseq_31_arrow                                                     95.3    2e-16
+  tarseq_25_arrow                                                     95.3    2e-16
+  tarseq_3_arrow                                                      95.3    2e-16
+  tarseq_14_arrow                                                     93.5    7e-16
+  tarseq_177_arrow                                                    89.8    9e-15
+  tarseq_77_arrow                                                     87.9    3e-14
+  tarseq_57_arrow                                                     87.9    3e-14
+  tarseq_58_arrow                                                     86.1    1e-13
+  tarseq_35_arrow                                                     86.1    1e-13
+  tarseq_33_arrow                                                     84.2    4e-13
+  tarseq_49_arrow                                                     82.4    2e-12
+  tarseq_165_arrow                                                    80.5    5e-12
+  tarseq_101_arrow                                                    80.5    5e-12
+  tarseq_34_arrow                                                     80.5    5e-12
+  tarseq_189_arrow                                                    76.8    7e-11
+  tarseq_136_arrow                                                    76.8    7e-11
+  tarseq_80_arrow                                                     76.8    7e-11
+  tarseq_163_arrow                                                    75.0    3e-10
+  tarseq_15_arrow                                                     75.0    3e-10
+  tarseq_133_arrow                                                    73.1    9e-10
+  tarseq_99_arrow                                                     69.4    1e-08
+  tarseq_47_arrow                                                     69.4    1e-08
+  tarseq_98_arrow                                                     67.6    4e-08
+  tarseq_68_arrow                                                     67.6    4e-08
+  tarseq_85_arrow                                                     65.8    2e-07
+  tarseq_83_arrow                                                     65.8    2e-07
+  tarseq_140_arrow                                                    63.9    5e-07
+  tarseq_110_arrow                                                    63.9    5e-07
+  tarseq_128_arrow                                                    62.1    2e-06
+  tarseq_123_arrow                                                    60.2    7e-06
+  tarseq_62_arrow                                                     58.4    3e-05
+  tarseq_121_arrow                                                    56.5    9e-05
+  tarseq_86_arrow                                                     56.5    9e-05
+  tarseq_125_arrow                                                    54.7    3e-04
+  tarseq_122_arrow                                                    54.7    3e-04
+  tarseq_43_arrow                                                     54.7    3e-04
+  tarseq_129_arrow                                                    52.8    0.001
+
+
+
+Query_1  1         TGTGGGGCTTTGGATACAGTGAGGCTGGGCATGCAGAGGGCTGGTTCTCGGGGGCAGTGC  60
+10       11458116  .........................-----.............................T  11458062
+
+Query_1  61        ACTTTAAAAGGGGC---A------GCTCGGATTCAGGTTGGAGTTTTTGTGCACCTTGCA  111
+10       11458061  ..............TAG.TCTGCT................................C...  11458002
+
+Query_1  112       GGGAAACAGATGGATCCCTTCTGGATTTTTAACCCGTGAATTCTTCTCGATTGTCCCGTA  171
+10       11458001  ............................................................  11457942
+
+Query_1  172       CACGCTGGAAGAGTTTCACGGCCAGTCTGACGGTTACGCACAGGCGCGCAGACACCTCCG  231
+10       11457941  T........-.-.----.-..---..-.-.............A.................  11457894
+
+Query_1  232       TGCGCCCGGAGGAGAAACGGTGACCATGCCGTTCCCCTCGGTGAGCTCCTGCAATGCCAC  291
+10       11457893  ............................................................  11457834
+
+Query_1  292       GCACCAAAACTGCACCGAGAGCTCTAACTTTACGCAGCAGCTGAATAGAAACGACACCGA  351
+10       11457833  ..................T..............T...........G..............  11457774
+
+Query_1  352       CCCGTTCGGACGCAACGAGGAGGTGGCCAAGCTCGAGATCACCGTGCTGAGCCTGGCGTT  411
+10       11457773  T...........T...............................................  11457714
+
+Query_1  412       CGTGGCGGCTGTGGTGGGCAACCTGAGCGTGCTGCTCGCCATGTACCGAGCACGGCGGAA  471
+10       11457713  .........G...........................A.............C........  11457654
+
+Query_1  472       ACCGTCGCGCATGCACCTGTTCATGAAGCACCTGTGTCTGGCTGACCTGGTGGTGGCCTT  531
+10       11457653  ......T.............................C.......................  11457594
+
+Query_1  532       CTTCCAGGTGCTGCCGCAGCTCTGCTGGGAGGTCACGTTCCGCTTCTACGGGCCGGACTT  591
+10       11457593  ................................................T...........  11457534
+
+Query_1  592       CTTGTGCCGCATCGTGAAGCACCTGCAGGTGCTGGGCATGTTCGCCTCCACCTACATGAT  651
+10       11457533  ......................T.....................................  11457474
+
+Query_1  652       GGTGATGATGACCGTGGACCGCTATATCGCCATCTGCCACCCGCTGCAGACGCTCCAGCA  711
+10       11457473  ............................................................  11457414
+
+Query_1  712       GCCCACGCAGCGCGCCTATATCATGATCGGCTCCACCTGGGCGTGCAGCCTGGTCCTCAG  771
+10       11457413  ................................................T...........  11457354
+
+Query_1  772       TACCCCGCAGTACTGCATTTTCTCCCTGAGCGAGGTGCGCCCCGGCTCAGCCGTCTACGA  831
+10       11457353  C...........................................................  11457294
+
+Query_1  832       CTGCTGGGGGCACTTCGTGGAGCCGTGGGGGGTTCGCGCGTACATCACCTGGATAACGGT  891
+10       11457293  ......................................................C.....  11457234
+
+Query_1  892       CGGGATCTTCGTGGTGCCAGTGGCCGTCCTCGTGTTCTGCTACGGATTTATCTGCCGTAC  951
+10       11457233  .........T........C........G................................  11457174
+
+Query_1  952       GATCTGGAGGAACCTCAAATACAAAACCCAGAGGAGAAAGAGCGCGGAAGCCAGCAAAAG  1011
+10       11457173  ...A.............G..............................G...........  11457114
+
+Query_1  1012      CGGGATGCTGAGCCGGAGCTCGGTGAGCAGCGTCAGCACCATCTCCCGTGCCAAATTACG  1071
+10       11457113  ............................................................  11457054
+
+Query_1  1072      CACGGTCAAGATGACCTTTGTGATCGTGGTGGCGTACGTGGTGTGCTGGGCGCCTTTCTT  1131
+10       11457053  ............................................................  11456994
+
+Query_1  1132      CACGGTGCAAATGTGGTCGGTGTGGGATGAGACCTTCTCCTGGGACGGTGAGTG---T-C  1187
+10       11456993  ......................................................ACC.G.  11456934
+
+Query_1  1188      ---CAG--CC------------AAAATATAAATCACACTTGTGGCAAAGTGTAAGTAAAG  1230
+10       11456933  TGA...GA..AGAACCTTACTA..............G...............G.......  11456874
+
+Query_1  1231      CGAATTGGCAGACTGAGGTTTAAGTAAATTTAGCGAACTCCACAGGTTTGGAATTACAAA  1290
+10       11456873  .....G...............G...........A.....T................G...  11456814
+
+Query_1  1291      GCTAAAGGCAGAATGCAGATTTTTAATTTAATTTAAATTTAATCCGAACTTCTTGTGAGA  1350
+10       11456813  .......................................G.....C..............  11456754
+
+Query_1  1351      ATAAACAGAAGCTGACAGCTCACGTATTCCCCTGTAACACTGTTATTTCAGCCTGTAGAC  1410
+10       11456753  .............A..............................................  11456694
+
+Query_1  1411      ACATCCACGTGTCTCCGTTTGAGCCACATCTTTTCTGGTGAGACATGTGTTCACCTTTGA  1470
+10       11456693  .....A......................................................  11456634
+
+Query_1  1471      CCCAACAAAGAGGCACATCGCCACAATATATGAGGCAAAAATGCTTTACAGTCATCTAGA  1530
+10       11456633  G...-..............C.TT...C....................G..C.......C.  11456575
+
+Query_1  1531      AATTAGCGCACTTGTCCACCTCGGTCTGCTGTCAAATTTTCTGCTTTGTGGCTCCTGAAA  1590
+10       11456574  ....................C............................A..........  11456515
+
+Query_1  1591      ATGCAGCTTTACACGTTCCACCTTCTCTGAAAGGGATTTTAAGGGAATT-AAAAGAATGC  1649
+10       11456514  ...........G.T...........C...G...................TT...A.....  11456455
+
+Query_1  1650      TAAAGAGCAAATTTTCTTTAATTAAGTTGTCTTTGGTTCAATTATTGGCGGCTCCAGTTA  1709
+10       11456454  ..........................A.................................  11456395
+
+Query_1  1710      AATAAAAATCACAATATAAAACCTATAAATCCAAATGTAATATTGC-AC--GTAGGCACG  1766
+10       11456394  ...............GC...G.........................T.TTG.........  11456335
+
+Query_1  1767      TGTTTAGCCTCGTGCCCGCATGCAGATGTTATTGTGCACAATAATTTAAACGTGCTTCAG  1826
+10       11456334  .................................T...G............T.........  11456275
+
+Query_1  1827      TGCTCAATAACTTTATTTTACAAGGTGGTGAAACaatttttattttaattaattaattaa  1886
+10       11456274  ..............T........................--.................T.  11456217
+
+Query_1  1887      tttcgttgatttgggtttatttaaCAAGAACAATGTGCACTACATATGTTACACCAGATA  1946
+10       11456216  ----...........................................A............  11456161
+
+Query_1  1947      GAGCTAAAGGCTCATTTTCCTCAGATCACCCGATG----AGATTAAAAAATGTGACACAT  2002
+10       11456160  ..........T.................T.A....GTGC..................T..  11456101
+
+Query_1  2003      TGAAAAATATGCAAAATGAAGCACCCTCATAAAACAAGGTGTACTCATAATGAAAGTACT  2062
+10       11456100  .......CG...G........................A.....T................  11456041
+
+Query_1  2063      TAAAGAAGAAGAAGAAATTACAGTTGAAGAGCAAACCATCAGCAAACCAACAGATACATT  2122
+10       11456040  ..........------.........................A......C...A.......  11455987
+
+Query_1  2123      TCTTCAGTGCAAAGAAATTTAAGGCATGTGAGCCAAAGCTTCACACAGGCAGTAACTGCA  2182
+10       11455986  .........T...............................TG.................  11455927
+
+Query_1  2183      GGCCTGAAGATGTTTCAGCCACATTTTCAAACTAAAATCGAAATTTTTCTTTTAGAGaaa  2242
+10       11455926  .A.........A...............................................   11455868
+
+Query_1  2243      aaaaaaaaaTCCAAATCCCTGCAGCCTCAGGTGAAAAAACAGTTTGGTCCAAATAATATT  2302
+
+Query_1  2303      TATACTTTTTCCTCAAATAATATTCATAATTACACACAGTGTGGCCTAACAGGGCAAAAG  2362
+
+Query_1  2363      TTTTAGCATAAAAAATGTTAAGGCGCTAAACATTAATGAGCTGATTTACTGCTGGTTAGT  2422
+10       11455636                                   ......C....................  11455610
+
+Query_1  2423      TTTAACTTCTATCTATTTATAGATTTTTAACATCTGCATAAAAATGAGTAACTAAACCTT  2482
+10       11455609  ....-.--..-....-..-...............A..................T..A...  11455556
+
+Query_1  2483      TAAAACTAATAACACGGAGTACAAAACACAACATTTTCACTCAAAATAGAAAAGGAGCAG  2542
+10       11455555  .......-.......A............................................  11455497
+
+Query_1  2543      AACATAACATCAGAACTGCATATCAGTAAAACACCTGAGTAACTTTGTTACATTGCACCA  2602
+10       11455496  ....................                                          11455477
+
+Query_1  2603      CTGGTCCTGGTCATGCTCTCATCCAGGGGTGTCAGGCGTTATGACACTAGCAGTCCTCAG  2662
+
+Query_1  2663      CTTATTAACTCTGATGATGTCATATTTTGGTGCACGTACGATAATGAACCATTCCTCACC  2722
+10       11450585                                                   .....A.....  11450575
+
+Query_1  2723      ACAATGTGAAATCTTCACATCTGCAAATGGTTTCAGATTTCACAATGCAAATGTCTAAAC  2782
+10       11450574  .A...............T..............-..T...........TG...........  11450516
+
+Query_1  2783      TACACAAGGAGTTAAATATAGTTTATGTTAGATCTCAGAATTACAATTTAATCACTTTAT  2842
+10       11450515  ....T.......................................................  11450456
+
+Query_1  2843      AAATTTGAGATTTAAATGAACGTGTTTACTGaaaaaaaCCTCTAATGTATTCTCTGAGCT  2902
+10       11450455  ...............                                               11450441
+
+Query_1  2903      GTTACTGTGAAACTTTTGGATATTCTAGCGGTGATGCTCTCAGTCATATTT-ATATATAA  2961
+10       11450453                                                 ....G.G..T...  11450441
+
+Query_1  2962      CGTTGATTATTCTTTGCTGTATTTGGCTCCAGAGTCCCAGGCAACCGCTAATCGCTAAGG  3021
+10       11450440  .T...........G......C.........................A.............  11450381
+
+Query_1  3022      AAAACCATGTAATGTCGAGGCTGTGGTGAAATTGTTTGCAAAAAGGTTTGATGTGATGTG  3081
+10       11450380  ...............G......................G...............-.----  11450326
+
+Query_1  3082      ATTTCTGTCGAAGACTCTGACTTGTCTGCAAACACTCACCAGCTCGTGAAGCTGTCAAAG  3141
+10       11450325  .........A..................................................  11450266
+
+Query_1  3142      CTGCCATGCAGACTGGAGCGAGTGGCTGACTGCCTTCAAAGTAAAAGCCTCTGAAATGCG  3201
+10       11450265  ............................................................  11450206
+
+Query_1  3202      TTGGTCACAGAGGTAAGCCGCAACTTTTACTTTGAAGTTTGCATTCCTTTTCTTTAGCCG  3261
+10       11450205  .............................................G..............  11450146
+
+Query_1  3262      GTGGGCAGCTGGCGAGTGTTTGCAGACAAGCTGGAATCGTCATCTGTGACCaaaaaaaTT  3321
+10       11450145  ...........A.A...-----...G..............T.....G.......G.....  11450091
+16       3699264         ............................                            3699237
+
+Query_1  3322      GCTGTTTATGACCGATTGTTGACTGGTCTCGACCCTGCATGACTGGGGCCCTATTTTAGT  3381
+10       11450090  .........................................................G..  11450031
+
+Query_1  3382      AAATTAGTTACACACATATATTTTTAAAGTTTGCTTTCCGCAAATTTCTTCACAAACAT-  3440
+10       11450030  ......----.............................A...................A  11449975
+
+Query_1  3441      --GTCTGTTT-GC-AACCAGAGGAGTCGCCCCCTGCTGGCCA-TA-ATAAAGAATACA-G  3493
+10       11449974  AT........-..-....GT...................T..-..-............-.  11449920
+10       8556206          ...-..--...........................-.                  8556238
+32       6935115      ......C-T.A............................-GC-.G.......G..-.  6935167
+22       3012659            .-..-............................-.T-.A.......G..-.  3012704
+0        20773398              .-............................-.T-.G.....         20773435
+2        5413019      ...T...-..-............................-.                  5412982
+19       9717638          ...-..-...........................G-.T-.C.C......      9717594
+1        18944505         ...-..-........................A...                    18944473
+134      720933         .....-..-........................T...-CG-.G..G..CC...-.  720884
+37       1590036          ...--.-............................-.T-.G.G...C.G..-.  1589990
+37       25930047         ...-.T-............................-.T-.G....T..       25930004
+17       562124             .-..-T...........................-.                  562093
+11       13651953         ...-A.-...........................                     13651984
+79       3414645                 ............................-.                  3414617
+165      393160           ...-..-............................-.T-.G.......TA.-.  393207
+99       349020       ...T...-..-C...........................-..-.AG......G..A.  348968
+128      1112245      ...-...-..-........................C...A..G.A...A......    1112194
+123      3411475               .-............................-.G-.A.....         3411438
+62       4412178            .-.G-............................-.T-.G...T...G..-.  4412223
+86       3128145               .-............................-.T-.-....          3128110
+122      801474                  ............................-.                  801502
+43       4205262          ...G..-...........................                     4205230
+
+Query_1  3494      GTTGAAGGCAGTGCTGCATTGGCGGGTTGACTTTTTAAAATTATTATAATTTTACTGTTG  3553
+10       11449919  ......................T.............T.......................  11449860
+32       6935168   ...                                                           6935170
+134      720883    ...                                                           720881
+37       1589989   ...T..A...                                                    1589980
+165      393208    ...T......                                                    393217
+99       348967    ...                                                           348965
+
+Query_1  3554      GTGTAATTATGACTTTAAAGAGTTCAGACACTC-----CTCTCTTGGAGTAAAACGTGCT  3608
+10       11449859  .................................AGCTC......................  11449800
+
+Query_1  3609      GCGGGGCGGAAAAATATTTTGCAAACACAGGCAGCGATCGAATCAGTGAAGTCATGAAGC  3668
+10       11449799  .....A........................A...T................CT.......  11449740
+
+Query_1  3669      ATTTCTCAAAC-CTTTAAATTAGATCTTGATCATAGCTTACAAACTAGAATATGCTGATA  3727
+10       11449739  ......-....T........A...............T.......A...............  11449681
+
+Query_1  3728      ATCTTTTGGCAGTTCTGTAAAAATTTGGTCAGTTTATAAATTGACAGATTCTAACCCAGT  3787
+10       11449680  ..............TG.........................C............G.....  11449621
+
+Query_1  3788      TTACTGTCTCACATATAATAACATTTCTCTCACACGTGAGGCTCAGTTTGGTTAAAATCT  3847
+10       11449620  ..........G.....T.G.........................................  11449561
+
+Query_1  3848      TTCATTTTAATTTGCTCCTCTCTGGCAGCAGTTTGGGTTCAAGATGAGACAAAGTGGTTA  3907
+10       11449560  ..........................................A..............G..  11449501
+
+Query_1  3908      AATTGTTCCTTGGACTCAGAAAGGGATTATATTTAAAAAGTTCAGAGCTCTGACTGGTTT  3967
+10       11449500  ............C...............................................  11449441
+
+Query_1  3968      TACGCCAGAAAATGATATAACCCTGATGTTCCCTGAAAATGAATTCCCATCAAGCTGCTG  4027
+10       11449440  ............................................................  11449381
+
+Query_1  4028      GAAGCAGCACTCATGCCCTCACCAGTCAGTAAAGCTCTGTATGACAGTGATAATGAAATT  4087
+10       11449380  ................................G...........................  11449321
+
+Query_1  4088      CTTCAAGTGGGTGAGCAGACCAGGGCAGCCTTTTCTCCTTTAACAGACTCCAA-GCTGCA  4146
+10       11449320  .....................................................A......  11449261
+
+Query_1  4147      AAATAAAATTCATATCCTGACTTCTATCGTCGGAAAATTACTCTGCACTGACATGCACAG  4206
+10       11449260  ............................A.T......................C......  11449201
+
+Query_1  4207      GCTTGAGGTTtaataaaaaatgtaaaaaaataaa--taaaatTGTTTTGCACATATCTCC  4264
+10       11449200  ............................G.....AA.....AAA...--...........  11449143
+
+Query_1  4265      TCTTTTAATTTATTCTGTGGTTAAGGTTGGCCACAAGTTTCTGCTTTCCAGTTTCTCTGT  4324
+10       11449142  ..............TG..................................A.........  11449083
+
+Query_1  4325      GACCTGCCACACTTCTCTATATTTTCTACTTTTTAATTGGTATTTTGAAAAAGCTGGAAA  4384
+10       11449082  ............C................................-............G.  11449024
+
+Query_1  4385      CTTCACACATGGCTAAACTGGCTCAAAGATAAATAAAGAAAGCATTTAATTGGCTTTTAA  4444
+10       11449023  ...........................................C..........C.....  11448964
+
+Query_1  4445      TTAAAACTTAAATAATTACAATATTGCAGGGCAGTCTTCCAAACTTACGCAAACACCAAC  4504
+10       11448963  ...............................A.A..............A....T......  11448904
+
+Query_1  4505      ACTTTCCTTCTAAACCATATCTGTTGTTAAAGCATGCATTTAATAGCTGAAGCT-AT-T-  4561
+10       11448903  T.........CG.............A..................G........AG.GA.G  11448844
+
+Query_1  4562      A---T--C-A-TATC-----ATAGGGACGTTATTGGGCTTGTTGGGTTCTGCTGGAGGTT  4609
+10       11448843  .AGC.TT.T.G....ATCAT........CC.G............................  11448784
+
+Query_1  4610      CTGTACAGCTGAAAAACTAGAACATTACAGATTTGAGATTTATTGTCAAACTTTATTTAA  4669
+10       11448783  ........T................AT.............C...T.....-.G.-...--  11448728
+
+Query_1  4670      AAAATGCCAAAAATTCAAACAATGATTGATGTAGTGGTGTTGGTCGGTTGGCGAATGCTT  4729
+10       11448727  ..........................CA........................A.......  11448668
+
+Query_1  4730      TCAAGTCTAAATTCTGTTATTTTGGTCATCAGGGACATGGACATGACCAGGCTGG-A-CC  4787
+10       11448667  ................G................A......C...A..........-.-..  11448610
+0        11476467                                                      ...-.-..  11476472
+18       859126                                                ......TT...-.C..  859140
+82       1672668                                                ..T....C..A.-..  1672681
+37       22491837                                              .....-.....-.-..  22491825
+
+Query_1  4788      TCTATTT-CTTTTAGAGCT-TCATTAATTCTTTGTG-G-CACAGATTCAGCAAGGTGCTG  4843
+10       11448609  .......-...CC......-................-.-A.A..................  11448554
+16       5376317                                        .-.....G....A..........  5376296
+0        11476473  C..T...G.C.........-G.T......G..CA..-.-.....................  11476529
+27       2219388                             ..........-.-.....................  2219357
+18       859141    A..T...-.C..C...AG.G..-.........CA..-.-.....................  859196
+8        15208235                         .............-.-................A....  15208201
+82       1672682   C..TG..-.C..C...A..-G.C.............-.-.....................  1672737
+19       7589426                           ........C...-.-.....................  7589393
+6        9451537                                     ..-.-.....................  9451560
+1        13239568                        ..........CA..-.-.....................  13239603
+37       22491824  C.A....A.C....A.A..-G.T...G...G.CT..-.-.....................  22491768
+4        1888720                              .....G...-.-..T..................  1888750
+20       8033595                           ........CA..-.-........G.A..........  8033562
+11       14575216      ...-.-..C...C..-G.T.........C...-.-.....................  14575266
+40       1045960                          ....C....CA..-.-.....................  1045926
+105      760698                                      ..-.-..........A..........  760721
+189      56639                                  .......T.A.....................  56669
+80       830971                                 .......T.A.....................  830941
+
+Query_1  4844      GAAACATCCC-T-CAGACATT-TTGGAT-C-AT-TC--TGACATGACAGCATCAAAC-A-  4893
+10       11448553  ........A--.-------..-......-.-..-..--.....C.............-.G  11448510
+16       5376295   ..........-.-........-....TC-.-..-GT--.......T...AT..TC..-.-  5376246
+0        11476530  .......T..-.-....G...-A...TC-.-..-AT--........T.......C..-.-  11476579
+27       2219356   .......T..-.-....G...C....-.-.-.A-.AA-.A......T.......C..-.G  2219305
+18       859197    .......T.A-.-....GG..-....TC-.-.C-AT--........TG.T....C..-.-  859246
+8        15208200  .......T..-.-....--..-...-..-.T..-GT--................C..C.-  15208152
+82       1672738   ....TG.T..-.-....G...-....-.-.T..-.T--...T....T.....-.G-.-.-  1672785
+19       7589392   ....T...T.-.-...TG.G.-CC--..-A-.------........T...T...C..-.G  7589347
+6        9451561   ......                                                        9451566
+1        13239604  .......TT.-.-G...G...-...AT.-.-..A.A--.-..............C..-.-  13239653
+37       22491767  .......T..-.-....GG..-....GC-.-.C-AG--........T.....          22491724
+4        1888751   ..........C.T....--..-....                                    1888773
+20       8033561   ..G..CCTAT-.-...--...-..-...C.-..-A.--................C.T-.G  8033513
+11       14575267  .......T..-.-...TGT..-....T.-.-.A-CG--.TT.G......G....C.G-.-  14575316
+40       1045925   .......                                                       1045919
+105      760722    ....T.AT..-.-T...T...-....-.-.--.-A.GT...T....T.......C..-.G  760772
+189      56670     .......TT.-.-....G...-..TA.C-.-..-A.--.T.T......A....CC..-.-  56719
+80       830940    .......TT.-.-....G...-..TA.C-.-..-A.--.T.T......A....CC..-.-  830891
+
+Query_1  4894      C--T-GCTGCAGATTTGTCTGCTGAACATCCACGATGTGAATGTC-CCA-TTCCACCACT  4948
+10       11448509  .--.-....................G................C..-...-........TA  11448455
+16       5376245   .--.A.T.........T..GT...C.TG.....A...A....                    5376206
+0        11476580  GT-.-..............A....C..T....T....A..C.C..-...-..A.....AA  11476635
+27       2219304   .--.-......A.......A....C.......T.........T..-.T.-.....A...A  2219250
+18       859247    GT-.-.G............A....C.......T...AC....C..-...-C....G...A  859302
+8        15208151  T--.-........C....GG....C.......T.-.-.-...-..T..TG.........A  15208099
+82       1672786   .TT.-.....C......A-...---.......T.....T...C..-...-.....T...A  1672838
+19       7589346   .--.-.............                                            7589332
+1        13239654  G--.T........                                                 13239664
+20       8033512   .--.-...........................TA...CA...C.T-..T-...T..T..G  8033458
+11       14575317  GT-.-...........T...                                          14575334
+105      760773    T--.-...T............................                         760806
+189      56720     AA-.-..A...T....T....                                         56738
+80       830890    AA-.-..A...T....T....T.AC.G.G.......                          830857
+133      214258       .-....T.C....C.TG....C..T....T.....C...C..-..T-..........  214205
+
+Query_1  4949      TCCCAAAGATGCTCTGCTGAGCAGGCAACATTTTTTCAATTTTCTGCAGTCAAGAAGACC  5008
+10       11448454  ...................................C............A...........  11448395
+0        11476636  ....T...G......                                               11476650
+27       2219249   .....                                                         2219245
+18       859303    ........G....                                                 859315
+8        15208098  .T......                                                      15208091
+82       1672839   .A......GC.....                                               1672853
+20       8033457   .T............                                                8033444
+133      214204    ..................                                            214187
+
+Query_1  5009      CTGTGTGTATTGTAGAGTCACTTAAATCACTTTTATCTCAATGCTGCAGTTCAGTTTAAA  5068
+10       11448394  ..........................................C............C....  11448335
+10       8174030                                                     ..........  8174021
+
+Query_1  5069      CTTCAGCAGGTCATCTTTATCGTGTTTACGTGCCTAAAAGCACTGAATTGCTGCTCCGTG  5128
+10       11448334  .................C....................T.....................  11448275
+10       8174020   ....................T....G..                                  8173993
+
+Query_1  5129      ATTGGTTGATTACATATTTGTGTTTCTGTGAACACACACATGGGCGGGGCCACACTGGGA  5188
+10       11448274  .....C.......................C..........C...T...............  11448215
+
+Query_1  5189      ACCAACGATCATATCAGCGTCTGGATGTTATGTATGTTGTTTAATGACATTTTTGTCCAC  5248
+10       11448214  ..................AA..............CA........................  11448155
+
+Query_1  5249      ACAAAGGCCCCAAAAAGTCAACAAAAGTTCAACAGATTGTAGAATAACACAGTTTTATGA  5308
+10       11448154  .T.....................................C.........--.........  11448097
+
+Query_1  5309      CAAGAAGCACTGCAAGAGAAACTTCTGATAGGCCAGAAGTTGAACACTTTTGTATTTTCT  5368
+10       11448096  ..........G.................................................  11448037
+
+Query_1  5369      ACATATTCATGTAGTTTTATCTGTTCTTTTAAATGTACTTTAGGACGTTTGTGTTGTAGT  5428
+10       11448036  ...A...T.CA........G..........................A......--.----  11447983
+
+Query_1  5429      AAAAGTCAGATGTTGATTTGTATAAAAGTATACTTCTAACAAACTAAGCAGCTCATTCTT  5488
+10       11447982  -------------...........G.....................T............C  11447936
+
+Query_1  5489      TCTGTCATTTCTCTCACATAGAAGACGTTTTGGCTCAACTTGAAAGAAAGGCAGCCATGA  5548
+10       11447935  ..AA............A....................T.................TC...  11447876
+
+Query_1  5549      AAAGCAAACATGAGGTCATAGGTCAAAGGATAGAGGTCACTGTGACATTTAGAATCCCCG  5608
+10       11447875  ..T......G...........T...T....C........A.A................    11447818
+
+Query_1  5609      TATACCAGTATCATCCGGTCAAAGCAGATGGCC-GAGGTCTCTTCCTGTTAAAACTGA-G  5666
+10       11446328                                       .....................-.  11446307
+12       3814606                                       ...T.......T......AG..-.  3814628
+27       6405669                                     .....T..............GGT.CT  6405694
+2        13991150                                          ..............AG..-.  13991132
+2        3054610                                     ..C..T..............AG..-.  3054634
+28       4602707                                 ...A.....T..............GG..-.  4602679
+88       305417                                        .....-............GG..-.  305438
+88       1598847                                     .....T..............GG..-.  1598823
+19       600027                                  ...G.....T..............GG..-.  599999
+4        14888953                                     ....T..............-.-.-.  14888974
+4        13541647                                    .....T..............GG..-.  13541671
+81       2143332                                     .....T..............G...-.  2143308
+87       1359279                                       ...T..............GGC.-.  1359301
+83       217887                                      .....T..............GG..-.  217863
+
+Query_1  5667      -TT-T-T-CCTTCCCACCGT---TGCC--AA---G--TGC-C-T-----G----C-----  5696
+10       11446306  -..-.-.-..........A.---C...--..---.--...-.-.-----.----.-----  11446277
+12       3814629   T..-.-.-...C.....T..---C...--..---.--.C.-T-.-----.CACA.AG---  3814665
+0        17847094                                                        .-----  17847094
+27       6405695   -..-.-.-......T..T..CAC.T..TTCT---.--...-T-.-----.----.-----  6405729
+2        13991131  -..-.-.T.T.....C.T..---....--..---A--...-T-.-----.AT--.AAAAG  13991094
+2        3054635   C..-.-.-....T....--.---.-T.---G---.--G.G-T-.-----.T---T-----  3054662
+28       4602678   -..-.-.T.........T..---....--..AGT.CT...T.A.AGGGG.T---.A----  4602634
+8        13011381                                                        .-----  13011381
+8        1404198       .-.-.........T..---...A--..---.--...-T-C-----.----.-----  1404225
+88       305439    -..C.-.-.........T..---C...A-..---.--...-T-.-----.----.-----  305470
+88       1598822   -..-.-.T.........T..---C...--..A--.--...-T-.-----.TT--.-----  1598789
+19       599998    -..-.-.T.........T..---C...--..A--.--..--.-.-----.----.-----  599968
+6        8036059                                                         .-----  8036059
+1        25881755                                                        .-----  25881755
+37       20312644                                .---.--.-.-.-.----------.-----  20312650
+37       23048822                                           .-.-----.T---.-----  23048826
+4        14888975  -..-.-.-T....T.T.TC.---..G.--..---.--G..-T-.-----.----.-----  14889004
+4        13541672  -..-.A.-.T..T....T..---CA..--..A--.CT...-T-.-----.----------  13541704
+81       2143307   -..-.-.T.........T..---C...--..AGT.T-...T.A.AGGG-.T---.ATG--  2143263
+87       1359302   -..-.-.A.........TA.---C...--..---.--...-T-.-----.A---.-----  1359333
+35       4050055                                                         .-----  4050055
+83       217862    -..-.-.T.........A..-----.A--C.---.--...-T-.-----.----.-----  217834
+
+Query_1  5697      T--GA-TTGG-T-GG--A--A-----TT-T-T----CT-T-TGTA--T---T-ATTG-TA  5727
+10       11446276  .--..-...T-.-..--G--.-----..-.------..-.-....--.---.-....-..  11446247
+10       9672044                             ..-.-.----..-.-....--.---.-....-..  9672026
+32       7461655   .--..-...T-.-..-----G-----..-.-.----..G.A....--.---.-....-..  7461686
+16       3773378                                .-.----..-.-....--.---.-....-..  3773362
+16       5332566                                            ....--.---.-....-..  5332577
+16       10924959                                       .-.-....--.---.-....-..  10924972
+9        13784374                            ..-.-.----..-.-....--.---.-....-..  13784392
+9        2752726                                        .-.-....--.---.-....-..  2752739
+9        12193933                            ..-.-.----T.-.-....--.---.-....-..  12193915
+9        12357039                            ..-.-.----T.-.-....--.---.-....-..  12357021
+9        6504330                                  .----..-C-....--.---.-....-.G  6504315
+9        2724262                             ..-.-.----..-.-....--.---.-....-..  2724244
+52       4139376                                            ....--.---.-....-..  4139365
+39       528556                                                .--.---.-....-..  528548
+12       2414835                              .-.-A----..-.-....--.---.-....-..  2414852
+12       3814666   .--..-C.CC-.-..--G--G-----.C-.-.----..-.-....--.---.-....-..  3814696
+12       9043953                             ..-.-.----..-.-....--.---.-....-..  9043935
+12       13951809                            ..-.-.----..-.-....--.---.-....-..  13951791
+12       578179                               .-.-.----..-.-....--.---.-....-..  578162
+0        12227812                            ..-.-.----..-.-....--.---.-....-..  12227794
+0        2087549                             ..-.-.----..-.-....--.---.-....-..  2087567
+0        14233222                               .-.----..-.-....--.---.-....-..  14233238
+0        13912992                            ..-.-.----..-.-....--.---.-....-..  13913010
+0        17847095  .--..-...T-.-..-----G-----..-.-.----..-.-....--.---.-....-..  17847124
+0        14451651                                             ..--.---.-....-..  14451642
+0        10979694                               .-.----..-.-....--.---.-....-..  10979710
+27       4567400                             ..-.-.----..-.-....--.---.-....-..  4567382
+27       6405730   .---C-..A.---..-----.-----..-.-.----..-.-AC..--A---.-G...-..  6405757
+2        3818701                             ..-.-.----..-.-....--.---.-....-C.  3818719
+2        13991093  G--.G-...T-.G..--G--G-----..-.-.----T.-.-....--.---.-....-..  13991062
+2        3054663   .--..-C..A-.-..--G--G-----..-.-.----..-.-....--.---.-....-..  3054693
+2        11196277                            ..-.-.----..-.-....--.---.-....-..  11196259
+2        6423826                             ..-.-.----T.-.-....--.---.-....-..  6423844
+28       4602633   .AC..-...T-.G..--T--T-----..-.C.----..A.A....--.---.-....-..  4602597
+90       2303733                             ..-C-.----..-.-....--.---.-....-..  2303751
+90       2348194                             ..-C-.----..-.-....--.---.-....-..  2348212
+90       2524864                             ..-.-.----..-.-....--.---.-....-..  2524882
+7        7038543                                          .-.C..--.---.-....-..  7038555
+5        10092644                            ..-.-.----..-.-....--.---.-....-..  10092626
+5        10747848                            ..-.-.----..-.-....--.---.-....-..  10747866
+5        598525                              ..-.-.----..-.-....--.---.-....-..  598507
+131      737173                              ..-.-.----..-.-....--.---.-G...-..  737155
+55       514398    .--..-..-.-.-T.--.--G-----G.-.-.----..-C-....--.---.-....-..  514369
+55       1524577                             ..-.-.----..-.-....--.---.-....-..  1524595
+55       3012145                             ..-.-C----..-.-....--.---.-....-..  3012127
+55       1011922                             ..-.-.----..-.-....--.---.-....-..  1011904
+76       2999440                             ..-.-.----..-.-....--.---.-....-..  2999422
+18       321561                              ..-.-.----..-.-....--.---.-....-..  321579
+91       2692562                             ..-.-.----..-.-....--.---.-....-..  2692580
+8        13011382  .--..-...T-.-A.--T--G-----..-.-.----..-C-CA..--A---.-.C..-..  13011412
+8        1404226   .--C.-.A..-C-..----------------.----.G-.-.-..--------....T..  1404249
+8        1748453                                                  .---.-....-..  1748446
+8        4857012                       .-----..-.-.----..-.-....--.---.-....-..  4856993
+88       250247                              ..-.-.----..-.-....--.---.-....-..  250265
+88       305471    .--C.-.A..-G-..TT.T-.TGGGG..-.-.----..-.-....--.---.-....-..  305509
+88       1037138                                        .-.-....--.---.-....-..  1037151
+88       1598788   A--C.-GG..C.CAT--.TG.-----..G.-.GGGGT.-.-....--.---.-....-..  1598749
+82       1020383                                            ....--.---.-...T-..  1020394
+19       3785236                             ..-.-.----..-.-....--.---.-....-..  3785218
+19       599967    .--C.-CA..-G-..--T--C-----A.-A-.----GA-.-...---.---G-GG.T-.-  599939
+6        15220936                                 .----..-.-....--.---.-....-..  15220921
+6        8036058   .--..-...T-.-..--G--C-----..-.-.----..-C-..C.--.---C-G...-..  8036028
+1        15633303                            ..-.-.----..-.-....--.---.-....-..  15633285
+1        12023976                            ..-.-.----..-C-.C..--.---.-....-..  12023958
+1        25881756  .--..-..-.-.-T.--.--G-----..-.-.----..-C-....--.---.-....-.-  25881784
+37       6293100                             ..-.-.----..-.-....--.---.-....-..  6293118
+37       15696557                             .-.-.----G.-.-....--.---.-....-..  15696540
+37       20312651  .--..-...T-.-..-----G-----G.-.-.----..-.-....--.---.-....-..  20312680
+37       26107833                   .--.-----..-.-.----.--.-....--.---.-.CAA-..  26107852
+37       23794329                                             ..--.---.-....-..  23794320
+37       3681657                                                  .---.-.C..-..  3681664
+37       22698143                            ..-.-.----..-.-....--.---.-....-..  22698161
+37       24322579  .--..-...T-.-..--G--T-----..-.-.----..-.-....--.GTA.A....-..  24322613
+37       23048827  .--..-...T-.-..-----G-----G.-.-.----..-.-....--.---.-....-..  23048856
+37       15765868        ....-.-..-----.-----..-.-.-----.-.-....--.---.-....-..  15765893
+17       8543509                                               .--.---.-....-..  8543501
+4        7657865                       .-----..-.-.----T.-.-.T..--.---C-...A-..  7657884
+4        19943126                            ..-.-.----..-.-....--.---.-....-..  19943108
+4        14889005  .--C.-.A.C-A-..--.--G-----..-.-.----..-.-....--.---.-....-..  14889035
+4        19733507                            ..-.-.----..-.-....--.---.-....-..  19733489
+4        9371910                                .-.----..-.-....--.---.-....-..  9371894
+4        13541705  G--.T-..TC-.--C--T--G-----..-.-.----..-.-....--.---.-....-..  13541734
+61       1049099                                            ....--.---.-....-..  1049110
+61       1694604                                              ..--.---.-....-..  1694613
+26       3299114                             ..-.-A----..-.-....--.---.-....-..  3299096
+75       1380019                             ..-.-.----..-.-....--G---C-.C..-.G  1380001
+11       16867774                      .-----..-.-.----..-.-....--.---.-....-..  16867755
+11       17131861                            ..-.-.----..-.-....--.---.-....-..  17131843
+11       16192586                            ..-.-.----..-.-....--.---.-....-..  16192604
+11       6116336                             ..-.-.----..-.-....--.---.-....-..  6116354
+94       1911401                             ..-.-.----..-.-....--.---.-....-..  1911383
+74       1164809                             ..-.-.----T.-.-....--.---.-....-.G  1164791
+23       2212879   .--..-...T-.-..--G--G-----.G-.-.----..-.-....--.---.-....-..  2212849
+100      1962010                             ..-.-.----..-.-....--.---.-....-..  1961992
+100      1912590                             ..-.-.----..-.-....--.---.-....-..  1912608
+100      2172616                                              ..--.---.-....-..  2172607
+100      2110457                                .-.----A.-.-....--.---.-....-..  2110473
+81       2143262   .--..-...T-.-..--G--T-----..-.-.----..C.G.A..TG.---.-.C..-..  2143228
+79       2097315                             ..-.-.----..-.-....--.---.-....-..  2097333
+38       8515559                             ..-.-.----..-C-....--.---G-....-..  8515577
+87       1359334   .--.T-....---..----------------------.-.-....--.---.-....-..  1359356
+40       3990083                             ..-.-.----..-C-....--.---.-....-..  3990101
+21       7581372                             ..-.-.----..-.-....--.---.-....-..  7581390
+21       7591056                             ..-.-.----..-.-....--.---.-....-..  7591074
+21       7676649                             ..-.-.----..-.-....--.---.-....-..  7676631
+73       306788                                                       .-....-..  306794
+45       4532836                             ..-.-.----..-.-....--.---.-....-..  4532818
+54       1824538   .--..-...T-.G..--T--T-----..-.C.----..G.A....--.---.-....-..  1824572
+95       1298918                                .-.----..-C-.A..--.---.-T...-..  1298902
+64       913122    .--..-...C-.-..--G--G-----..-.-.----..-.-....--.---.-....-..  913152
+42       3881106   .--..-...T-.-..--G--T-----..C.C.----..G.A....--.---.-.C..-..  3881140
+42       3342423                                        .-.-....--.---.-....-..  3342410
+42       4331731   .--..-...C-.-.C--.--G-----..-.-.----..-.-....--.---.-....-..  4331701
+118      945003                              ..-.-.----..-.-.T..--.---.-....-..  944985
+13       8501229                             ..-.-.----..-.-....--.---.-....-..  8501247
+13       11414641                                             ..--.---.-....-.G  11414650
+115      972585                              ..-.-.----..-.-....--.---.-....-..  972567
+3        10167386  .--..-...T-.-.A--G--.-----..-.-.----..-.-....--.---.-....-..  10167416
+3        2570741                                                              .  2570741
+177      220554                                 .-.----..-C-....--.---.-....-..  220570
+77       891193                                                       .-...A-..  891187
+57       1325702                                              ..--.---.-...A-..  1325693
+58       2189999                                                          ..-..  2189996
+35       2234832                                                      .-...T-..  2234826
+35       4050054   .--..-...T-.-..--G--G-----..-.-.----..-.-....--.---.-....-..  4050024
+35       2558603                                .-.----..-.-.C..--.---.-....-C.  2558587
+35       3683448                             ..-.-.----..-C-....--.---.-....-..  3683466
+33       896500                              ..-.-.----..-.-....--.---.-....-..  896482
+15       4779947                                               .--.---.-...T-..  4779939
+15       7093186                             ..-.-.----..-.-....--.---.-....-..  7093168
+133      1012421   .--.T-...A-.-..--G--G-----..-.-.----..-.-....--.---.-....-..  1012451
+98       1739890                             ..-.-.----..-.-....--.---.-....-..  1739872
+83       2530850                                        .-.-....--.---.-....-..  2530837
+83       217833    .CA..GGG..-.CAT--.C-.GTTG-..-.-.----..-.-....--.---.-....-..  217794
+110      608599                              ..-.-.----..-C-....--.---.-.C.C-.-  608616
+121      1400578                             ..-.-.----..-.-....--.---.-....-..  1400560
+129      1198850                             ..-.-.----..-.-....--.---.-....-..  1198868
+
+Query_1  5728      GGGTC-TTTACCTTAG-AATA---TAAAG-C-A-C-CT--TGA-A-GCAA-CT---GTTG  5770
+10       11446246  .....-..........-....---.....-A-.-.-..--...-.-.G..-..---....  11446204
+10       9672025   .....-.....------....---.....-.-.-.-..--...-G-AA..-..---.C..  9671988
+10       6349572                                        .--.A.-.-....-..---....  6349586
+32       7461687   .....---.......C-....---.....-T-.-.-..--...-.-....-..---....  7461727
+16       3773361   .....-......C..C-..C.---....A-.-.-.-..--...-G-....-..---....  3773319
+16       5332578   .....---...A...C-....---...G.-.-G-.-..--...-G-..G.-..---....  5332618
+16       10924973  .....-.........C-.G.G---.....-T-G-.-T.--...-G-.-----.---....  10925011
+9        13784393  .....-....T....C-...G---...C.-.-T-.-..--...-G-....-..---.C..  13784435
+9        2752740   .....-.........C-...G---.....-T-G-.-..--...-G-....-..---....  2752782
+9        12193914  .....-.........C-....---.....-T-G-.-..--...-.-....-..---.     12193875
+9        12357020  .....-.........C-....---.....-T-G-.-..--...-.-....-..---.     12356981
+9        6504314   .....-..........-....---.....-.-.-.-..--A..-G-....-..         6504276
+9        2724243   .....-.....------...G---.....-.-.-.-A.--...-G-....-..---....  2724206
+52       4139364   .....-.--.....CC-....---.....-T-G-.-..--...-G-..G.-..---....  4139324
+39       528547    .....-..........-....---.....-T-G-.-G.--...-.-....-..---....  528505
+12       2414853   .....-.........C-..C.---.....-T-G-T-..--...-G-.A..-..---....  2414895
+12       3814697   .....-.......C.C-....---.....-.-G-.-..--...-T-.A..-.C---AC..  3814739
+12       9043934   .....-......G..C-.G.G---C..G.-.-.-.-..--...-G-A...-..---CC..  9043892
+12       13951790  .....-.........C-....---.....-.-.-.-..--..                    13951760
+12       578161    .....-........CC-...G---.C...-T-T-.-..--C..G.-TG-.-..---....  578119
+12       928891             ......C-....---..T.A-A-.-.-..--...-.-....-..---....  928857
+0        12227793  .....-.........A-....---.....-T-G-.-..--...-G-....-..---....  12227751
+0        2087568   .....-.........C-.G..---.....-.-G-.-..--...-G-....-..---....  2087610
+0        14233239  .....-.........C-....---....A-T-G-.-T.--...-G-.A..-T.---....  14233281
+0        13913011  .....-.......C.C-G...---.....-T-G-.-..--...-G-....-..---....  13913053
+0        17847125  .....-.........T-C...---....T-.-.-.-.A--...-G-.TG.-..---....  17847167
+0        14451641  T.A..-.--..TG..C-....---.....-.-.-.-..--...-.-....-..---....  14451601
+0        26426401     ..-.........C-....---.....-T-G-.-..--...-.-....-..---....  26426362
+0        10979711  .....-.........C-....---.....-.-.-.-..--C..-G-....-..         10979749
+27       4567381   .....-.........A-....---.....G.-.----.--...-G-....-..---....  4567340
+27       6405758   .....-..........-....---.....-T-G-.-..--...                   6405789
+2        3818720   .....-.........C-....---.....-.-.-.-..--A..-G-....-..---....  3818762
+2        13991061  .....-.........C-....---..T.C-T-G-.-..--..C-.-....-A.---....  13991019
+2        3054694   .....-......G..C-..C.---A....-T-G-.-..--...-G-.AG.-T.---....  3054736
+2        11196258  .....-.........C-....---.G...-T---.-..--...-G-....-..---..G.  11196217
+2        6423845   .....-.........--..-.----...T---.--------A.-G-....-..---....  6423879
+28       4602596   .....-.--......C-.T..---.....-.-.-.-..--...-.-....-..---....  4602556
+90       2303752   .....-.........C-....---....A-.-.-.-.A--...-G-....-..---....  2303794
+90       2348213   .....-.........C-....---....A-.-.-.-.A--...-G-....-..---....  2348255
+90       2524883   .....-.....------....---.....-.-.-T-T.--.A.-.G....-..---C...  2524921
+7        7038556   .....-.G.C.....C-....---G....-.-.-T-G.--...-G-....-..---....  7038598
+5        10092625  .....-.........C-.G..---...G.-T-G-.-..--...-G-....-..---....  10092583
+5        10747867  .....-.........C-....---.....-.-C-.-..--...-.-....-..---....  10747909
+5        598506    .....-.........C-..G.---.....-.-.-.-..--...-G-....-..---....  598464
+131      737154    .....-.........C-....---..T..-.-.-G-..--...-G-....-..---....  737112
+55       514368    .A...-..........-....---.....-.-.-.-..--...-.-.TG.-A.---.C.T  514326
+55       1524596   .....-.....G...C-T...---.....-T-G-.-..--...-G-....-..---....  1524638
+55       3012126   .....-.........C-....---.....-T-G-.-..--...----.T.--.----.A-  3012089
+55       1011903   .....-.........C-....---..G..-A-G-.-..AC..G-.-..C--.----....  1011861
+76       2999421   .....-.........C-....---.....-.-G-.-..--...-G-..G.-..---....  2999379
+18       321580    .....-.........C-...G---.....-TG.-.-T.--.AT-.-A...-..---....  321623
+91       2692581   .....-.........C-....---....A-.-.-G-G.--...-G-....-..---....  2692623
+8        13011413  ..T..-......C.GC-GG..---.....-A-.-.-..--...-.-....-..---....  13011455
+8        1404250   .....-..........-....---.....-.-.-G-..--...-T-.TG.-..---....  1404292
+8        1748445   .....-..........-....---.....-.-.-.-..--..G-G-....-..---....  1748403
+8        4856992   .....-.........T-....---.T...-.------.--...-G-.T..-..---....  4856953
+88       250266    .....-....G...TC-..C.---.....-T-G-.-..--...-G-A..G-..---....  250308
+88       305510    .....-.........C-.G..---.....-.-.-T-.C--...-G-.AC.-..---....  305552
+88       1037152   .....-.........C-....---C...A-.-.-.-..--...-G-....-..---....  1037194
+88       1598748   .....-.........C-....---.....-.-.-.-..--C.G-G-T...-A.---....  1598706
+82       1020395   .....---.......C-....---.....-.-G-.-..--...-G-..G.-..---....  1020435
+19       3785217   .....-.........C-...G---.....-T-G-.-..--...-G-....-..---..G.  3785175
+19       599938    CTC..T...TTG..T.T.T..T--.....-.-.-.-..--...-G-..C.-..---....  599893
+6        15220920  .....-.........A-C...---...C.-T-G-.-..--...-.-....-..---...C  15220878
+6        8036027   .....-..........-....---.....-.-G-.-..--.-.-.-....C..---....  8035985
+6        5575016                       .---.....-.-.-.-..--...-.-....-..---....  5574992
+1        15633284  .....-.....G.A.C-....---....A-T-G-T-..--...-G-.T..-..---....  15633242
+1        12023957  .....-..........-...C---.....-T-G-.-A.--...-G-..T.-..---....  12023915
+1        25881785  ----.-..G..T..GC-....---.....-T-G-.-..--AA.-.-....-..---....  25881823
+37       6293119   .....-....AG..GC-....---.....-.-.-.-..--...-G-....-..---....  6293161
+37       15696539  .....-.........C-....---..C..-.-.-.-T.--...-G-....-..---....  15696497
+37       20312681  .....-.........C-..CG---.....-.-G-T-..--...-G-...C-..---A...  20312723
+37       26107853  T....-C.......GC-...G---.....-.-.-.-..--...-.-....-..---....  26107895
+37       23794319  .....-..........-....---.G...-.-G-.-..--...-G-C...-..---.C..  23794277
+37       3681665   .....---.......C-....---.....-T-.-.-..--...-.-....-..---....  3681705
+37       22698162  .....-....T....C-....---.....-.-.-.-..--...-G-....-A.---....  22698204
+37       24322614  .....---...T...C-....---.....-.-.-.-..--...-.-....-..---....  24322654
+37       23048857  .....-.......                                                 23048868
+37       15765894  .....-.........                                               15765907
+17       8543500   ..A..-.--......C-....---.....-.-.-.-..--...-.-....-..---....  8543460
+4        7657885   .....-.........C-TG.G---.....-.-.-.-..--...-.-....-..---....  7657927
+4        19943107  .....-.....TG..C-T...---....A-T-G-.-..--..T-G-....-..---A...  19943065
+4        14889036  .....-.....------....---....A-.-T-.-..--...-G-.A..-.A---TC..  14889073
+4        19733488  .....-....T....A-....---.T...-T-.-.-..--...-G-....-..---....  19733446
+4        9371893   .....-.........C-....---.....-.-.T.A..G-.A.G.G....-..---..C.  9371846
+4        13541735  .....-.........C-CT..CAG.....-T-G-.-..--..G-G-....-T.---.C..  13541780
+61       1049111   .....---.......C-....---.....-.-.-.-..--...-G-.TG.-..---....  1049151
+61       1694614   C.A..-.--G.TG..C-....---.....-.-G-.-..--.A.-.-..G.-..---....  1694654
+26       3299095   .....-.........C-....---..C..-G-G-.-T.--...-.-A...-..---...T  3299053
+26       6774280      ..-.........C-....---...-.-.-.-.-..--...-G-....-..---....  6774242
+75       1380000   .....-.....A...C-....---.....-.-.-.-..--...-.-....-..---....  1379958
+11       16867754  .....-.........C-....---..T.T-T-G-T-..--...-G-C...-..---....  16867712
+11       17131842  .....-.........C-....---.C..A-.-G-G-..--...-G-....-..---A...  17131800
+11       16192605  .....-.......A.C-..C.---.....-.-G-.-..--.A.-.-A.G.-..---....  16192647
+11       6116355   .....-.........C-.G..---.....-.-G-.-..--...-G-C...-..---....  6116397
+94       1911382   .....-.........C-...G---.....-.-.-.-..--.A.-G-....-..---.C..  1911340
+94       1952404                                        .--...-.-....-..---....  1952418
+74       1164790   ..A..-...G.....C-....---.....-T-G-.-..--.A.-G-....-..---....  1164748
+74       313549                      ...---...C.-.-.-.-..--...-.-....-..---....  313523
+23       2212848   .....-........GC-....---.C...-T-C-.-..--...-G-....-G.---....  2212806
+100      1961991   .....-.........C-..G.---.....-T-.-.-..--...-G-....-A.---....  1961949
+100      1912609   .....-.........T-...G---.....-T-T-.-..--CA.-G-...G-..---....  1912651
+100      2172606   C.A..-.--..TG..C-....---.....-.-G-.-..--.A.-.-..G.-..---....  2172566
+100      2110474   .....-.........                                               2110487
+81       2143227   .....---G......A-....---.....-.-.-.-..--...-.-....-..---....  2143187
+79       2097334   .....-.....A...C-....---.....-.-.-.-..--C..-G-.--.-..---....  2097374
+38       8515578   .....---.......C-....---....A-.-.-.-..--...-G-..G.-..---....  8515618
+87       1359357   .....-.........C-....---.....-G---.-T.--...-.-.TG.-..---....  1359398
+40       3990102   .....-..........-....---C.T..-T-G-.-..--...-G-....-..---....  3990144
+21       7581391   .....-.........T-...G---.....-T-T-.-..--C..-G-...G-..---....  7581433
+21       7591075   .....-.........T-...G---.....-T-T-.-..--C..-G-...G-..---....  7591117
+21       7676630   .....-....T....A-G...---...                                   7676609
+73       306795    .T...-A........C-....---.C...-.-.-.-..--..T-G-...T-..---....  306837
+45       4532817   .....-.........C-....---....T-T-G-.-..--.T.-G-....-..---A...  4532775
+54       1824573   .....---.......C-....---A....-T-G-T-..--.T.-G-.TG.-..---....  1824613
+95       1298901   ..-..-...G.....C-....---.....-.-.-.-..--...-.-....-..---....  1298860
+64       913153    .....-....T...GC-G...---.....-.-G-.-T.--...-G-....-..---...C  913195
+42       3881141   ..AA.---.......C-....---.....-.-.-.-..--...-.-....-..---....  3881181
+42       3342409   .....-.........C-T...---.G...-.-.-.-..--...-G-..G.-..---..-.  3342368
+42       4331700   .....-........                                                4331688
+118      944984    .....-..........-....---.....-.-C-.-.C--...-G-....-A.---....  944942
+13       8501248   .....-.........A-....---.....-.-G-.-T.--..G-G-.A..-..---.C..  8501290
+13       11414651  .....-....T....C-....---.....-.-.-.-..--...-.-....-..---....  11414693
+115      612672                                              .-.-....-..---....  612661
+115      972566    .....-.........C-....---.....-T-G-.-..--...-.-A...-.AACC....  972521
+25       2537333                                     .-..--...-G-.TG.-..---....  2537317
+3        10167417  .....-.....T..GC-....---.G...-T-G-.-T.--...-G-...G-..---.C.T  10167459
+3        2570742   ....T-.....A...C-....---.....-.-.-.-..--...-.-....-..---....  2570784
+14       11733544                   ....---.....-.-G-.-..--.A.-.-..G.-..---....  11733517
+177      220571    .....-..........-....---....A-.-G-.--.--.C.-.G..G.-..---....  220613
+77       891186    .A...-....GG...C-....---.....-.-.-.-..--...-.-....-..---....  891144
+57       1325692   .T...-...G.....C-....---.....-.-.-.-..--...-.-....-..---....  1325650
+58       2189995   .....-C.....CA.C-....---A....-.-.-.-..--...-.-....-..---....  2189953
+35       2234825   .....-..........-....---.....-.-.-.-..--...-G-.TG.-..---AC..  2234783
+35       3635406                    ....---C....-.-G-.-..--C..-G-....-..---....  3635379
+35       4050023   .....-.........C-....---.....                                 4050000
+35       2558586   .....-..........-....---.....-.-.-.-..--...-G-....-.          2558549
+35       3683467   .....-..........-.                                            3683482
+33       896481    .....-..........-G...---.G...-.-.-.-..--...                   896450
+136      746691                      ...---...C.-.-.-.-..--...-.-....-..---....  746665
+15       4779938   A.A..-....A..G.T-...G---.TT..-.-.-.-..--.C.-G-.TG.-..---....  4779896
+15       7093167   .....-....A.C..C-....---.....-T-G-.-..--...-G-...G-..---...   7093126
+133      1012452   .....-....                                                    1012460
+47       4415262                              ..-.-.-.-..--...-.-....-..---....  4415282
+98       1739871   .....-.........C-....---A...                                  1739849
+83       2530836   .....-.........C-.T..---....                                  2530814
+83       217793    .....-.........                                               217780
+110      608617    .....-..........-....---.....-.-.-.-.                         608644
+121      1400559   .....-......                                                  1400549
+129      1198869   .....-....                                                    1198877
+
+Query_1  5771      -TTGTGA-T-T-T-GATG-CTATA-TA-AA--T-T-A-A-A-T-T-AAAT-TTA-ACTGA  5811
+10       11446203  -......-.-.-.-....-.....-..-..--.-A-C-.-.-.-.-....-.G.-.....  11446163
+10       9671987   -......-.-.-.-.G..-.....-..-..--.-AC.C.-.-.-.-....-.G.-.T..   9671946
+10       6349587   -......-.-.-.-....-.....-..-..--.-A-.-.-.-.-.-.               6349616
+32       7461728   -......-.-.-.-.GC.-..G..-.T-..--.-A-.-.-.-.-.-....-.          7461761
+16       3773318   -C.....-.-.-.-.G..-A.G..-..-..--.-G-.-.-.-.-.-G...-.G.-.T..   3773279
+16       5332619   -......-.-.-.-....-.....-..-..--.-.-G-.-.-.-C-G...-.G.-.T...  5332659
+16       10925012  -......-.-.-.-....-.....-..-..--.-.-G-.-.-.-.G...A-...-.      10925049
+9        13784436  -......-.-.-.-.GC.-.....-..-..--.-G-.-.-.-.-.-G...-.G.-.T...  13784476
+9        2752783   -......-.-.-.-.G..-.....-..-..--.-A-.-.-.-C-.-G.G.-.G.-.T...  2752823
+9        2724205   -C.....-.-.-.-.GGA-.....-..-..--.                             2724183
+52       4139323   -......-.-.-.-....-.....-..-..--.-A-.-.-.-.-.-G...-.G.-.T...  4139283
+39       528504    -C....G-.-.-.-.GC.-..G..-..-..--.-A-G-.-.-.-.-....-.A.-.      528468
+12       2414896   -.C....-.-.-.-.GC.-.....-..-..--.-A-.-.-.-C-.-G...-.          2414929
+12       3814740   -.G..A.-.-.-.-.--.-..C..-..-----.---.-.-.-.-A-C...-...-.....  3814775
+12       9043891   -......-.G.-.-.                                               9043881
+12       578118    -......-.-.-.-CTCT-.....-..-..--.-A-.-.-.                     578092
+12       928856    -......-.-.-.-.                                               928847
+0        12227750  -......-.-.-.-.G..-.....-..-..--.-A-.-.-.-.-.-....-.G.-.T.A.  12227710
+0        2087611   -..T...-.-.-.-.GCA-.....-..-T.--.-A-.-.-.-.-A-....-.G.-.T...  2087651
+0        14233282  -......-.-.-.-.CCA-.....-..-..--.-A-.-C-.-.-.-G...-.          14233315
+0        13913054  -C.....-.-.-.-.GC.-....T-..-..--A-A-.-.-.-.-.                 13913082
+0        17847168  -....A.-.-.-.-.G..-.....-..-..--.-A-.-.-.                     17847194
+0        14451600  -......-.-.-.-.G..-.....-..-..--.-A-.-.-.-.-.-G...-.G.-.      14451564
+0        26426361  -......-.-.-.-....-.....-A.-..                                26426340
+27       4567339   -C.....-.-.-.-.GCA-...C.-..-..--A-A-.-.-.-.-.-G...-.A.-.      4567303
+2        3818763   -......-.-.-.-....-.....-..-..--.-A-.-.-.-.-.-GC..-.C.-.T...  3818803
+2        13991018  -......-.-.-A-AG..-.....-.T-.G--.-C-.-.-.A.-G-T..C-...-.T...  13990977
+2        3054737   -.....                                                        3054741
+2        11196216  -......-.-.-.--.G.A.....-..-..--.-A-.-.-.-C-.-G...-...-.T.T.  11196176
+2        6423880   -......-.-.-.-.T..-A..C.-..-..--.A.-.-.-.                     6423907
+28       4602555   -......-.-.-.-.GC.-..G..-..-..--.-A-.-.-.-C-.-G...-.G.-.T...  4602515
+90       2303795   -...C..-.-.-.-.G..-.....-..-..--.-A-.-.-.-.-.                 2303823
+90       2348256   -...C..-.-.-.-.G..-.....-..-..--.-A-.-.-.-.-.                 2348284
+90       2524922   -......-.-.-.-.T..-..G..-G.-..--.-A-.-C-.-A-C-G...-.A.-.....  2524962
+7        7038599   -......-.-.-.-....-.....-..-..--.-A-C-.-.-C-.-G...-.G.-.....  7038639
+5        10092582  -......-.-.-.-.GC.-.G...-..-..--.-A-.-.-.-C-.-.T..-.G.-.T...  10092542
+5        10747910  -......-.-.-.-...A-..G..-..-..--.-A-.-.-.-C-.-G...-.          10747943
+5        598463    -......-.-.-.T.GC.-..G..-..-..--.-.-G-G-.-.-.-T...-...-T...   598423
+131      737111    -......-.-.-.-....-.....-..-..--.-A-.-.-.-C-.-G...-.G.-.T...  737071
+55       514325    -......-.-.-.-.GAA-.....-..-..--.-A-.-C-.-C-.-G...-.G.-.T...  514285
+55       1524639   -......-.-.-.-.G..-...C.-..-..                                1524660
+55       3012088   -......-.-.-.-.GCA-..CA.-..-..--.-A-.-.-.-.-.-G..C-.G.-....   3012049
+55       1011860   -....A.-.-.-.                                                 1011852
+76       2999378   -......-.-.-.-.T..-.....-..-..--.-A-.-.-.-C-.-G...-.G.-.T..   2999339
+18       321624    -......-.-.-.-.GA.-..G..-..-..--.-A-.-.-.                     321650
+91       2692624   -......-.-.-.-.G..-A....-..-..--.-A-.-.-.-.-.-C..C-.G.-.T...  2692664
+8        13011456  -......-.-.-.-.TC.-.....-..-..--.-A-.-.-C-.-.-C..C-...-.      13011492
+8        1404293   -......-.-.-.-...A-.....                                      1404310
+8        1748402   -.---..-.-.-.-.G..-.....-.G-..--.---.-----.----...-.G.-.....  1748370
+8        4856952   C...-..-G-.-.-.                                               4856943
+88       250309    -.CA...-.-.-.-..C.-.....-..-..--.-A-.-.-.-.-G-G...-.G.-.T...  250349
+88       305553    -......-.-.-.-.G..-..GC.-..-..--.-A-.-.-.-.-.                 305581
+88       1037195   -C.....-.-.-.-.GCA-.....-..-..--.-A-.-.C.-.A.-...             1037228
+88       1598705   -.                                                            1598705
+82       1020436   -......-.-.-.-....-.....-..-..--C-A-.-.-.-.-.-G...-.          1020469
+19       3785174   -...CA.-.-.-.-....-.C...-..-..--.-G-.-.-.-.-.-G...-.G.-.....  3785134
+19       599892    -......-.-.-.-....-.....-..-..--.-A-.-.-.-C-.-G...-.G.-.T...  599852
+6        15220877  -....C.-.-.-.-AG..-.....-C.-..--.-A-.-.-.-C-A-G...-.C.-.....  15220837
+6        8035984   -......-A-.-.-.                                               8035975
+6        5574991   -......G.-.-.-.-..-...C.-..-C.--.-A-.-.-C-.-.-G...-..C-.T.T.  5574951
+1        15633241  -..TC..-.-.-.-.G..-..G..-..-..--.-A-T-.-.-.-.-T...-.G.-.....  15633201
+1        12023914  -....A.-.-.-.-.G.T-T....-.T-..--.-A-.-.-.                     12023888
+1        25881824  -......-.-.-.-....-.....-..-..--.-C-.-G-.-.-.-..G.-.G.--....  25881863
+37       6293162   -......-.-.-.-.GC.-.....-..-..--.-A-.-.-.-C-.-G...-.G.-.T...  6293202
+37       15696496  -......-.-A-.-..CA-.....-..-..--.-A-.-.-.-G-.-G..C-.G.-.A...  15696456
+37       20312724  -......-.-.-.-.G..-..                                         20312738
+37       26107896  -.....G-.-.-.-.G..-.....-..                                   26107915
+37       23794276  -......-.-.-.-.GCA-...C.-..-..------.-.-.-.-C-T...-.A.-T....  23794238
+37       3681706   -......-.-.-.-.GCC-..G..-..-..--.-A-.-.-.-C-.-G...-.          3681739
+37       22698205  -...                                                          22698207
+37       24322655  -A...A.-.-A-.-.GCC-..G..-..-..--.-A-.-.-.-.-.                 24322683
+17       8543459   -......-.-.-.-.G..-..G..-..-..--.-A-.-.-.-.-.-G...-.G.-.....  8543419
+4        7657928   -......-.-.-.-....-.....-..-..--.-G-.-.-.-.-.-G...-.          7657961
+4        19943064  -......-.-.-.-.G..-.....-..T..--.-A-.-.-.-.-.-G...            19943031
+4        14889074  -......-.                                                     14889080
+4        19733445  -C.....-.-.---.C.T--....-..-..--.---.-.-.-.---....A...-.      19733412
+4        9371845   -......-A-C-.-.GA.-T....-C.-..--.-A-.-.-.-.-A-....-.G.-C....  9371805
+4        13541781  -......-.-.-.-..                                              13541791
+61       1049152   -......-.-.-.-....-.....-..-..--.-A-.-.-.-C-.-G...-.G.-.....  1049192
+61       1694655   -......-.-.-.-....-.....-..-..--.-A-.-.-.-.-A-....-.G.-.T...  1694695
+26       3299052   -....A.A.-.-.-TG..-.....-..-..--.-A-.-.-.-.-.-G..             3299020
+26       6774241   -......-.-.-.-....-.....-..-..--.-A-.-.-.-.-.-G...-...-.....  6774201
+75       1379957   -C.....-.-.-.-.G..-.....-..-..--.-A-.-.-.-C-.-G...-.G.-.T...  1379917
+11       16867711  -......-.-.-.-..C.-.....-..-..--G-A-.-.-.-.-.-G...-.G.-.T...  16867671
+11       17131799  -.....T-.-.-.-.GCA-.....-.T-..--.-A-.-.-.-.-A-....-.GG-GT...  17131759
+11       16192648  -......-.-.-.-.GA.-T....C.G-G.----.-.-.-.-.-.-....-.G.-.G.T.  16192688
+11       6116398   -..                                                           6116399
+94       1911339   -......-.-.-.-TGCC-.....-..-..--.-A-.-.-.-C-.G...C-.G.-.....  1911298
+94       1952419   -......-.-.-.-....-...A.-..-..--.-A-.-.-.-C-.-G...-AG.-.....  1952459
+74       1164747   -......-.-.-.-....-.....-..-..--.-C-.-.-.-C-.-....-.          1164714
+74       313522    -......-.-.-.-....-..G..-..                                   313503
+23       2212805   -......-.-.-.-.G..-..C..-..-..--.-A-.-.-.-C-.-....-.G.-.      2212769
+100      1961948   -C.....-.-.-.-.GC.-....G-..-T.--.-A-.-.-.-.-.-G.G.-.G.-.....  1961908
+100      1912652   -.CA...-.-.-.-CCCA-.....-..-..--.-A-.-.-.-.-.                 1912680
+100      2172565   -......-.-.-.-....-.....-..-..--.-A-.-.-.-.-.-G...-.G.-.T...  2172525
+81       2143186   -......-.-.-.-.GC.-..G.G-..-..--.-A-.-.-.-.-.-G...-.G.-.T...  2143146
+79       2097375   -......-.-.-A-.G..-.....-..-..--C-G-.-.-.-C-.-GG..-...-.T...  2097415
+38       8515619   -......-.-.-.-....-.....-..-..--.                             8515641
+87       1359399   -C.....-.-.-.-AG.A-.A..G-..-..--.-A-.-.-.-A-.-G..C-...-...T.  1359439
+40       3990145   -C.....-.-.A.-.-..-.....-..-..--.                             3990167
+21       7581434   -.CA...-.-.-.-CCCA-.....-..-..--.-A-.-.-.-.-.-G...-.A.-.....  7581474
+21       7591118   -.CA...-.-.-.-CCCA-.....-..-..--.-A-.-.-.-.-.-G...-.A.-.....  7591158
+73       306838    -......-.-.-.-....-.....-..-..--.-A-.-.-.-.-.-G...-.          306871
+45       4532774   -....T.-.-.-.-.T..-.....-..-..AA.-.-T-.-.-.-.G....-AC.-.T...  4532731
+54       1824614   -......-.-.-.-....-.....-..-..--.-A-.-.-.-.-.-G...-.          1824647
+95       1298859   -.---..-.-.-.-.G..-.....-..-..--.-A-.-.-.-C-.-G...-.G.-.T...  1298822
+64       913196    -......-.-.-.-..CA-.....-..                                   913215
+42       3881182   -......-.-.-.-.G..-..G..-..-..--.                             3881204
+42       3342367   -......-.-.-.-.--.--....-..-..--.-A-.-.-.-C-.-G...-.G.-.      3342334
+118      944941    -..-..--------.-..-.....-.G-..--.-A-.-.-.-.-.-G...-.G.C.T.A.  944906
+13       8501291   -......-.-.-.-AGC.-...A.-..-..--C-A-.-.-.-C-A-G...-...-.T...  8501331
+13       11414694  -..                                                           11414695
+115      612660    -......-.-.-.-....-.....-..-..--.-A-.-.-.-C-.-G...-.AG-.T...  612620
+115      972520    -A.T...-.-.-.-.GG.-..G..-..-..--.-A-.-.-.-C-.-G...-.C.-.A..T  972480
+25       2537316   -......-.-.-.-....-.....-..-.G--.-A-.-.-.-.-A-G...-.G.-.....  2537276
+3        10167460  -......-C-.-.-.GG.-.....-..-..--.-A-.-.-.-G-.-G...-.G.-....   10167499
+3        2570785   -......-.-.-.-.                                               2570794
+14       11733516  -......-.-.-.-....-.....-..-..--.-A-.-.-.-.-.-G...-.G.-.T...  11733476
+177      220614    -......-.-.-.                                                 220622
+77       891143    -....A.-.-.-.-.G..-.....-G.-C.--.-A-.-.-.-C-.-G...            891111
+57       1325649   -..A...-A-.-.-AG..-.....                                      1325632
+58       2189952   -......-.-.-.-.G..-A...G-.G-..--.-A-.-.-.-.-.                 2189924
+35       2234782   -......-A-C-.-.GC.-.....-G.-..--.-A-.-.-.-.                   2234755
+35       3635378   -......-.-.-.-....-.....-..-..--.-G-.-.-.-.-.-.C..-.G.-.      3635342
+136      746664    -......-.-.-.-....-..G..-..                                   746645
+15       4779895   -......-.-.-.-....-.....-..-..--.-A-.-C-.-.-.-G..C-.G.-.....  4779855
+47       4415283   -......-.-.-.-.GCA-...C.-..-..--.-A-.-.-.-.-.-C...-.          4415316
+
+Query_1  5812      A-T-T-AAAGGCAGCAGAATTTTTATAGAATTTCTTTAAATAT-AAAAGT-C-ATTTT-A  5864
+10       11446162  .-.-.-G......................--G.-.........-......-.-.....-.  11446113
+32       457363                                      ......G..-......-.-.A...-.  457384
+16       9047103         ...A....T........-.-....-C.G.....TG..-TT..-.-.A.....-.  9047149
+16       5332660   .-.-.                                                         5332662
+22       5936712                                        ...-..-....TG-.-....A-.  5936695
+22       3137392                                               .....A-.-.....-.  3137380
+9        13784477  .-.                                                           13784478
+9        2752824   .-.                                                           2752825
+9        4164975                                                      .-.....-.  4164969
+52       4139282   .-.-.-G..                                                     4139277
+52       1555068                                        ....-.-....A.A.-.....-.  1555086
+12       3814776   .-.-.-...                                                     3814781
+0        35675164                                    ......A..A....A.G.-.....-.  35675187
+0        12227709  .-.-.-G..                                                     12227704
+0        2087652   .-.-.-...                                                     2087657
+2        3818804   .-.-.-...                                                     3818809
+2        13990976  .-A-.-...                                                     13990971
+2        11196175  .-.                                                           11196174
+28       4602514   .-.                                                           4602513
+90       441357                                      ......G..-.....C-.-.....T.  441335
+90       2524963   .-.                                                           2524964
+7        7038640   T-.-.G...                                                     7038646
+5        10092541  .-.-.-..                                                      10092537
+131      737070    .                                                             737070
+55       514284    .                                                             514284
+91       2692665   .-.-.-G...                                                    2692671
+8        1748369   .-.-.                                                         1748367
+88       250350    .-.-.                                                         250352
+19       3785133   .-.-.                                                         3785131
+19       599851    .A.G.-...                                                     599844
+6        15220836  .-.-.-...                                                     15220831
+6        5574950   .-.-.-.                                                       5574947
+1        23571071                                   .......G..-T...AA-.-G....-.  23571093
+1        25881864  .                                                             25881864
+37       6293203   .                                                             6293203
+37       15696455  .-.                                                           15696454
+37       23794237  .-.-.-G..                                                     23794232
+17       8543418   .-.-.-C..                                                     8543413
+143      225232                                 ....-..A...G..-.....A-A-T....-.  225207
+4        9371804   .-.                                                           9371803
+61       1049193   .                                                             1049193
+61       1694696   .-.                                                           1694697
+26       6774200   .                                                             6774200
+75       1379916   .                                                             1379916
+11       16867670  .-.-.-G..                                                     16867665
+11       17131758  .-.-.-...                                                     17131753
+11       16192689  .-A-.-....                                                    16192695
+94       1911297   .-.-.                                                         1911295
+94       1952460   .                                                             1952460
+100      1961907   .-C-.-G...                                                    1961901
+100      2172524   .-.                                                           2172523
+81       2143145   .-.-.-G..                                                     2143140
+87       1359440   .-.                                                           1359441
+21       7581475   .C.-.-...                                                     7581481
+21       7591159   .C.-.-...                                                     7591165
+45       4532730   .                                                             4532730
+95       1298821   .                                                             1298821
+118      944905    .-.-.-...                                                     944900
+115      612619    .-.-.-G..                                                     612614
+115      972479    .-.-.-.                                                       972476
+25       2537275   .                                                             2537275
+14       11733475  .-.                                                           11733474
+15       4779854   .                                                             4779854
+
+Query_1  5865      TGAAAGTTTTACCTCATTTGACCTT-AAA-GAAGAGTTCAGAGGTTCAAAGTGACGTGAT  5922
+10       11446112  .T............T..........-..G-......................A.......  11446055
+10       9737573                                                  ...A.A.......  9737585
+32       457385    ...G.....C....T..........G.C.-..GA..-...T....C....A.C.......  457442
+16       9047150   .A.......G....T.AC.......-G..-....TTGC.......C.....AA.......  9047207
+22       5936694   .........G....T......TT..-...AA.....G........-.T..A.T.-.CAT.  5936638
+22       3137379   .....A...G....T........C.-G..-.....CG........C...G....G.....  3137322
+9        4164968   .........G....T..C.......-...-......G.....T.CC....T.A.GA.T..  4164911
+52       1555087   .........G..T.T......T...-G..-......G.......-...G...A.T.....  1555143
+39       3765184                                                          .....  3765180
+63       3505295                                         ......CC...G..........  3505316
+0        35675188  .........G....G........-.-CG.-......G........C...G..T....C..  35675244
+0        32445274                                                       .......  32445280
+27       3108776                                                        .......  3108770
+90       441334    .A.......G....T..........-G..-......G........C...G..A..A..GC  441277
+71       193826                               ..-.....CGC....A..C......A...C...  193857
+1        23571094  ..GCG....G....T..........-G..-A.....G.........TG.T..A...G...  23571151
+37       4551358                   .........-G..-......G.....A..C......-.----..  4551322
+143      225206    ....T....A....T....A.T.C.-.C.-......G...............A..AAT..  225149
+61       369003                                                       .........  369011
+
+Query_1  5923      ATTTA-G-AA--C-C-C--AC-A-T-A-C-T-C-A--C-C-G-T-A-T-GT--C-TATAT  5956
+10       11446054  .....-.-T.--T-.-.--..-.-.-.-.-.-.-.--.-.-.-.-.-.-.G--.-.....  11446021
+10       9737586   .....-.-..--.-.-.CC.T-.-.-.T.A.-.-.--.-.TA-.-.-.-.C--.-.....  9737624
+32       457443    .....-.-..T-.A.-.--.T-.-.-.---.-.-.TT.-.-C-.-.-.-A.G-.A.....  457481
+16       9047208   ....G-.-..TC.-.-.--.T-.-.-T-T-.G.TT--.-.TA-.-.-.-.C--.-.....  9047246
+22       5936637   .....T.T..T-.-.-.--CA-.-.-.---.-.-.--------.---.-CC--.-.....  5936606
+22       3137321   ....--.-..TC.-.-.--..-.-.-.---.-.-.T-T-.-.---C-.-.-----....C  3137290
+9        4164910   .....-T-..TC.-.-.AT.T-.-.A.-T-.-.-C--.-T-A-.-.-.-.C--.-....C  4164872
+9        4577779                                              .-.-.-A.--.--..G.  4577770
+52       1555144   .....-.-..--T-.-.--.T-.-.GT-A-.-.-.----.-A-.-.-.-.C--.-..C..  1555177
+39       3765179   .....-.-..T-.-.A.--..-.-.-G-.---.-.--G-T-A-.C.-.-T.C-.-..A..  3765143
+12       4476099                                                     .--.-.....  4476105
+12       7782837                                              .-.-.--.--.-.....  7782828
+63       3505317   .....-.-..TAT-.-.--.T-.-.-.---.-.-.--T-T-.T.G.-.-A.AC.-....C  3505355
+0        35675245  ....G-.-..TC.-.-.--.T-.-G-.T.T.-T-.--.-.TT-.-.-.-.C--.-.....  35675283
+0        32445281  .....-.-..TC.-.-.--.T-.-.-.---.-.-.TT.G.TA-.-.-.-.C--.-....C  32445319
+27       3108769   .....-.-..--T-.-.--C.-.-.-.---.---.--T-A-A-.---.-CC--.-A....  3108739
+28       2288101                                                            ...  2288103
+90       441276    .....-.-..--T-.-A--G.-.-.-.GA-.-.-.--T-.-----.----C--.-.G...  441246
+8        12065093                                                       .-..C..  12065088
+71       193858    .....-A-..TC.-.-.--.T-G-.-.---.-.-.G-T-.-C-.-.-.AT.--.AC....  193895
+1        23571152  CG...-.-..--------------.---.---.----.-.-.-----.-..C-.-.G...  23571175
+37       4551321   .....-.-..T-.-.-.--C.T.-.-.---.-A-.TTT-.-T-.-.-.AT.C-.-CT...  4551283
+143      225148    .A...-.A..C-.-.-.--.T-T-.-.---.-.-.T-T-.-.C.A.G.-.C--.-.....  225110
+61       369012    .....-.-..TC.-.-.TT.T-.T.-.-.-.-.----.-.-T-AG.-.A..----.T...  369050
+11       1273737                                            .-.-.-.-AC--.-.G...  1273748
+72       1435627                                                .-.-.C--.-.....  1435636
+59       3156431                                              .-.-.-.C--.-.T...  3156441
+25       6056427                                              .-.-.-.C--.-..C..  6056437
+
+Query_1  5957      GTTGTCAA-CACAAA--CAATGGCTGTTAGaa-a----a-aa-a-G---TTTT--AA--G  5998
+10       11446020  ........-T.....--.......A...C..C-G----.-..-.-.---....--..--A  11445979
+10       9737625   .....T..-T.....--..GA...A..G....-.----C-.T-.-.---....A-..--A  9737667
+32       457482    ...C....-T.....--A..CT..A..A....-.----C-.T-.-.---..C.--.T--A  457523
+16       9047247   ........AA.A...CC....A..A.......-.----C-.T-.-.---C...--..--A  9047291
+22       5936605   ..CA....-T.....--......AA..A....-.----C-.T-.-.---....--..--A  5936564
+22       3137289   ...C...G-T.T...--...A...A..A....-G----C-.T-.-.---...C--..--A  3137248
+9        4164871   .C.A....-T.T...--..G....A..-.A..-.----C-.T-.-A---....--G.--A  4164831
+9        4577769   ........-T.....--.......A.-A.C..-.----.C.C-.-.---....--..--A  4577728
+52       1555178   .G......-T.G...--....CA.A..AG...-.----C-.C-.-.---....CA..--A  1555221
+39       3765142   .......G-T.....--.......A..A....-G----C-.T-.-.---....G-.T--A  3765100
+12       4476106   .CA.....-T.....--.......A..A....-.----C-.T-.-.---....--G.--A  4476147
+12       7782827   ........-T...G.--.....A.A..A....-.------C.-G-.---...A--..--.  7782787
+63       3505356   A.......-T.....--....A.....A....-.----C-CT-.-.---....--..--A  3505397
+0        35675284  -...-----...--.--.-.-..-.-..-----.----.-.T-.-.---C.C.--.T--A  35675310
+0        32445320  .A......-T..C..--.C....TG..A..G.-.----C-.T-.-.---....--..--A  32445361
+27       3108738   .A......-T.....--.......A.CA....-.----C-.T-C-.---....--..---  3108698
+28       2288104   ...T.A..-A.....--.......A..A....-.TATA.-..-.T.TAT....--..--A  2288153
+90       441245    ........-T.....--.......----..---------------.---...C--..---  441216
+7        4243523       ....-G.....--.......A..A....-.----C-.T-.-.---..A.--..--A  4243486
+149      654631                             .......G.----.-.C-T-T---....--..--A  654651
+8        12065087  ....C..G-A..-..--.......A.CA....-.----C-.T-G-.---....--..--A  12065047
+71       193896    ........-T....---.....C.A..AC...-.----.-.T-.-.C--....--..---  193936
+1        23571176  ........-T.....--...CA..A..-.-.G-T----.-GT-.-.---....--..AAA  23571217
+1        7906574                                              .-.---....--..--A  7906582
+134      943148                                                           ..--A  943150
+37       4551282   .C......-T.T...--...CA.TAA....---.----.-.C-.-.---....--..--A  4551243
+143      225109    ........-T.....-----..T.A..A....-.----C-.T-.-.---A...--..--C  225071
+61       369051    C.......-TGG...--.......----....-.G---.-..C.-.---C...--G.--A  369090
+11       1273749   ....AA.G-T.....--.......A..A....-T----C-TT-C-A---...C--..--A  1273790
+72       1435637   ...A....-T.TG..--...CA..AC.A....-.----C-.T-.-.---....--..--A  1435678
+59       3156442   .C.....G-T....G--.....AGA..A.T..-.----C-.T-G-.---...G--..--A  3156483
+60       981252                       .....A..A....-.----C-.C-.-.---....--..--A  981227
+25       6056438   ........-T.....--...CA..A..AG...-T----C-.T-.-.---....--..--A  6056479
+34       2411717                                              .-.---....--..--A  2411709
+
+Query_1  5999      TAGC--TCTACAT-AGCA-TTAT-TGTCACGTT-G-A-C--TG-C--AGATCAATCTATT  6045
+10       11445978  ....--.......-....-....-......T..-.-.-.C-.T-.--.............  11445931
+10       9737668   ..T.--....T..-G...-....-.A.G..T..-.A.-.--.T-A--..G.T......A.  9737715
+10       10275887                                              .--..C.........C  10275874
+32       457524    ....--....TC.-.TT.-....-.A...TT.G-.-.C.--.C-.--.....G.G...C.  457571
+16       9047292   ....--....-T.-.T..-C...-.A...TT..-.-G-.T-..-T--...........C.  9047338
+22       5936563   ...A--....T..-....-..T.-.A.T..T..-A-.-.C-.T-G--......T......  5936516
+22       3137247   ..C.--...GT..-.A..-....-.AG...-..---.-G--..C.TA.T........G..  3137200
+9        4164830   ..-.--...GT..-....-....-.A...TT..-.-.-.C-.T-G--.A........G..  4164784
+9        7724289    ...--....TG.-....-.C..-.A....-..-----T--.T-A--....T........  7724247
+9        4577727   ....--A..GT..-....-....-.A....T..-.-.G.--.T-.--........T....  4577680
+52       1555222   ..T.--....T..-...G-..G.-......T..-.-.-.C-AT-.--.........C...  1555269
+52       4359303                                                             ..  4359304
+39       3765099   A...--.T..TG.-..G.-....-.A.......-.-.T.--AT-.--.......C..GC.  3765052
+39       3439165                        ..-.A......A-A-C-.--.T-.--.T...........  3439194
+39       3738459    ..T--....-..-..T.-...A-.....TT..-.-.-.A-.T-.--.........A...  3738504
+12       8451206                                                    ......G.G..  8451216
+12       4476148   ....--....T..-....-....-.A....T..-.-.-.-----.-----.--.......  4476187
+12       3851795                         .-.A....T..G.-C-.--.T-.--..C..........  3851824
+12       7782786   -...--....T..-....-....-.A....T..-.-.-.C-.A-.--.C...........  7782740
+12       4297474                                                             ..  4297475
+12       3351156              ..-....-....-.A.T..T..-A-.-.C-.T-.--.............  3351118
+12       5445901                                                        ....G..  5445907
+63       3505398   ....--....T.G-....-....A.AGA..TC.-.-.T.--.T-.--...A....G....  3505446
+63       2009165                                       .-.--.T-.--....TG.......  2009182
+0        35675311  ....AT.G.TG.C-.-.G-..G.-.AG..A...-.-.C.--.T-.--.......G.CT..  35675359
+0        32445362  ....--....T..-....-....-.A....T..-.-.-.CT.T-.--.A....G......  32445410
+27       3108697   -.------.--..-....-.G..-......T..-.-.-.C-.T-A--..C......A...  3108657
+2        924791                                                    ........A...  924802
+28       4665552                              ...T..-.-.C.--.T-.--.............  4665527
+28       2288154   ....--....T..-..----G..-......T..-.-.C.--.T-.--.......C.....  2288198
+90       441215    ...T--..C.AG.-....-....-.A....T..-.-.-.C-.T-.--....T........  441168
+7        4243485   C...--...------...-....-.A....T..-.-.-.C-.T-.--......G..C...  4243443
+158      722840               ..-....-....-.A....T..-.-.T.--.A-A--......G......  722802
+55       2029960              ..-....-....-.A....T..-A-.-.C-.T-.--.A.......-...  2029923
+149      654652    ....--....T.A-.TT.-....-.A....T..-.-.-.C-.T-.--....A.T......  654699
+18       6806173            ....-.A..-.C..-.A.T..T..-.-.-.T-.T-.--..........G..  6806213
+8        12065046  ..TG--.A..T.C-...G-....-.A...T.A.-.-.-.C-.T-.--......G......  12064999
+71       193937    ....--...GT..-.A..-....-AA....--.--------.--.--.............  193977
+6        12463610                                  .-.-.C.--.T-.--............C  12463590
+1        23571218  ....--.TC.T..-...----..-.....AT..-.-.C.--.T-T--.............  23571262
+1        7906583   ..T.--....T..-..A.-....-.A....T..-.-.C.--.T-.--......T......  7906630
+134      943151    ....--.A.GT..-....-....-.A....T..-.-.T.--.T-.--..........G..  943198
+37       4551242   ....--.....GC-....-....-.A......C-.-.-.--.--------.--.......  4551203
+17       431120    ....--....T..-...T-....-.A...GT..-.-.C.--.T-.--..........-..  431074
+143      225070    ....--.----..-....G..T.-.A....-..--------.------..-..G......  225035
+4        1706326                                                           ....  1706329
+61       369091    ..A.--.....---....-....-.A.TG.T..-.-.C.--.T-.--.....C.G...--  369134
+170      123548      ..--....T..-....-....-.A..G.T..-.-.-.C-.T-G--...C.........  123503
+11       1273791   C...--....T..-....-....-.A...TC..-.-.C.T-.T-T--..GCT..C..G..  1273839
+11       7306029                                                         ...G..  7306034
+23       4157222                                                             ..  4157223
+109      1231863                                                        .......  1231857
+103      2114477                                  ..-.-.C.--.T-.--....A........  2114498
+87       1874374                                       .-.--.T-.--......G...C.G  1874391
+54       2108024                                                        ......G  2108018
+51       2689814                                                     ..........  2689805
+72       1435679   ....--.......T.T..-.C.C-.T.--G...---T-T--..----...........C.  1435722
+59       3156484   ....--.G..T..-..G.-....-.A....T..-A-.G.--.T-.--.........ACA.  3156531
+60       981226    .T..--....T.C-....-....-.A.-.--..-T-T-T--.T-.--.A.....C...A.  981183
+31       5343307                                                        ....-..  5343302
+25       6056480   ....--..CTTT.-...---...-CA..G.T.CG.-.-.--.T-.--.......G.A...  6056525
+101      738166                     .-....-.A....T..-A-.-.C-.T-.--...G.........  738133
+34       2411708   ..T.--..C.T.A-.T..-....-.A.A..T..-.-.-.C-.T-.--.C....G.T.G..  2411661
+163      457225                              ....T..-.-.C.--.T-.--TC........G..  457251
+68       1929509                                                     ..........  1929500
+85       455379                                                        ...-....  455373
+
+Query_1  6046      CAC-CTTGAAGGAGAGGTCAGAGGTCAAATGTGACATAAT-AT-TT---A-A-AATC-TT  6096
+10       11445930  ...-.................................G..-..-..---.-.-....-..  11445880
+10       9737716   G..-...A.............................G..-..-..---T-.-....-G.  9737766
+10       10275873  A.A-...A.............................G..-..-..                10275831
+32       457572    G..-.C...............................G..-..-..---G-.-....-..  457622
+16       9047339   GG.-.................................G..-..-..---T-.-...A-..  9047389
+22       5936515   G..-.......................GG.....TG.G..-..-..---.-.-....-..  5936465
+22       3137199   G..-..........................A.A....G.--..-..---G-.-....-..  3137150
+9        4164783   G..-.................................G..-..-..---T-.-....-..  4164733
+9        7724246   GGT-............................C....TG.-..-..---.-.-T..      7724199
+9        4577679   G.A-..............................-.-.C--..-.G---T-.-....-..  4577632
+52       1555270   G..-T................................G..-G.-..---TT.-....-..  1555321
+52       4359305   G..-..........................A..---.--.-..-..---G-.-....-..  4359350
+39       3765051   G..-A................................G..-..-..---T-.-....-..  3765001
+39       3439195   G..-.............................G...G..-..-..---T-.-....-..  3439245
+39       3738505   T..-..C..............................G..-..-..---T-G-....-..  3738555
+12       8451217   G..-...........................CA.TT.T..-..-..---T-.-.G..-..  8451267
+12       4476188   G..-......A..............G...........G..-..-..---T-.-....-..  4476238
+12       3851825   G..-.....T...A..........................-..-..---T-.-....-..  3851875
+12       7782739   G..-.A..T............................G..-..-..---T-.-.G.--..  7782690
+12       4297476   G..-.............GG...TA.A....A...--.-G.-..-..---.-.-....-..  4297523
+12       3351117   G..-.................................T..-..-..                3351075
+12       5445908   G..-.................................C..-..-..---T-.-.-..A..  5445958
+12       3532043    ..-..............................A...-.--.-..---.-.-.T.G--.  3531997
+12       3810660    ..-T.............................                            3810691
+63       3505447   GC.-.................................G..-..-..---T-.-C...-.C  3505497
+63       2009183   GG.-..............................A..G..-..-..---T-.-..A.--.  2009232
+0        35675360  G..-............................A...C...-G.-..---T-.-....-..  35675410
+0        32445411  G..-.............................C......-..-..---G-.-....-..  32445461
+27       3108656   GG.-................................                          3108622
+2        924803    G..-................................C.-.--.-.G---.-.-.-..-..  924850
+28       4665526   G..-.................................G..-.C-..---T-.-....-..  4665476
+28       2288199   G..T...AC.-C............................-..-..---T-G-CC..-..  2288249
+90       441167    GG.-T............................G...GC.-..-..---T-.-....-.   441118
+7        4243442   T..-...T.............................T..-..-..---G-.-....-..  4243392
+158      722801    G..-T..AC............................G..-..-..---T-.-....-.G  722751
+55       2029922   GT.-...C................................-..-..---T-.-....-..  2029872
+149      654700    G..-..................................-.--.-.A---.-.-..AA-..  654748
+18       6806214   -GG-T...G............................G.C-..-..---T-.-....-..  6806263
+8        12064998  G..-..........................T......G..-..-..---T-.-....-.C  12064948
+71       193978    ...-............................A....G..-..-..                194020
+6        12463589  A..-.................................G..-..-.G---.-.-....-..  12463539
+1        23571263  G..-..............................                            23571295
+1        13768339       ................................GC.-G.-..---T-.-C..T-..  13768293
+1        13774166       ................................GG.-G.-..---T-.-C..T-..  13774120
+1        7906631   G..-..................................-.--.-..-----.-....-..  7906678
+134      943199    G..-..........................A......G..-..-..---T-.-....-..  943249
+37       4551202   G..-...............................CA...-C.-..---.            4551159
+37       9557352            ............................GG.-..-..---.            9557387
+17       431073    -..-..CA..............................-.--.-..---.-.-.-..-..  431027
+143      225034    G..-T................................G..-..-C.---G-.-....-.   224985
+4        1706330   G.T-.................................G..-..-C.---T-.-....-..  1706380
+61       369135    -----.................................-.--.-..-----.-....-..  369178
+170      123502    G.T-.............................G...G..-..-.G---T-.-..C.-..  123452
+11       1273840   G..-.................................G..-..-C.---T-.-....-..  1273890
+11       7306035   G..-...............................T..-.-.A-AA---.-G-T...-A.  7306084
+11       17845381      ............................                              17845408
+23       4157224   ...-..........................T......                         4157259
+109      1231856   G..-.............................C...G..-..-..---T-.-....-..  1231806
+103      2114499   G..-.................................G..G..-..---T-C--...-..  2114549
+87       1874392   G..-...........C.....G.A...G.........G.C-..-..---T-.-....-..  1874442
+54       2108017   G..-.C..............................-..C--.-..---.-.-.-..-..  2107970
+51       2689804   G..-............................A....G.A-..-..---G-.-....-..  2689754
+72       1435723   ..A-T................................G..-..C..TTC.T.T....-.C  1435779
+59       3156532   G..-..........................T..G...G..-..-..---T-.-....-C.  3156582
+60       981182    A.T-............................T..T.G..-..-..---T-.-....-C.  981132
+31       5343301   .T.T................................CG..-..-..---T-.-....-..  5343250
+25       6056526   A..-.................................                         6056561
+33       6159792       .................................T..-.                    6159828
+49       3933021        .................................-.--.-.C---.-.-.TG.-A-  3933064
+101      738132    G..-T............................G....-.--.-..---.            738091
+34       2411660   G..-...............................G.G..-G.C..---.-.-.        2411614
+163      457252    G..-................................                          457286
+68       1929499   G..-A..C............................                          1929465
+85       455372    G..-..........................A...T..G..-..-..                455330
+140      589085     ..-T.............................TG.G..C..-..---T-.-.-..-.A  589134
+
+Query_1  6097      -TATGTGG-T-A---CTTTCTATG-TGTTGATAATACACAGCAA-ACTT-GTAAGAGGTT  6147
+10       11445879  -.......-.-.---.........-..................C-....-..........  11445829
+10       9737767   -..CACT.-.-.---........A-.........C.....                      9737799
+32       457623    -...A...-.-.---........A-......C........C..C-....-.G....      457669
+16       9047390   -...A.A.-C-.---........C-......C........C..C-....-A......     9047437
+22       5936464   -.......-.-.---........A-....A.C..A.....C..C-....-...G...     5936417
+22       3137149   -...                                                          3137147
+9        4164732   -...A..--.-.---........A-......C......A.C..C-..C.-....        4164689
+9        4577631   -...T...-.-.---........AC......C........C..C-....             4577590
+52       1555322   -..                                                           1555323
+52       4359351   -..AA...-.-.---T........-......C..A.....-...T....-....        4359395
+39       3765000   -...A...-.-.---.........-......CC...T...C..C-....-....        3764956
+39       3439246   -G.CA...-.-G---.C.....CA-......C..C...                        3439276
+39       3738556   -.                                                            3738556
+12       8451268   -.GA.C.A-.-.---........A-...............                      8451300
+12       4476239   -......A-.-.---........                                       4476255
+12       3851876   -.                                                            3851876
+12       7782689   -...A...-.-.---T.......A-......C.......                       7782658
+12       4297524   -...ACA.-.-.---.........-..................C-....-T.....      4297570
+12       5445959   A....C..G.T.GGG........A-........G.G....T..---...-......      5446009
+12       3531996   -...CCA.-.-.---.G......A-..AG..C....T..-.AT.C....-....-..A..  3531947
+63       3505498   -...A.A.-.-G---.......CA-......C.......GC..C-....-A...        3505542
+63       2009233   -...A.A.-.-.---A.......A-A......                              2009257
+0        35675411  -...ACA.-.-.---........A-C.....C.....T.....C-....-......      35675457
+0        32445462  -.                                                            32445462
+2        924851    -..CAATC-.-G---......CCA-......C.........                     924884
+28       4665475   -...A...-.-.---........A-..C...C.........TTC-....-......      4665429
+28       2288250   -...A...-.-.---..C.....A-......C.....T..C..C-....-......A-..  2288299
+7        4243391   -...ACA.-.-G---........A-......C.CA.....C..C-....-..          4243349
+158      722750    -...A...-.-.---.......CA-......C........C..C-....-T.....      722704
+55       2029871   -...AA..-.-.---.........-CCC...C......A.C..C-....-.C....      2029825
+149      654749    -...AC.A-C-.---........A-......C..C.....AG.C-....-......      654795
+18       6806264   -.---...-.-G---........A-C....GC...GT...C..G-....-.           6806302
+8        12064947  -CG.ACA.-.-.---.....CT.A-....A.C...G....C..C-....-T.T-.TCCA.  12064898
+6        12463538  -...A...-.-.---T.......A-....A.C....T...C..T-....             12463498
+1        13768292  -...A...-.-G---.........-....A...G...G..-...-TG..T......A-..  13768243
+1        13774119  -...A...-.-G---.........-...........                          13774091
+1        7906679   -...                                                          7906681
+134      943250    -..AAAAA-.-.---A...-...A-..C...A........C...--..--......      943293
+17       431026    -.                                                            431026
+4        1706381   -..AA.A.-C-.---........A-......                               1706404
+61       369179    -...A..A-.-.---..C.....                                       369195
+170      123451    -C......-.-.---....GA..A-.C.......A....TC..C-....             123411
+11       7306085   --...AA.---.---T..AA...A-......C...G.......C-....-......      7306129
+109      1231805   -...A...-.-.---.C.A....A-......C.G......                      1231773
+103      2114550   -.......-.-C---......G.A-......A...                           2114577
+87       1874443   -....CAA-.-G---........T-..C...CC.......C..T-....-......      1874489
+54       2107969   -...ACT.-.-.---........A-......C...........                   2107934
+51       2689753   -..CACA.-.-.---....-...A-......C......                        2689724
+72       1435780   -..CACT.-.-.---.A..A...T-.....TCG.......C..C-....-......      1435826
+59       3156583   -..                                                           3156584
+60       981131    -.T.ACA.-.-.---........A-...C..C.T......                      981099
+31       5343249   -C..ACT.-.-.---........T-..C.A.GC.......C..C-.T..-......      5343203
+49       3933065   --.--...-.-.---........A-......C..C........C-.G..-....        3933106
+140      589135    -C...-.C---.---.......AA-......C....A...                      589165
+
+Query_1  6148      ATATAAGTTATAAATCACTAAGTTGACCTTGAAGACCTTGGTGGATGTAAGTTATCGTGC  6207
+10       11445828  .....T.....................................A...............T  11445769
+12       3531946   ...                                                           3531944
+27       7665540            ........T..G..............................           7665499
+2        8920054            ........T.................................           8920013
+28       2288300   ...                                                           2288302
+28       4665383             ......GT.C...............................           4665343
+28       5262002            .....C.GT..............................              5262040
+7        4243307                      ...A............................           4243276
+5        25430856              .....G.................................           25430894
+8        12064897  T.TC..CCA........T.G..A.......................A....           12064847
+19       12595424           ..T.....T..............................              12595462
+1        13768242  ...                                                           13768240
+37       19963154           ...C....T.G...............................           19963113
+17       6106672            ..G.......T...............................           6106713
+61       506884               ....A.T.................................           506845
+20       1848167            ........T..................................C..       1848122
+3        3065471            ........TA...............................            3065431
+125      452175                           .............................          452203
+
+Query_1  6208      TTACAAACAGAATGACACGCTGACTCTTTCAAACACATGACCTTCGGAGGTCATAAAGAC  6267
+10       11445768  ..................A.........C...............-.....A......A..  11445710
+
+Query_1  6268      AGGAGGCCTGAATATGATAGCAAGGCAAAATAATGTATTTTTAGAGTTGTTAATGTGTTT  6327
+10       11445709  ..........................C....................A..........C.  11445650
+
+Query_1  6328      TTGCATGTATTTCTATTTGATGCTCTCCTCTTTGAATGCCTCACTCGACTTAACCATTTG  6387
+10       11445649  .......................A.....G...............G..............  11445590
+
+Query_1  6388      CTCTGCTGTAATGAAACTTGTCTCAGCGGCTCCATCACGTCAGTA----TTACCATTTCT  6443
+10       11445589  .............................................ATTA...........  11445530
+
+Query_1  6444      GTCCCTCCAAACCTCTGCCGCTGTCTCACAGCAAACAATCTGTCTTTAATCAGGAGAAAA  6503
+10       11445529  A.................T..........C......G...C...................  11445470
+
+Query_1  6504      ATGCTGAGTCTCATGCAGACTTCAGCATCAGCTGTCCTTGTTATCGGTGGTGCAGGGGAG  6563
+10       11445469  T............C.GG.C.....................................A...  11445410
+
+Query_1  6564      CTGAGCTGGTCTGTTAATACTGGCGTTAACTCAGGGTTACTTTGCAGGCCACAGCTACAA  6623
+10       11445409  ...........................TG.........G....................T  11445350
+
+Query_1  6624      GAAGGCGGCCAAACCTCATTAAGAGCTGCCCAGCAGGCTGGCAGTACTCCAGTGTGTTTC  6683
+10       11445349  ................T....C.........G............................  11445290
+
+Query_1  6684      AGACTGGTACATGTACTTTAAGAGGAAAAACACTTTGGTTTA-TT--TGACGTCTCAAAG  6740
+10       11445289  .....A....................................G..GC.........CG..  11445230
+
+Query_1  6741      TGTGCTTCATAAATCTCTCTTCCCGTTTCCCCTGCAGACTCTGAGAATGCCGCCGTGACG  6800
+10       11445229  .....................................................T......  11445170
+
+Query_1  6801      CTCTCTGCCCTGCTGGCCAGCCTCAACAGCTGCTGCAACCCCTGGATCTACATGATCTTC  6860
+10       11445169  .....C......................................................  11445110
+4        3768887            .........................................T...        3768843
+
+Query_1  6861      AGCGGTAACCTGCTGTCTGACTTCGCTCGCAGCCTGCCGTGCTGTTGCCACCTGAGAAAC  6920
+10       11445109  .........T.......G........C.................................  11445050
+
+Query_1  6921      CGGTTCCACCACCAGGATTCGGACAGCAGCATCCGCCGGACCACGCTGCTGACCCGCCTG  6980
+10       11445049  ............................................................  11444990
+
+Query_1  6981      CAGGGTCAACGCCCTTCAGAGCCTTTCAGAGACCTCAACCCCACCCCCAAAAGCTGCCCG  7040
+10       11444989  ............................................................  11444930
+
+Query_1  7041      CCAATCCCATCTGCATCCTGACCCCCAGAAACACTACCtgtgtgtgtttatgtgtgtgtg  7100
+10       11444929  .......................................T.................A..  11444870
+
+Query_1  7101      tgtgCA--TGTTTAGTAAAACTGCAGCAGGTTTGCAGCAGTAATGGAAGGTATGACATCA  7158
+10       11444869  ....T.CG.................................G.G................  11444810
+
+Query_1  7159      TCTGAGGGTGCGTTCACACCTACACTCTGTTTTCTTTGGTCCGATCCAGAGTGGGAAAGT  7218
+10       11444809  .......................C.........T....-.....................  11444751
+
+Query_1  7219      TTACTCCAAGGGACATTTTTGGTGTTTGGCTTGTCTGGGTTCACATGGCTGACGTTTAAT  7278
+10       11444750  .......................A..........T.......T..CA.............  11444691
+
+Query_1  7279      AACTCATTTCCAGTCTGCGGGGTTGGAGACTGTGGGGATTAGATGGCATCAAAACAAATC  7338
+10       11444690  ............................................................  11444631
+
+Query_1  7339      TAGTCACTGTAGCTGTTAGCATGATGGCCTCGTCTGCACTCGCCTTTTACATGTCAAAAA  7398
+10       11444630  .......-....................................................  11444572
+
+Query_1  7399      ATAAATGTCCTCGTACCCACGAACGCTGGTGCTGCAGGGCTGCCTACCTGAGCTCCAGGA  7458
+10       11444571  ....................................................T.......  11444512
+
+Query_1  7459      GTAAATAAATGCTGTACAGTACAGGCAGTGTGGATGTATTTCACTTTGAATGCACTACTG  7518
+10       11444511  ...........................A.......A.....................T..  11444452
+
+Query_1  7519      GGTGTGTTTCCTTGGAGAGCTGCTCTCGTTAAAGTATTTAAAGCATGTTTACGAGATCAT  7578
+10       11444451  A..........................A..G.............................  11444392
+
+Query_1  7579      TTTTTAAGACTTGAGGATAAGTCTGGTGTTATTCTGCAGTCCTTAAATTAATTCATGTAC  7638
+10       11444391  ................T...........................G...............  11444332
+
+Query_1  7639      AAATCCCTTCCCCCTCaaaaaaaaggaaaaaaaaGATTAAA-GAC-CAGC--CATGTGTT  7694
+10       11444331  ............T...........--.....GT-.T..GTCT.TTT.T..TT...AC-..  11444276
+
+Query_1  7695      TGTCGCTTCTGCTTTCTCCCTCTAAACATACAAAACTTTAAAAATGTATTTCCAGCTCTT  7754
+10       11444275  .C.....................G..............A.....AT..............  11444216
+
+Query_1  7755      AAAGCCTCGATAAAATCCTCTTTGTTGTGCTGTTTTCTAAATTTAACAATCAAACAGGAA  7814
+10       11444215  ........A...................................................  11444156
+
+Query_1  7815      AATAGTGCATTTTGGGGGGACTATTTTCAGTGGTGGATGAATTTGAATTACTGTGAAATC  7874
+10       11444155  .................................C...........                 11444111
+10       11444014                                                  ............  11444003
+
+Query_1  7875      AGTGTTTTAAAGACGCTGGTGTGGAAAGGTACTTTCTTAATGTTTATTGAATTCTTTTAG  7934
+10       11444002  .T.................A..........G..........AA.....T...........  11443943
+
+Query_1  7935      TTATAAAATGTGGAAAGTTTGGGTTAAACttttttttttttCaaaattaaaaaacaaa--  7992
+10       11443942  ......................................---..............C..CC  11443886
+
+Query_1  7993      aaacaaaac-a--ttcacaaaaagaaattaggttacaaaaTC--------TTTACCTTTA  8041
+10       11443885  ........AT.CT......................T......AACTCATA..........  11443826
+
+Query_1  8042      AGGAGCTGGAACCTTAAAACTTTGATAGTTAATAATTAAATCATGGAAATGACTCTGGGA  8101
+10       11443819                                             ...-.............  11443804
+10       11443825  ...........                                                   11443815
+
+Query_1  8102      CAATCACACGTGTATCCACACTACGCTTGTTAAAAGTGTAAATCCTAATTAAAAGTGCTG  8161
+10       11443803  ........................C..GC..............................A  11443744
+
+Query_1  8162      TTTGTTCAGTATAATTAACACTGCCTCTGTGAACATCTGTTTAATTATTCATTTTTATTA  8221
+10       11443743  .................................................A..........  11443684
+
+Query_1  8222      TGATGCTCTGATGCTCGCTCATGCTTTGCTGGCTTCTGTAACAGCTTTGAGCTTCTTTAG  8281
+10       11443683  ........................................G...........C.......  11443624
+
+Query_1  8282      AGACTCATTCCCAGATGTGTTTGTAGATATTGAAGATATTTTATGAGTGTGATGTATTCT  8341
+10       11443623  ..........T..............................C..................  11443564
+
+Query_1  8342      GTCATCTCTGTATTGCTGTAATATGTATTGCAATTGTTGTAAAGGAAGATAAAAGCTGTT  8401
+10       11443563  .................C..............CG...........C.........T....  11443504
+
+Query_1  8402      GCTTGTGTTGTCACGTGATGTTCGACTGCTTTCTGTCTATAACAGGAGGGTTTTATAGGT  8461
+10       11443503  ........C.............................G.....................  11443444
+
+Query_1  8462      GCTCACTTACCTGCTTTTAGTTACTTTCACTAAGTACAACAGCAGTGAAGAGCTAAAGTA  8521
+10       11443443  .A...................A.................-....................  11443385
+
+Query_1  8522      ATGAAAA-TGATTAGTTATAGATCTGTGGATTGATCTGACCTGCATAAGTCAGTAACCTT  8580
+10       11443384  .......A.T..........................C.G.................T...  11443325
+
+Query_1  8581      TCCTACAGACTATCATGATCATCAGACTTATGGTTTTCCTGCAGTGCCCCCATAAAACTG  8640
+10       11443324  ..A..A.......T............G.....................A...........  11443265
+
+Query_1  8641      GACTTTCAGGGGTTTTAAGTGAAATATCTGAATAATAAATTGAGGTACTTCCTCATAGGA  8700
+10       11443264  ..A.........................C...C.............T.............  11443205
+
+Query_1  8701      TCAACCtttttttCTCTAGAACAGGGATCACAAATTCGGTGGCTTGCATGAGAAACATGA  8760
+10       11443204  ...........-C..G...............................G............  11443146
+
+Query_1  8761      TATCATTTTAATTGATCAAGCTTGAGCATGTTTTGCGGCTCCATGAAGATTTTTGTCTTT  8820
+10       11443145  ................A.....CA...........A........................  11443086
+
+Query_1  8821      GCTCAAAAATGTTTCTTGATGGTAACGGTTTCTGATCTAACCTCTTTAGCTCTGGTTCTC  8880
+10       11443085  ......C.....C.............T......................A..........  11443026
+
+Query_1  8881      TTTGTGTTCAGAGTCAACATGTT-TCCAGTGTGAATGTGTCAGGGTTGAGCTTAATAGTG  8939
+10       11443025  .......................C...........C........................  11442966
+
+Query_1  8940      AAATATTTATATTTTCTGGCCACTTGGAGCACCAAAAAGCCAACAGTGAGAGCTCAGTGT  8999
+10       11442965  ............................................................  11442906
+
+Query_1  9000      AGCTCAGACATTTATATGTTTAACAAACAAGTGCTTATCTCCACATATTACAGCACAGCA  9059
+10       11442905  .........G.C................................................  11442846
+
+Query_1  9060      TTATCATCCATTTCCAGCTGTTTTTGTC-CC--C-G-T---C-T----------GATAAA  9100
+10       11442845  ............................T..AT.T.A.AAA.G.ATCAGGATCA......  11442786
+
+Query_1  9101      GACTTTCCTAAAGTGTAACCGTGGTGACATCATCAGCTGGTTTGTGAGACTGCATTTTGA  9160
+10       11442785  ............................................................  11442726
+
+Query_1  9161      GTGTTTTTGCTAAAGAGTGGACCTGAGTGACCCGAGTGACATCATGAACTCACTGCTTGA  9220
+10       11442725  .........................................................C..  11442666
+
+Query_1  9221      GAGTTGACGTGGTTTAACCAGCAGACGAAAGGGAAAAATGAGCACTCCTTAACTGGTTGC  9280
+10       11442665  ..........................................................T.  11442606
+
+Query_1  9281      TGGAGGTTGCTGGGTGAAATCGAAAGAACGTGCTGCTTTAATCACTAGCAGATTTCCACA  9340
+10       11442605  ........                                                      11442598
+
+Query_1  9341      GTGGCCTATAGCGTGCATGGAAGATGGCAACTGGTCTGCAAACACTGGCTAACTAGCAGC  9400
+10       11442598        ......T.........A.....................................  11442545
+
+Query_1  9401      TTAGCAACAACATTGGCTGGAGCCACCATGTTTCAAATGGCCTAACTTTTACTTTGAACA  9460
+10       11442544  .........................................G.G................  11442485
+
+Query_1  9461      AACATTCACTATTTCCAGTTTGCACTGTCCTTTTTAATGTTTTACTGTCACTCAGCTGGT  9520
+10       11442484  ......T..............................A...C..................  11442425
+
+Query_1  9521      AGTTGGTGAGTCTCTGCAGACAAGTCACCACCTTCCATGCAAACT-GAGGCGACTGTGGC  9579
+10       11442424  ......................T.......T..............A..............  11442365
+
+Query_1  9580      AGTCAAAGTGACTGCAAGGAGGTTTTTGACAACCAGCTGGGGAACACACATTGCCCACAG  9639
+10       11442364  ..C..................T.................A..........-----..-.-  11442312
+
+Query_1  9640      ACAATGAGTGTCACAGACGGGTTGGTCACCTGTTTGCAAAACCTCTGTATTTGTAGATGT  9699
+10       11442311  ............................................................  11442252
+
+Query_1  9700      GGTTTTAATTTAAGAGAGCCGTCTGTGAAACTGTAAAGTGATTGGCTAACACTTGGCCCA  9759
+10       11442251  ...................T...C..............................T.....  11442192
+
+Query_1  9760      TCTGGCCAAACAGG---------------TGAAAATTACAGTTGGGATCAGCAGGAAGTT  9804
+10       11442191  ..............AATTTGGCCTTTAGG..........................G....  11442132
+
+Query_1  9805      CA--A--G--------TCCAGGAGTGATTACCTGATTTTCAGGTTCAAATCCGACCCACA  9852
+10       11442131  ..GC.GG.ATTTTAAC...................................T........  11442072
+
+Query_1  9853      GTATGTCTCCTGCAGTGTTTACTGTTACTGTTAGCACAAGACAGTTTTTGTCTC------  9906
+10       11442071  AG....................................................ACACGT  11442012
+
+Query_1  9907      -GCACGTAAACGTGAGCTGCTTTTCTCTTAACAGCTGCAGGTGTTCTAATGATGCTGCTT  9965
+10       11442011  G...........................................................  11441952
+
+Query_1  9966      TTCTGAGGTTCAAACATTTCTGAGGTTCTCCATTTCTGACATTGCTCTGCAGTAACAATA  10025
+10       11441951  ............................................................  11441892
+
+Query_1  10026     GTAACTGTGATGGCGTGTTTTTGGTAGCTAAACAACAGACTGG-TGCATGAATGGGTTTA  10084
+10       11441891  .......................................A...G................  11441832
+
+Query_1  10085     ACAGGAGATGGATATCGTGACTCTTGCACAAGGCCGAGATGCAGCAGGTGCACCGGCCAC  10144
+10       11441831  ............................T.......................G.......  11441772
+
+Query_1  10145     TCACCGGATTTAAATGACTAAATTTATCAGCTCATGCCCGACAGCTGCCCAAGGACACTT  10204
+10       11441771  .....A...........G...............................T..........  11441712
+
+Query_1  10205     CAGAAAATTACATGGGAATATTAAACTGCAGACCttttttttCTCTGTGCAATATCTCGG  10264
+10       11441711  ...C.......................T................................  11441652
+
+Query_1  10265     CATAAGTATGCTCATCATAAAAACACTTCAACAGGATTTTTCCTTAtttttttt----AC  10320
+10       11441651  .............C...............................C........TTTA..  11441592
+
+Query_1  10321     TCACGCAGGAAAACAGGAGTAATTGGAAGCAGGTTGGCTGCATGACATGCAACAGATGTG  10380
+10       11441591  .........G..................................................  11441532
+
+Query_1  10381     TCTGAAATTGAAAACAAATAAAAAGGTTTCAGCGCTTCAATCAAAGAGTTCATCCTGTGA  10440
+10       11441531  .........T......................T...........................  11441472
+
+Query_1  10441     TTTTTGATTCATTCCTTGCAGGAAAAGTGAGAGCCTCCAGGCTGAAGTGAACCCCTGAGA  10500
+10       11441471  ..........................C.................................  11441412
+
+Query_1  10501     GGTGGCAATGAAATGAACTATAATTTCCTGCCTGAGCCAACTTGATTAGTTTGAAAGCAC  10560
+10       11441411  .............G..........................................A...  11441352
+
+Query_1  10561     CTACAAACCAGAACTTCAAAAGGTTCCCTGTGGACATGCTTAACACTCTTGTTCCAGGAT  10620
+10       11441351  ............................................................  11441292
+
+Query_1  10621     CACATCACCCCCACTGACCTCTTAGAGATGTGTTTTTGTCAGATTTCTGCCGTGTGAACA  10680
+10       11441291  ........................................T...................  11441232
+
+Query_1  10681     GACACACAGAGCCAGTGCATGAAGGTGAATCTCAGATGAAAATTCAGACTGACTCTCATA  10740
+10       11441231  ............................................................  11441172
+
+Query_1  10741     ACTCAGGACAGCTGAGGGGACACAGGAATGCAAAAAA  10777
+10       11441171  ....................A................  11441135
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 9422637413070
+
+
+  Database: ./batmin_PB.fa
+    Posted date:  Jan 14, 2025  8:43 PM
+  Number of letters in database: 876,939,934
+  Number of sequences in database:  239
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

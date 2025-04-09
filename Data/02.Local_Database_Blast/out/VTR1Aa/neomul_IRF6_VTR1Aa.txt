@@ -1,0 +1,383 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./neomul_PB.fa
+           227 sequences; 879,627,951 total letters
+
+
+
+Query= Orenil_VTR1Aa:100711102
+
+Length=4866
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  tarseq_67_arrow                                                     2420    0.0  
+  tarseq_84_arrow                                                     2385    0.0  
+
+
+
+Query_1  11       AGGAGACACAATTCACAAAGCAACGAGTTTCTCTCTGTGGGCGCCAGGTAGCTCCATATA  70
+67       38583    ....................................AC......................  38524
+84       1402608  ....................................AC......................  1402549
+
+Query_1  71       CGGATTGGAGAGGCACTTTGCAGCCCCTCTGGCACTGAATCTTGCTAGGGCGCACAGAGG  130
+67       38523    ....................................A.G.....................  38464
+84       1402548  .....-....................-.........A.G.....................  1402491
+
+Query_1  131      GGCAGTGCCATGTACGCTCCTGACAAACGCATGCTCCTGAACGAAGAGAACCAGACTTTG  190
+67       38463    ..................A..........T..............................  38404
+84       1402490  ..................A..........T..............................  1402431
+
+Query_1  191      GTGTTCACTGTCACCACTGACCTAATGATGGGAACGTCTGGAAACAGCACCGACCACCAT  250
+67       38403    ............................................................  38344
+84       1402430  ............................................................  1402371
+
+Query_1  251      AACGGATCAGATCCGTTTGCAAGGAACGAGGAGGTGGCTCAAATAGAGATAATGGTTCTG  310
+67       38343    ......................................A.....................  38284
+84       1402370  ......................................A.....................  1402311
+
+Query_1  311      AGCATCACCTTCGTGGTTGCTGTGATTGGGAACGTAAGCGTCCTGCTGGCCATGTACAAC  370
+67       38283    ............................................................  38224
+84       1402310  ............................................................  1402251
+
+Query_1  371      ACAAAGAAGAAGATGTCGCGAATGCACCTTTTCATCAAACACCTGAGCCTGGCCGATCTG  430
+67       38223    ............................................................  38164
+84       1402250  ............................................................  1402191
+
+Query_1  431      GTGGTTGCTTTCTTCCAGGTGCTGCCACAGCTGTGCTGGGAAATCACCTTCCGCTTCTAC  490
+67       38163    ............................................................  38104
+84       1402190  ............................................................  1402131
+
+Query_1  491      GGCCCAGACTTTCTCTGCAGGATTGTGAAGCACCTCCAGGTGATGGGAATGTTTGCTTCC  550
+67       38103    ........................................................G...  38044
+84       1402130  ........................................................G...  1402071
+
+Query_1  551      ACCTACATGATGGTGATGATGACCCTGGATCGTTACATTGCCATCTGCCACCCTCTGAAA  610
+67       38043    ..............C.............................................  37984
+84       1402070  ..............C.............................................  1402011
+
+Query_1  611      ACCCTACAGCAATCCACACGACGCTCGTACATCATGATCATCTCCACGTGGATTTGCAGC  670
+67       37983    ...........G.........................................A..T...  37924
+84       1402010  ...........G.........................................A..T...  1401951
+
+Query_1  671      CTGGTGCTCAGCTGTTCACAGTACTTCATCTTCTCCCTGAGCGAGATCCAGAACGGCTCG  730
+67       37923    ............................................................  37864
+84       1401950  ............................................................  1401891
+
+Query_1  731      GGCGTCTACGACTGCTGGGCGCGCTTTATCGAGCCCTGGGGCGCCAGGGCGTACATTACC  790
+67       37863    ..................................................C.....C...  37804
+84       1401890  ..................................................C.....C...  1401831
+
+Query_1  791      TGGATAACCGTGGGCATCTTTCTCGTGCCCGTGGTCATTCTAATGATGTGCTACGGGTTC  850
+67       37803    .......................G............C....C.................T  37744
+84       1401830  .......................G............C....C.................T  1401771
+
+Query_1  851      ATCTGCCACAGTATTTGGAAGAATATTAAATACAAGAAAAGAAAAACGACGGCTGGTGCT  910
+67       37743    ...........................................................G  37684
+84       1401770  ...............C...........................................G  1401711
+
+Query_1  911      GCAAGCAGGAACGGACTGATTGGAAAGAACTCGGTCAGCAGCGTTACAACTATCTCAAGA  970
+67       37683    ...........T................................................  37624
+84       1401710  ...........T................................................  1401651
+
+Query_1  971      GCCAAACTGAGAACCGTTAAAATGACTTTTGTGATCGTTTTGGCGTACATTATTTGCTGG  1030
+67       37623    ...................................................G........  37564
+84       1401650  ...................................................G........  1401591
+
+Query_1  1031     GCACCGTTTTTCATCGTGCAGATGTGGTCTGTGTGGGATGAAAACTTCCAGTGGGATGGT  1090
+67       37563    ............................................................  37504
+84       1401590  ............................................................  1401531
+
+Query_1  1091     GAGTGCTGTATAAATGAACACAATACTTATTAAGTGTCACACTTTTAATCGTTCTAAAAA  1150
+67       37503    .......-.........................A..........................  37445
+84       1401530  .......-.........................A..........................  1401472
+
+Query_1  1151     ATGTTGAGAATTGCAGGGGGAGAAAAGTAACAGAAACTTAAGAATCGCGTTGCGCAAGGa  1210
+67       37444    -.........................T................................G  37386
+84       1401471  -.............T...........T....................-...........G  1401414
+
+Query_1  1211     aaaaaaaaTCCACGAATCGCGCGCCTTTACGCACGAACGTATTTGACAAACAAAACCAAA  1270
+67       37385    ......--.........T....................T.....................  37328
+84       1401413  ......--.........T....................T.....................  1401356
+
+Query_1  1271     ATGTGTAAACATACAAATTTAAAACCTATACAGCTTCAAACCTTTCACGCGCAC------  1324
+67       37327    ..............T...C......G.......TA...............A...GCGCTC  37268
+84       1401355  ..............T...C......G.......TA...............A...GCGCTC  1401296
+
+Query_1  1325     ACACGCACACCCACAACTACATTTCACCAAATAAATTAAATCTTATGCTCCGTGCGTCTC  1384
+67       37267    .................G..................G..........T.....A...G..  37208
+84       1401295  .................G..................G.......G..T.....A...G..  1401236
+
+Query_1  1385     TATTTGCCGAATTTTAGGTTTTGAAACCCCGAGTTTTCCGGGGAGATTTAGGAAGTAAAA  1444
+67       37207    C.....GA.............C.................A...............G....  37148
+84       1401235  C.....GA.............C.................A...............G....  1401176
+
+Query_1  1445     TA-TCCTACATCTGCATTTTGAGACGTTAAGTGGCCAAATGTTACGGGAACCGCTTTGGA  1503
+67       37147    ..A...................C...........T.........T..               37101
+84       1401175  ..A...................C...........T.........T..               1401129
+
+Query_1  1504     ACCGTGTATGGAAATAATTTGATAAAATCAGATTACATCAttttttttA-AAAAGTTGTA  1562
+67       37024                          ............G....-.......A.C.......T..  36988
+84       1401052                        ............G....-.......A.C.......T..  1401016
+
+Query_1  1563     AGTCACATTAGCAAAACCTGTTTTATACAATTTATATGGTACTAATACAACAATACTATA  1622
+67       36987    ............CG...................................GA.........  36928
+84       1401015  ............CG...........................G.......G..........  1400956
+
+Query_1  1623     TTATTGCACTAATCAGCAAATGCCCTACTTTGCCTTACTTGAAGTATTTTAACCTGTT--  1680
+67       36927    .............T.T........................A.................TT  36868
+84       1400955  .............T.T........................A.................TT  1400896
+
+Query_1  1681     ---AAAAA-TGAATTCAGAGAAAAATATTTCAGCCTTTTGTTCAAAGTTTATCATTCTGA  1736
+67       36867    TTT.....G........................A....................G.....  36808
+84       1400895  TTT.....G........................A....................G...CG  1400836
+
+Query_1  1737     CTGTGGATCAGTGGAATTAATTATTGCTGACTAGCTGATAAGTTAATTCAGTTCTTGGCT  1796
+67       36807    ..........A.A................G..............C...............  36748
+84       1400835  ............A................G..............C...............  1400776
+
+Query_1  1797     GAAT-CAATTGTTAACTTTTGGTGACAGTGTTGGGATGGGT----GG-GC--GTGGGGTA  1848
+67       36747    ....T.....................G..............A---..T.GGT.......G  36691
+84       1400775  ....T.....................G..............AGGT..-.T--.......G  1400719
+
+Query_1  1849     AATGTTAAGAATTAAAATTTACTAGTAAAATTCTTAGGTTAGCTGTATCACTTTTAATTA  1908
+67       36690    ......................GT..............................CC....  36631
+84       1400718  ......................GT..............................CC....  1400659
+
+Query_1  1909     TTATCTCTGGTGTTTTGAAATAAAGGTTTTGAAGTCCTAGTGAGATGGATAATTTCAACA  1968
+67       36630    ........TT...............T............................C.....  36571
+84       1400658  ........TT...............T............................C.....  1400599
+
+Query_1  1969     ACTCAAACAAAAACAATGACAACTGTAATTAGATGATAAAGTCAGATATTGTGGCAGTTA  2028
+67       36570    .........C...............C............................T.....  36511
+84       1400598  .........C...............C............................T.....  1400539
+
+Query_1  2029     GCTGGAAGGCCAAGGCCCACAAATAATTGGGCCCAAAGGAAAATTTACAGATGATTCACA  2088
+67       36510    .............A.........-..............                        36474
+84       1400538  .............A.........-..............                        1400502
+
+Query_1  2089     GTTACACATTTTCAGATTCTGGTTTCTAAAAAGGCACCATGGTAG--TTT-ttgttgttg  2145
+67       36327                           ......................GT...G.........  36291
+84       1400356                         ......................GT...G.........  1400320
+
+Query_1  2146     ttgttgttgttATATATGTCCTCAACCTGCGAAGGATTGCAGGTaaaaaaacaaaacaaa  2205
+67       36290    ....................A.........A...................-.--.....C  36234
+84       1400319  ....................A.........A..................--.--.....C  1400264
+
+Query_1  2206     aataaaaCATTTATATAGCTCTATAAACTCAAGTCTCAAGGTGCTAATTAATATATATGG  2265
+67       36233    ...----........G.........T.........-.-T..CA....A....C.G.....  36180
+84       1400263  ...----........G...................-.-T..CA....A....C.G.....  1400210
+
+Query_1  2266     -ACCTACTATATTGGCAGCTGATGAAACAAATTCCTCCCAGAGTTGGACCACTGTTTATA  2324
+67       36179    -G.............................C.......T.T..................  36121
+84       1400209  GT.............................C.......T.T..................  1400150
+
+Query_1  2325     GCTTTCCTCGTCTTCATTACAGATTATTTTCCTTATAATTTTAGGCACCAAAATTTCTTG  2384
+67       36120    ...................T..G..T..................................  36061
+84       1400149  ...................T..G..T..................................  1400090
+
+Query_1  2385     TCTTGGCTTAGAAAATGATCGTGGCTGCAGTGAAAACAGACCCTGtttttttttAAATGT  2444
+67       36060    ..................C.....................T......A...........C  36001
+84       1400089  ..................C.....................T......A...........C  1400030
+
+Query_1  2445     GTTAATTTATCGTCGCTTCCTTTGATACTAGTGTGAGGAACTCTGTGACAGTGA------  2498
+67       36000    ...G....................T....G........................AGACAC  35941
+84       1400029  ...G....................T....G........................AGACAC  1399970
+
+Query_1  2499     -------T--C-ACATTATCCTCCAATTAAAGTGTTTCAGATGTAGGAAGAGAGAAGGAA  2548
+67       35940    CAACATA.--.-...............C................................  35884
+84       1399969  CAACA--.AT.A...............C................................  1399912
+
+Query_1  2549     TTTGTACTTAAATCTATCTGACTAAGTGTCAGCGTATGAGGAGGTGGATTACCGCCTTT-  2607
+67       35800           .........................T..T.......................-  35749
+67       35883    ...A.......                                                   35873
+84       1399828         .........................T..T.......................C  1399776
+84       1399911  ...A.......                                                   1399901
+
+Query_1  2608     -TGCTTATATTATGAAAATTACATTCTCTTCCAAAAGTCTTAAAACTAGTTGGATCTGCA  2666
+67       35748    -........................T.A..T.............................  35690
+84       1399775  T........................T.A...-.........-..................  1399718
+
+Query_1  2667     ACAGAGATTTGTTCTAACTTTGGCACACCTTTGTAACTTTCAGAGTTTGTGTATCTGGCA  2726
+67       35689    ..........C...................................--------......  35638
+84       1399717  ..........C...................................--------......  1399666
+
+Query_1  2727     CATTTAGGCAGCATTTAGACACCAGAGGCATTGAGTTAAACAGGCATTT-CTACAGCCTG  2785
+67       35637    ..............................C..................-..........  35579
+84       1399665  ..............................C..................T..........  1399606
+
+Query_1  2786     TACCAGATGTTTTGCGAATTAATCATCCTTTTCCTCCTTCCTCTCTCTGTTCTCCAGATT  2845
+67       35578    ...............................C............................  35519
+84       1399605  ...............................C............................  1399546
+
+Query_1  2846     CAGAGAACACAGCAGTGTCTCTGT-CTGCACTCCTTGCCAGTCTCAACAGCTGCTGCAAC  2904
+67       35518    ........................-...............................T...  35460
+84       1399545  ........................A...............................T...  1399486
+
+Query_1  2905     CCGTGGATATACATGATCTTCAGCGGCCACCTCCTCCAGGATTTTGTGCAGTGCTTCTCG  2964
+67       35459    .......................T....................................  35400
+84       1399485  .......................T....................................  1399426
+
+Query_1  2965     TGTTGCCGCAAAGTCAACACCGACTTCAAGAAAGAAGATTCAGATAGTAGCCTCCGC-AG  3023
+67       35399    ............A.........................C.....C............-..  35341
+84       1399425  ............A.........................C.....C............C..  1399366
+
+Query_1  3024     AACGACTTTGCTGACTAAGATGACC-AATCGGAGCCCAA-CAGGTAGTACCGGCTACTGG  3081
+67       35340    ............C............-.............-....................  35283
+84       1399365  ............C............C.............A....................  1399306
+
+Query_1  3082     AGAGAGCTGGATAATTCCTCCAAGTCCTCTATTCAAGCAGAGTAAACACATGTTTGGCAG  3141
+67       35282    ............................................................  35223
+84       1399305  ....................-.......................................  1399247
+
+Query_1  3142     TGGCACCAAATGGCATGAATGACAGGAACTGCAAT-----T---T---CTGAAAATTATA  3190
+67       35222    ...................................CTAAC.GAC.AAA...C........  35163
+84       1399246  ...................................CTAAC.GAC.AAA...C........  1399187
+
+Query_1  3191     CAGAGAATCAAGCttttttttttAGTGTGaaaaaaaa---CATGAAGCAGGGTGATGCGA  3247
+67       35162    ...GA........---.....................AAA......A.......T.....  35106
+84       1399186  ...GA........---.....................AAA......A.......T.....  1399130
+
+Query_1  3248     GGTTCACAGAAGCAGAAAATATGGACACATTAGGGAACGTGCATACATCTTCTTTCTTTC  3307
+67       35105    ..............T............................................-  35047
+84       1399129  ..............T............................................-  1399071
+
+Query_1  3308     TTTAGATAACCTCAGCAGAAACGTTAGAAAAATAATGAGAAAAAAGCGTGCACAGGCTTT  3367
+67       35046    ---............................................A............  34990
+84       1399070  ---............................................A............  1399014
+
+Query_1  3368     AAGTTGTTCTCTTAAATGTAATCATAAATCTTCAATATTCAGTGTTTTGCAGATTCCTGC  3427
+67       34989    ..A.......A..G....G...T.....................................  34930
+84       1399013  ..A.......-A.G....G...T.....................................  1398955
+
+Query_1  3428     ATGAGTTCTTCTGAGTGttttctttc---ttttttttctttagcgagaacctttttttCC  3484
+67       34929    .....................T....CT-...............................  34871
+84       1398954  .....................T....CTT...............................  1398895
+
+Query_1  3485     AGGAATCCTGATGCTTTCAAAGGTTGTTGTGCCTCCCCGCAGTGCTGCCGAACACCCTTT  3544
+67       34870    ............................................................  34811
+84       1398894  .................................................C..........  1398835
+
+Query_1  3545     CCTGTTAAAGTGTTTACAAAGATAAAACCCATATAGCAGCCGAGATGTGTGTAGTGATGG  3604
+67       34810    ............................................................  34751
+84       1398834  ............................................................  1398775
+
+Query_1  3605     TGAAAACGACTCTTCCAGACCACTCGTCTCCAAGTAACCAAGGCAGTCACCTCATCCTTT  3664
+67       34750    .........................................................G..  34691
+84       1398774  .........................................................G..  1398715
+
+Query_1  3665     GTGTTTAGCTTTCCATTTTTCTTGTTTTTCTTAGAACCACATTTTAGTGGCTTGTAAATT  3724
+67       34690    ......G.......G...........A................................C  34631
+84       1398714  ......G.......G...........A................................C  1398655
+
+Query_1  3725     TGATTTGAACCTTTTGCTTTGACCTGAGGGaaaaaaagtaaaataaaataaaaaaaaaGG  3784
+67       34630    .....C..............................-................T...-..  34573
+84       1398654  .....C...............................................T...-..  1398596
+
+Query_1  3785     GAAGCATGTGGAGTTACATTTATCAACCAGATTTTTGTGGTTATGTGCACTTTTATGATT  3844
+67       34572    .........................G..................................  34513
+84       1398595  .........................G..................................  1398536
+
+Query_1  3845     TGTTGAAGGAATTGTTTCACGTTGCACAAGACAGTCCTAAATTTGATGGCTTTCATTTCT  3904
+67       34512    ...................T........................................  34453
+84       1398535  ...................T........................................  1398476
+
+Query_1  3905     GCTCAGCATTGGTAAATGAGATCTCCTTCAAGTTTTATGGacacacacacacacgcacac  3964
+67       34331                                            .............AA.....  34312
+67       34452    ......................................A...............A.....  34393
+84       1398356                                          .............AA.....  1398337
+84       1398475  ......................................A...............A.....  1398416
+
+Query_1  3965     atacactcacaGATAGAAAGCAGGGGGCTCTGATGAAGTGAGACTGACCACTGCTGGATA  4024
+67       34311    ......--....................................................  34254
+67       34392    .C....A....                                                   34382
+84       1398336  ......--....................................................  1398279
+84       1398415  .C....A....                                                   1398405
+
+Query_1  4025     AGTCAGCCCACCTTCTCACAAACTGTTCCCATGTCTTTCATAAAATCTTGGGAAGAAGCT  4084
+67       34253    ............................................................  34194
+84       1398278  ............................................................  1398219
+
+Query_1  4085     CACACATTCCACACACAACACGTCAGCACACTTCCTGA-TTTTCCTCGGACATCCTGCAC  4143
+67       34193    .....................A................-........A............  34135
+84       1398218  .....................A.....-..........T........A............  1398160
+
+Query_1  4144     CACTGGAGGTTCTGCGTTTTGGCTTCATTTGCACTCATGATAAACAATTTCCTGGAAATC  4203
+67       34134    ..............A.....................GA.........C............  34075
+84       1398159  ..............A....-................GA.........C............  1398101
+
+Query_1  4204     AATGTGATATGTGACACCGTAATGGTTGTCGGATTAAAATTAATccccccccaacccc-c  4262
+67       34074    ..................A....................A...........-.C....A.  34016
+84       1398100  ..................A....................A...........-.C....A.  1398042
+
+Query_1  4263     -AAAAAGCTATATTGAATCAAGATTGTACATAGATGTTGTGTATATATGTGTGCACTGTG  4321
+67       34015    A..................................A........................  33956
+84       1398041  A..................................A........................  1397982
+
+Query_1  4322     TATCAAAGTATGTAAATATCAATTCAAATGTTGCATATTTGTATATTAAAAGCACTTAAA  4381
+67       33955    ..............C....................................A........  33896
+84       1397981  ..............C....................................A........  1397922
+
+Query_1  4382     TGTCTGTAAATAGGAGTAATATATGTAAATCTATTGGGCATGAGTTGCTGGTCTGTAATG  4441
+67       33895    ............................................................  33836
+84       1397921  ............................................................  1397862
+
+Query_1  4442     GCTTGTGCAAATCTTTAAGAAGTAACTTACTGTAACACCTTATGTTGAAATATACACGCC  4501
+67       33835    ....................G.......................................  33776
+84       1397861  ....................G.......................................  1397802
+
+Query_1  4502     AATGTACTAAATATTACGTTGTCTTTGTTCCTGTTTTTACTACATGGAACATTTCATAGT  4561
+67       33775    ......T...T.................................................  33716
+84       1397801  ......T...T.................................................  1397742
+
+Query_1  4562     TTGTGCTTCATGAAGCTGGTGCACAACCACAGAAATTTATGTGTGTTATTTCTGTTGAAA  4621
+67       33715    .........................G..................................  33656
+84       1397741  .........................G..................................  1397682
+
+Query_1  4622     ATGAAGTGCTTCGTGAAGTCATGTCTCTTGCCAATCTAAGCACTTGAAGCTTGCCAAGCT  4681
+67       33655    ...........T.................................C...........A..  33596
+84       1397681  ...........T.................................C...........A..  1397622
+
+Query_1  4682     CTGGGATTATGCAACTGCTTGACCTTTCAATTGAAAACGTGTGAATGGGAAATTCTGCTA  4741
+67       33595    ............................................................  33536
+84       1397621  ............................................................  1397562
+
+Query_1  4742     ATGAGCAGCCTTTTGTCAACATGTTGTCCACCCCCATACTGATGGATAATATATGTCCCA  4801
+67       33535    ............................................................  33476
+84       1397561  ............................................................  1397502
+
+Query_1  4802     ATAGAACGAATAGCACCTTGTAATAAAGTGATAAATCATTGCATTAAAAGGTCATTTTAC  4861
+67       33475    ......T.....................................................  33416
+84       1397501  ......T.....................................................  1397442
+
+Query_1  4862     CGATT  4866
+67       33415    .T...  33411
+84       1397441  .T...  1397437
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4252967119190
+
+
+  Database: ./neomul_PB.fa
+    Posted date:  Jan 14, 2025  8:42 PM
+  Number of letters in database: 879,627,951
+  Number of sequences in database:  227
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

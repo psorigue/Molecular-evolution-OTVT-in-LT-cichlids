@@ -1,0 +1,155 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./neomul_PB.fa
+           227 sequences; 879,627,951 total letters
+
+
+
+Query= Orenil_OT:100709702
+
+Length=2081
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  tarseq_3_arrow                                                      1498    0.0  
+
+
+
+Query_1  1         TTTCTGTGTCACTCTC-AAGGGTGCTTTGGAAATATATAAGACACACCAGCGACACCGTA  59
+3        10970187  ................A..A............G..................A........  10970246
+
+Query_1  60        TGAGACAGAGAAGCCAGCAATCATCCAAGAGCAACCTAAAGAGGAACTTGAGCTAACAAG  119
+3        10970247  ...C.........T.....G........................................  10970306
+
+Query_1  120       TGTGTACATTTGCTCTCTGTGAAGCGTAGATTTTGTGGTCAGCCTTACTAAGTGATTTAT  179
+3        10970307  ...........................G..........................T...T.  10970366
+
+Query_1  180       TCTCTGTTTTTCTCTTCTATTCCTAGCAGAAATGACCGGAGCTGCTGTGTCTGTGTGCCT  239
+3        10970367  .................C....T.....................................  10970426
+
+Query_1  240       GCTTTTTCTCCTGTCTGTATGTTCAGCGTGTTACATCTCCAACTGCCCTATTGGAGGAAA  299
+3        10970427  ...................................................C........  10970486
+
+Query_1  300       GAGGTCCATAATGGATGCACCACTGCGCAAGGTGAGCTCAATCAGTCAGCCAATAGGTCT  359
+3        10970487  A....................G..................................T...  10970546
+
+Query_1  360       TTAACTTTGCAGCTTTTGAAGCTTCTGACAATATTATTAGCAAACTGGCACATCTTTCTC  419
+3        10970547  .....................................................G......  10970606
+
+Query_1  420       TTCATTCATTTATTCAGATAATGCAAAGCCTGAAGAGAGATTTAGGTGACAATATTAGAC  479
+3        10970607  ...............................A..............A....           10970657
+
+Query_1  480       AAAGTTAAGGACAGACATTTTCCGCAATTGCATGTGAAAAACTTGGGTCGGGGGCCAAAA  539
+3        10970658                              .....................A..........  10970689
+
+Query_1  540       CCATCAGAAAGAAAATACAAACTGAGAAAGCCTAAAAATGCTTTTTAAGGTGGTAAATTA  599
+3        10970690  ............................................A......A........  10970749
+
+Query_1  600       TGGTGAAGTTCATAGCAACACCAAAAATAATCATCCGTTTCAACCTCTAGTGCATGTCAT  659
+3        10970750  ......C.....A......................T........................  10970809
+3        11020692                                             ....C......A...T.  11020708
+
+Query_1  660       GTGGCCCCGGAGACAGAGGCCGCTGCTTCGGGCCAAGTATCTGCTGCGGGGAAGGTCTTG  719
+3        10970810  ............................................................  10970869
+3        11020709  .......T.......TG...........T..C..C...........T.....C...T.C.  11020768
+
+Query_1  720       GTTGCCTGCTCGGCTCCCCGGAAACAGCTCACTGTGTGGAGGAGAACTACCTGCTCACCC  779
+3        10970870  ............................................................  10970929
+3        11020769  .C........T........A........................................  11020828
+
+Query_1  780       CCTGCCAGGCAGGAGGGAGAGCCTGCGGTTCTGAAGGAGGACGCTGCGCTGCTTCAGGAC  839
+3        10970930  ................AC..C....T..................................  10970989
+3        11020829  ....................T....T..G.....G.....G.A............T...T  11020888
+
+Query_1  840       TCTGCTGTGATGCAGGTCAGAAAATCCTGACGTGAATATAAGCAGTAGTAAAAGGAGTAT  899
+3        10970990  ..............................T..A..........................  10971049
+3        11020889  .......                                                       11020895
+
+Query_1  900       TTTAGTCCTTTATTGAAGTAATTAATACCACTACCA---G-A-A-TACTTAG-AAAAATA  952
+3        10971050  ....................................TTT.C.G.A......AT.......  10971109
+
+Query_1  953       ATCCTGCAAGCTGAAGCAAATAGCAGGGAAGT-----ATTAGCAATATTTGCTTAAAGTA  1007
+3        10971110  ............A.............A...C.ACTAC.......................  10971169
+
+Query_1  1008      CAAGAAAGCAAAGCATATCGTTTAAGCTGATCAGTCAAGCTGATTGTAATTATTATATTT  1067
+3        10971170  .............TT...A............................C............  10971229
+
+Query_1  1068      ACAGCTGGGTGGCTTGTTCAGTATTCTGTGTAAGCATACATCCTATTTTATAAGCTTATT  1127
+3        10971230  ............................................................  10971289
+
+Query_1  1128      ACATCTGACATGATAAAGGCACAGTATCTAGGGTAAACAACATGAAGTAAAAAGTAGAAA  1187
+3        10971290  .........T.....................A........................T...  10971349
+
+Query_1  1188      TTTTCCTCTAAAATGCAGTGAAGTACAATTATTAAGTACCATAACATTGAAAAACTCTAG  1247
+3        10971350  ...............T................A....G.T.................C..  10971409
+
+Query_1  1248      TGAGGGTTATCAAGTACAAGCACTTGATTGATTCATGAAATTATGCAGTCTCTATTCCGG  1307
+3        10971410  ....................................A...G.G.................  10971469
+
+Query_1  1308      TCCAAGATTCAGTATAGCTAAACCTGCACAAGTCACAGATTCTCTAGCATAAATATGATG  1367
+3        10971470  ......G.....C..................................TG....C......  10971529
+
+Query_1  1368      ACTTTCATCCAAACTCCCTAAAGTTGTAATCATTGTTAAttttttttGTTATTTTATATA  1427
+3        10971530  .............---...G.................G--...............G....  10971584
+
+Query_1  1428      ATGTAAGGAATAATGCAAGAATTATAAATGTTATTCCTAATATAGCTCTGCATGCTTTAG  1487
+3        10971585  .............................C............G.................  10971644
+
+Query_1  1488      TACCAATGTAATTAAAGGAGAAAGAAAATCCACCTTTGCTTTGAGTGATACTACTTTGAT  1547
+3        10971645  ..                                                            10971646
+3        10971637                                      ......-...-...........G.  10971658
+
+Query_1  1548      CATGATGACCTAATTTACCCTACCCTGCTCTTTAAGGGTCCATGAATACAGGTCACAAAA  1607
+3        10971659  ......C....................................................G  10971718
+
+Query_1  1608      CCTGATAACAACAGATCATAAAGTGTAGACGATGACCATTTTTGGTAATAACTCCTTCTG  1667
+3        10971719  A...........................................................  10971778
+
+Query_1  1668      ATTTGTTCTTAACCCTGCCTCAGAGAGCTGCGCCACAGATCAATCCTGCCTTATCGAGGA  1727
+3        10971779  G..............................A............................  10971838
+
+Query_1  1728      GGAAGGAGATGAACAAACCAGCCAGTTCGATGGCAGCGACCCCGGTGACATCATCCTCAG  1787
+3        10971839  ............................................................  10971898
+
+Query_1  1788      GCTCCTGCATTTGGCTGGCCACAGTTCTCCTCATCGAGTCCACCAATGAGCTGCTTTTG-  1846
+3        10971899  .......................................................C...A  10971958
+
+Query_1  1847      CGTCAAGGTCTCACTGCAAGCTCTCGAGCTGTAGGGATTAAATGGGACTTGTAGTTCACA  1906
+3        10971959  ............................................................  10972018
+
+Query_1  1907      TAGTTGTGTTTTTATGTTTGTTGTCACGATGCTGATTTTGCTCTTTTTCCCTGCAGTACT  1966
+3        10972019  ..........................T.......G.........................  10972078
+
+Query_1  1967      TCTGTAGAGTGCCTTTGTCAATATAGCCTATTTTTATGTATGAAATTAGGGGTGAATACC  2026
+3        10972079  ...........................................................T  10972138
+
+Query_1  2027      GGCTGTGGTCATCCTGTTATCTGCATGTTGAAATAAAGTTTGAAGAGAGTATAAA  2081
+3        10972139  T.T....................................................  10972193
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1804102960191
+
+
+  Database: ./neomul_PB.fa
+    Posted date:  Jan 14, 2025  8:42 PM
+  Number of letters in database: 879,627,951
+  Number of sequences in database:  227
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

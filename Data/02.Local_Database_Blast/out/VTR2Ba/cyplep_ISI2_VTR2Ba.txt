@@ -1,0 +1,221 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./cyplep_PB.fa
+           206 sequences; 853,842,556 total letters
+
+
+
+Query= Orenil_VTR2Ba:100692153
+
+Length=3493
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  tarseq_46_arrow                                                     5354    0.0  
+
+
+
+Query_1  1        GCCGCTGGATTCACCTGGAGTAGTT-TTTAATCCCCTCTGTGCTGCGCTTGGGTTGAACG  59
+46       6612221  .....C...............G...A..................................  6612162
+
+Query_1  60       CATGGCTTGGATCGGTGTAAACATCAGTAATGTCTCTTC---------ACCGTTTGGTGG  110
+46       6612161  .....................T........C........GGAGAGTGC.........G.A  6612102
+
+Query_1  111      CGATCCTCGGGATGAGCGCTTGGCGCAGGTGGAAATCGCCCTTCTCGCCATCATCTTCAT  170
+46       6612101  ................................................T...........  6612042
+
+Query_1  171      CACAGCGGGGATCCTAAACTTTGGGATCTTGCTGGTGCTGTGGAAGCGCAGGAAGCCGCT  230
+46       6612041  ............................................................  6611982
+
+Query_1  231      CTCCAGAATGCGCGTCTTCGTTTTCCACCTGTGCGTAGCTGACTTGGTGGTCACATTTTT  290
+46       6611981  ....................................C.......................  6611922
+
+Query_1  291      CCAAGTCTGCCCCCAACTCATCTGGGACATCACCGACAGATTCATCGGTCCAGATGTGCT  350
+46       6611921  .......................................G....................  6611862
+
+Query_1  351      GTGTCGGGCGGTGAAGTACCTGCAGGTGGTCGGGATGTTCGCCTCCACGTACATGATCGT  410
+46       6611861  ............A...............................................  6611802
+
+Query_1  411      GGTGATGACTATAGATCGATACCAAGCCATCTGCAATCCCATGGTAACTTTCCAGAGGCG  470
+46       6611801  A.................G.........................................  6611742
+
+Query_1  471      CAGGGCGCGCTGGAACGGTCCGGTGTGCGCCGCCTGGTGCGTCTCCGTCCTCTGCAGCCT  530
+46       6611741  ............................................................  6611682
+
+Query_1  531      CCCGCAGGTCTTCATCTTCTCTCGGGTCGAGGTCGCTCCCGGCGTGTACGATTGTTGGGC  590
+46       6611681  ............................................................  6611622
+
+Query_1  591      GCAGTTCATCGAGCCGTGGGGACGTAGAGCCTACGTAACCTGGACGACTTTGGTGATATT  650
+46       6611621  ........................A..............................G....  6611562
+
+Query_1  651      CGTCCTGCCGATTCTCACCGTGATCGTGTGCCAGGTGCGCATCTGCCGCGCCGTGCAGCT  710
+46       6611561  .........A.........................................A........  6611502
+
+Query_1  711      AAACTTCCACATGAAGATGCATCACGTCGGGGAAGCGGTCAGCAAGCCTCCGTCATCGAG  770
+46       6611501  .................C...C.......................A..............  6611442
+
+Query_1  771      GGCCAGCAGCGTGGCTGGAGTGTCCAAGGCCAGGGTGAAGACTGTGAAGATGACCGTGGT  830
+46       6611441  ...............A..C.......................G.................  6611382
+
+Query_1  831      CATCGTGCTCGCATACATCCTCTGCTGGACACCTTTCTTCACCGTGCAGCTCTGGTCTGT  890
+46       6611381  ...................................................T........  6611322
+
+Query_1  891      CTGGGACGACGAGGCACCCACACAGAGTAAGAAGACACTGATCTCACAACACGCAAAAAG  950
+46       6611321  .....................................G.....C................  6611262
+
+Query_1  951      GGCACAGCCTGACATAATAGTCACTGGAAAGaaaaaaaaaT-GTTATTACTGCAAGTTTA  1009
+46       6611261  .......T.........A.............C.........T..................  6611202
+
+Query_1  1010     ACTGGCTACAAGCGCCATCATGCTCAGGAAAACAATAGAGGAGGAAACTAGAATTTTCTG  1069
+46       6611201  ...........A................................................  6611142
+
+Query_1  1070     CACAATTGCTTTGAACTCATTTCGACCGCTCACATTCTGCAGACCAGAATCATTCCACTT  1129
+46       6611141  ........A.................A.................................  6611082
+
+Query_1  1130     AAACAATCCCGTTACACTTAATGCATCCAGTAAATTACATTGTTTCTAAGTGCTTTTACA  1189
+46       6611081  .T....................A...............G..A.......---.----.--  6611031
+
+Query_1  1190     TTGTCTAACATCTTCGCCTTAAAATCTTTTAGCATTACAGCGAAAGTGTACTTTAAAAGT  1249
+46       6611030  .---...-..C...-.-----......C....T......AT...................  6610981
+
+Query_1  1250     TAAATTACAAGGAAAGGATGCCCTCTCCGCTTGAATGAAGTCACTGTAATCGACAGACAG  1309
+46       6610980  G.......G...G.......T.......A...............................  6610921
+
+Query_1  1310     TACATTAGGTCAAAGGTTAATGGTCCTTAATTTCACAAAGCATCAACAGATAACTTAAAA  1369
+46       6610920  ............................................................  6610861
+
+Query_1  1370     TAGTCACAAATCTGTAAGAGGTAACCAAGCGAAAATAAAGTGACTCTCATGTCCTCCTCA  1429
+46       6610860  ...C.................C........CC............................  6610801
+
+Query_1  1430     TCTATCTCCAGGTGCAACCTTCACCATCTTGATGCTGCTTGCCAGTTTAAACAGCTGTGT  1489
+46       6610800  ............................................................  6610741
+
+Query_1  1490     GAACCCCTGCATCTACATGCTGTTTAGCGGAAAGCTACCCAAAAGTGTGGTCAGCCTGCT  1549
+46       6610740  .............................................G..............  6610681
+
+Query_1  1550     TTGTGTAGGTCAGCCTGACCTGAAGGAGTCCATGCAGGAAGAGGCCACTGTGGTCAGCTC  1609
+46       6610680  ..........................................A.................  6610621
+
+Query_1  1610     CATGTACATCAGCCTCAAGAGCCTATCGGACTGCAGATGAAAGTCCCGATGATCACACAC  1669
+46       6610620  ......................................A....C................  6610561
+
+Query_1  1670     CGATTACATCTCATTTCACATGGTGTGAAAGTACGGCTCCCTCATGGTAAAGACTGAAAG  1729
+46       6610560  T.......C..................................................C  6610501
+
+Query_1  1730     TCTTCTAATAAGTGTGAAGGCAAACAGCCTAGCAGTGTAATGTTCCTACTGTACAGATGA  1789
+46       6610500  .................................G..........................  6610441
+
+Query_1  1790     TCACTGCATACAACGCTTTCATACAGAAAGTGCCAGACACACTATCTTTCACATCACATT  1849
+46       6610440  .........................A...A............G.....G...........  6610381
+
+Query_1  1850     TTGaaaacgtttttcaaattaaaagaacaaaaacaattaaaaaaaa-TAGCTGTGACTGA  1908
+46       6610380  .......AAAA..........................A........A.............  6610321
+
+Query_1  1909     AATATGTCCTCAAGTATTGGATGAATTCACTAAAATCCCAAATTTGACATTCGTGGTGCT  1968
+46       6610320  ................C.....A.............A..............T........  6610261
+
+Query_1  1969     CAGAGGAAGAGGAAGAGTCTCTCTGCAAGAACTAACCTGAGCCTGAATATTACTTTGACT  2028
+46       6610260  .............................C............T.................  6610201
+
+Query_1  2029     TTATTAGCAGGAAATGCTCAGATATGAATGGTCTCCAGCTGATAATAACTTGAACAGTAG  2088
+46       6610200  .....................................................G......  6610141
+
+Query_1  2089     CGTTTTCTTCTGGCACCGTTATCAGGTAGGAGTTTTATTTTGTCTGAGACCAGCTG--G-  2145
+46       6610140  ........................................................AC.A  6610081
+
+Query_1  2146     ----------CGAAAGCCAATAATCACATCCCCATCAGCTTCAGTTGTGATTTGATTAAA  2195
+46       6610080  GTAAATACCT........................C.........................  6610021
+
+Query_1  2196     AAGACTGCGGTGCATGACTTGAAATGTTGTTTCTGATATTTTACTGCGTTTAATATTT-C  2254
+46       6610020  ...................C..............C...............G.......T.  6609961
+
+Query_1  2255     CCCAAAAAGGTTGTTTATCAGCTGATCTTGTGAAATGTTTCACCTAAATGCGAATGTTCC  2314
+46       6609960  .....................................................T......  6609901
+
+Query_1  2315     CGTGTCTGTGTTTAAATGTCTCGTATGTCATCTGAATTAAATACTTCAAGCTCCTTTTAC  2374
+46       6609900  .................A..........................................  6609841
+
+Query_1  2375     GCCCATGTGTACATACGATCATGTGTATAACAGTGTCCGACCTACACTCGGTGGTTGAAA  2434
+46       6609840  ............................G...........G...........A.C.....  6609781
+
+Query_1  2435     TAGTTAACAGACGACATTAATAGCACTTATTTTCAGACACTCTGTGTTAAGTGCCCCTAG  2494
+46       6609780  ..........G............T.........A..............C...........  6609721
+
+Query_1  2495     AGAGTCATTGATACATGTTGACATTTTTCCATTCATCCCCCAAGGATCTAGGGCTGTGAT  2554
+46       6609720  ....................C.........T.............................  6609661
+
+Query_1  2555     TTCTGATGACTCGTTTCTTTCTTCCCATCAGCACTGTCACGTTGAGAAAAGAAAATAATC  2614
+46       6609660  ...........T......................C.....A.C............-....  6609602
+
+Query_1  2615     CCTTTGGATTTAAAGCTCAACTTTTTATTTGCACTCTCTCAGAGGCCTCGATTACACATA  2674
+46       6609601  ......................G...........................G...T.....  6609542
+
+Query_1  2675     CTTCTGTTTGCTCACTTTATATTTAGGCCTCAAATTTTCTGCTGAACATCACTTAATAGC  2734
+46       6609541  ..........................................A.................  6609482
+
+Query_1  2735     GTCTCCATCTTCCACGAGGAGGATGGAATGCAAGCGTAAGTGCAATTTTTCAATCCTGCG  2794
+46       6609481  ..T.............T.......TT............T..--....A.......G....  6609424
+
+Query_1  2795     CTCTATATTATTATACAACATGTCATTAGAACTCGCAGAGAGCGAGGTGGGAAAGATTAG  2854
+46       6609423  .....................A............A.G.......................  6609364
+
+Query_1  2855     CAAAA-CCCAGCACGCTGCACATCTTTCTGAAGCGAGCGGTTGAAGATGTGCATGTTCTG  2913
+46       6609363  .....A.......T..G...........................................  6609304
+
+Query_1  2914     CGTGTAATTTGCTAGCCAGGAGAACTGAATAAAACATTTCTGTGAAACATCATTACGGCC  2973
+46       6609303  T............T..............................................  6609244
+
+Query_1  2974     ACAAGAAATCCGCTTCTGTGCTTTCATTAGGCTGCACAGACAAATCCGACACAAATTGTC  3033
+46       6609243  .........G.....................................A............  6609184
+
+Query_1  3034     CAACAATAAATCTGCTTTTACCCTCATCAGTGAGCGCCCAGCAGGGTCTCGGCAGGGACA  3093
+46       6609183  ..............................C...............A...A.........  6609124
+
+Query_1  3094     TTTAACCGTAATAAGAACACCGGCTGCTGGGCGCTCGTGAGGT---CA-TC---AATATT  3146
+46       6609123  ......A............A................A......AAT..A..ATA......  6609064
+
+Query_1  3147     TAAACCAATCAGTGCACCCCCTAAAATATAAATGTTTTACTACACCAAGACCAAAAGTTC  3206
+46       6609063  ............C................G....G..CC...................C.  6609004
+
+Query_1  3207     ATCATAGAACTTGATAAATAAAAATATTAGCCACCCCACTTCAGTTTTCATGCCTTACAG  3266
+46       6609003  ............................G........................A......  6608944
+
+Query_1  3267     GGTCGCATTTCAGTTCTGTTTGGTAGTGTTTATAGTATAAAACACTATGATGTGTCCTTA  3326
+46       6608943  ....A.........................................G...C.........  6608884
+
+Query_1  3327     TACTGGGATTATACTGACCGCATACCCAGCAATCAATTGGAAATGACTAAGAATAACTGG  3386
+46       6608883  .T.................A.....G.....T............T...T.C........A  6608824
+
+Query_1  3387     AATAAAATAATGAAACACTGACAGCTCAGTAATGAAATATATGATGGCCTACTTGTAACA  3446
+46       6608823  C.........C...............................A.A....C..........  6608764
+
+Query_1  3447     GTTGTGTGTTGTCTAGAAAACCTCAATAAAGTTTGTTTGTGCTGGCC  3493
+46       6608763  A..............................................  6608717
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2956835370088
+
+
+  Database: ./cyplep_PB.fa
+    Posted date:  Jan 14, 2025  8:41 PM
+  Number of letters in database: 853,842,556
+  Number of sequences in database:  206
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

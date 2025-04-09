@@ -1,0 +1,221 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./cunlon_PB.fa
+           311 sequences; 860,204,776 total letters
+
+
+
+Query= Orenil_VTR2Ba:100692153
+
+Length=3493
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  000021F                                                             5097    0.0  
+
+
+
+Query_1  1        GCCGCTGGATTCACCTGGAGTAGTT-TTTAATCCCCTCTGTGCTGCGCTTGGGTTGAACG  59
+20       6353429  .....................G...A..................................  6353370
+
+Query_1  60       CATGGCTTGGATCGGTGTAAACATCAGTAATGTCTCTTC---------ACCGTTTGGTGG  110
+20       6353369  .....................T........C........GGAGAGTGC...........A  6353310
+
+Query_1  111      CGATCCTCGGGATGAGCGCTTGGCGCAGGTGGAAATCGCCCTTCTCGCCATCATCTTCAT  170
+20       6353309  ...............A...........C................................  6353250
+
+Query_1  171      CACAGCGGGGATCCTAAACTTTGGGATCTTGCTGGTGCTGTGGAAGCGCAGGAAGCCGCT  230
+20       6353249  ............................................................  6353190
+
+Query_1  231      CTCCAGAATGCGCGTCTTCGTTTTCCACCTGTGCGTAGCTGACTTGGTGGTCACATTTTT  290
+20       6353189  ....................................C.......................  6353130
+
+Query_1  291      CCAAGTCTGCCCCCAACTCATCTGGGACATCACCGACAGATTCATCGGTCCAGATGTGCT  350
+20       6353129  ..................T....................G....................  6353070
+
+Query_1  351      GTGTCGGGCGGTGAAGTACCTGCAGGTGGTCGGGATGTTCGCCTCCACGTACATGATCGT  410
+20       6353069  ............A......T........................................  6353010
+
+Query_1  411      GGTGATGACTATAGATCGATACCAAGCCATCTGCAATCCCATGGTAACTTTCCAGAGGCG  470
+20       6353009  A.................G.........................................  6352950
+
+Query_1  471      CAGGGCGCGCTGGAACGGTCCGGTGTGCGCCGCCTGGTGCGTCTCCGTCCTCTGCAGCCT  530
+20       6352949  ............................................................  6352890
+
+Query_1  531      CCCGCAGGTCTTCATCTTCTCTCGGGTCGAGGTCGCTCCCGGCGTGTACGATTGTTGGGC  590
+20       6352889  ............................................................  6352830
+
+Query_1  591      GCAGTTCATCGAGCCGTGGGGACGTAGAGCCTACGTAACCTGGACGACTTTGGTGATATT  650
+20       6352829  ........................G...................................  6352770
+
+Query_1  651      CGTCCTGCCGATTCTCACCGTGATCGTGTGCCAGGTGCGCATCTGCCGCGCCGTGCAGCT  710
+20       6352769  .........A.........................................A........  6352710
+
+Query_1  711      AAACTTCCACATGAAGATGCATCACGTCGGGGAAGCGGTCAGCAAGCCTCCGTCATCGAG  770
+20       6352709  .................C...C......................................  6352650
+
+Query_1  771      GGCCAGCAGCGTGGCTGGAGTGTCCAAGGCCAGGGTGAAGACTGTGAAGATGACCGTGGT  830
+20       6352649  ...............A..........................G.................  6352590
+
+Query_1  831      CATCGTGCTCGCATACATCCTCTGCTGGACACCTTTCTTCACCGTGCAGCTCTGGTCTGT  890
+20       6352589  ...................................................T........  6352530
+
+Query_1  891      CTGGGACGACGAGGCACCCACACAGAGTAAGAAGACACTGATCTCACAACACGCAAAAAG  950
+20       6352529  ...................T................GG.....C................  6352470
+
+Query_1  951      GGCACAGCCTGACATAATAGTCACTGGAAAGaaaaaaaaaT-GTTATTACTGCAAGTTTA  1009
+20       6352469  .......T.........A.............C......G..T..................  6352410
+
+Query_1  1010     ACTGGCTACAAGCGCCATCATGCTCAGGAAAACAATAGAGGAGGAAACTAGAATTTTCTG  1069
+20       6352409  ...........A.....................---------------............  6352365
+
+Query_1  1070     CACAATTGCTTTGAACTCATTTCGACCGCTCACATTCTGCAGACCAGAATCATTCCACTT  1129
+20       6352364  ............................................................  6352305
+
+Query_1  1130     AAACAATCCCGTTACACTTAATGCATCCAGTAAATTACATTGTTTCTAAGTGCTTTTACA  1189
+20       6352304  .T........A...........A....T..C..........A.......---.----.--  6352254
+
+Query_1  1190     TTGTCTAACATCTTCGCCTTAAAATCTTTTAGCATTACAGCGAAAGTGTACTTTAAAAGT  1249
+20       6352253  .---...-..------...........C....T......AT...................  6352204
+
+Query_1  1250     TAAATTACAAGGAAAGGATGCCCTCTCCGCTTGAATGAAGTCACTGTAATCGACAGACAG  1309
+20       6352203  G.......G...G...............A.............................G.  6352144
+
+Query_1  1310     TACATTAGGTCAAAGGTTAATGGTCCTTAATTTCACAAAGCATCAACAGATAACTTAAAA  1369
+20       6352143  ............................................................  6352084
+
+Query_1  1370     TAGTCACAAATCTGTAAGAGGTAACCAAGCGAAAATAAAGTGACTCTCATGTCCTCCTCA  1429
+20       6352083  ...C..................G.......CC.......A......--............  6352026
+
+Query_1  1430     TCTATCTCCAGGTGCAACCTTCACCATCTTGATGCTGCTTGCCAGTTTAAACAGCTGTGT  1489
+20       6352025  ............................................................  6351966
+
+Query_1  1490     GAACCCCTGCATCTACATGCTGTTTAGCGGAAAGCTACCCAAAAGTGTGGTCAGCCTGCT  1549
+20       6351965  .............................................G..............  6351906
+
+Query_1  1550     TTGTGTAGGTCAGCCTGACCTGAAGGAGTCCATGCAGGAAGAGGCCACTGTGGTCAGCTC  1609
+20       6351905  ......T...................................A.................  6351846
+
+Query_1  1610     CATGTACATCAGCCTCAAGAGCCTATCGGACTGCAGATGAAAGTCCCGATGATCACACAC  1669
+20       6351845  ...........................................C................  6351786
+
+Query_1  1670     CGATTACATCTCATTTCACATGGTGTGAAAGTACGGCTCCCTCATGGTAAAGACTGAAAG  1729
+20       6351785  T.......C..................................................C  6351726
+
+Query_1  1730     TCTTCTAATAAGTGTGAAGGCAAACAGCCTAGCAGTGTAATGTTCCTACTGTACAGATGA  1789
+20       6351725  .........C.........A........................................  6351666
+
+Query_1  1790     TCACTGCATACAACGCTTTCATACAGAAAGTGCCAGACACACTATCTTTCACATCACATT  1849
+20       6351665  ........................C....A..................G...........  6351606
+
+Query_1  1850     TTGaaaacgtttttcaaattaaaagaacaaaaacaattaaaaaaaa-TAGCTGTGACTGA  1908
+20       6351605  ........A.....................................A.............  6351546
+
+Query_1  1909     AATATGTCCTCAAGTATTGGATGAATTCACTAAAATCCCAAATTTGACATTCGTGGTGCT  1968
+20       6351545  ..........G--.-..---.--.....................................  6351494
+
+Query_1  1969     CAGAGGAAGAGGAAGAGTCTCTCTGCAAGAACTAACCTGAGCCTGAATATTACTTTGACT  2028
+20       6351493  .............................C............T.................  6351434
+
+Query_1  2029     TTATTAGCAGGAAATGCTCAGATATGAATGGTCTCCAGCTGATAATAACTTGAACAGTAG  2088
+20       6351433  .....................................................G......  6351374
+
+Query_1  2089     CGTTTTCTTCTGGCACCGTTATCAGGTAGGAGTTTTATTTTGTCTGAGACCAGCTG--G-  2145
+20       6351373  ........................................................AC.A  6351314
+
+Query_1  2146     ----------CGAAAGCCAATAATCACATCCCCATCAGCTTCAGTTGTGATTTGATTAAA  2195
+20       6351313  GTAAATACCT........................C.........................  6351254
+
+Query_1  2196     AAGACTGCGGTGCATGACTTGAAATGTTGTTTCTGATATTTTACTGCGTTTAATA-TTTC  2254
+20       6351253  ...................C.....................----.....G....T....  6351198
+
+Query_1  2255     CCCAAAAAGGTTGTTTATCAGCTGATCTTGTGAAATGTTTCACCTAAATGCGAATGTTCC  2314
+20       6351197  .....................................................T......  6351138
+
+Query_1  2315     CGTGTCTGTGTTTAAATGTCTCGTATGTCATCTGAATTAAATACTTCAAGCTCCTTTTAC  2374
+20       6351137  .................A..........................................  6351078
+
+Query_1  2375     GCCCATGTGTACATACGATCATGTGTATAACAGTGTCCGACCTACACTCGGTGGTTGAAA  2434
+20       6351077  ............................G...........G..G..........C.....  6351018
+
+Query_1  2435     TAGTTAACAGACGACATTAATAGCACTTATTTTCAGACACTCTGTGTTAAGTGCCCCTAG  2494
+20       6351017  ..........G............T.T......................C...........  6350958
+
+Query_1  2495     AGAGTCATTGATACATGTTGACATTTTTCCATTCATCCCCCAAGGATCTAGGGCTGTGAT  2554
+20       6350957  ....................C.........TC............................  6350898
+
+Query_1  2555     TTCTGATGACTCGTTTCTTTCTTCCCATCAGCACTGTCACGTTGAGAAAAGAAAATAATC  2614
+20       6350897  ...........T......................C....................-....  6350839
+
+Query_1  2615     CCTTTGGATTTAAAGCTCAACTTTTTATTTGCACTCTCTCAGAGGCCTCGATTACACATA  2674
+20       6350838  ......................G.............G----.........G.........  6350783
+
+Query_1  2675     CTTCTGTTTGCTCACTTTATATTTAGGCCTCAAATTTTCTGCTGAACATCACTTAATAGC  2734
+20       6350782  .............T............................C.............C...  6350723
+
+Query_1  2735     GTCTCCATCTTCCACGAGGAGGATGGAATGCAAGCGTAAGTGCAATTTTTCAATCCTGCG  2794
+20       6350722  ..-------.......T...........C.........T..--....A.......G....  6350672
+
+Query_1  2795     CTCTATATTATTATACAACATGTCATTAGAACTCGCAGAGAGCGAGGTGGGAAAGATTAG  2854
+20       6350671  ...............T.....A............A.G.......................  6350612
+
+Query_1  2855     CAAAA-CCCAGCACGCTGCACATCTTTCTGAAGCGAGCGGTTGAAGATGTGCATGTTCTG  2913
+20       6350611  .....A.......T..............................................  6350552
+
+Query_1  2914     CGTGTAATTTGCTAGCCAGGAGAACTGAATAAAACATTTCTGTGAAACATCATTACGGCC  2973
+20       6350551  T.................--...---...----------.....................  6350507
+
+Query_1  2974     ACAAGAAATCCGCTTCTGTGCTTTCATTAGGCTGCACAGACAAATCCGACACAAATTGTC  3033
+20       6350506  .........G...........G......................................  6350447
+
+Query_1  3034     CAACAATAAATCTGCTTTTACCCTCATCAGTGAGCGCCCAGCAGGGTCTCGGCAGGGACA  3093
+20       6350446  ....T.........................C...............A.............  6350387
+
+Query_1  3094     TTTAACCGTAATAAGAACACCGGCTGCTGGGCGCTCGTGAGGTCATCAATATTTAAACCA  3153
+20       6350386  ......A............G...........T............................  6350327
+
+Query_1  3154     ATCAGTGCACCCCCTAAAATATAAATGTTTTACTACACCAAGACCAAAAGTTCATCATAG  3213
+20       6350326  .....C.....................G..CC............................  6350267
+
+Query_1  3214     AACTTGATAAATAAAAATATTAGCCACCCCACTTCAGTTTTCATGCCTTACAGGGTCGCA  3273
+20       6350266  ...................C.T........................A............G  6350207
+
+Query_1  3274     TTTCAGTTCTGTTTGGTAGTGTTTATAGTATAAAACACTATGATGTGTCCTTATACTGGG  3333
+20       6350206  ...........................................C..........T.....  6350147
+
+Query_1  3334     ATTATACTGACCGCATACCCAGCAATCAATTGGAAATGACTAAGAATAACTGGAATAAAA  3393
+20       6350146  ............A...........T............T...T.C........AC......  6350087
+
+Query_1  3394     TAATGAAACACTGACAGCTCAGTAATGAAATATATGATGGCCTACTTGTAACAGTTGTGT  3453
+20       6350086  ...C.............................G.A.A...............A......  6350027
+
+Query_1  3454     GTTGTCTAGAAAACCTCAATAAAGTTTGTTTGTGCTGGCC  3493
+20       6350026  ........................................  6349987
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2978856829498
+
+
+  Database: ./cunlon_PB.fa
+    Posted date:  Jan 14, 2025  8:42 PM
+  Number of letters in database: 860,204,776
+  Number of sequences in database:  311
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
