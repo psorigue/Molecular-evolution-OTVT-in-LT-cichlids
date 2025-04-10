@@ -13,7 +13,6 @@ single_line_fa () {
 }
 
 #Function 2: Create space-separated list from column
-###
 col_to_space-sep_list () {
 
     column=$1
@@ -66,7 +65,6 @@ down_CDS_loc () {
 }
 
 #Function 4: Per-site coverage
-###
 ps_coverage () {
 
     bam_file_list=$1 # List of files to assess the coverage
@@ -83,4 +81,57 @@ ps_coverage () {
                 
     done > "$output"
 
+}
+
+#Function 5: Extract consensus sequence
+get_consensus_gen () {
+
+    ID=$1
+    file_regions=$2 
+    spp=$3
+    bam_file=$4
+    out_path=$5
+    ref_genome=$6
+    thr=$7
+    
+    reg_bcf=$( grep -w "$ID" $file_regions | cut -f5 )
+    ref_genome=~/fil/Ref_genome/GCF_001858045.2_O_niloticus_UMD_NMBU_genomic.fa
+    
+    cd $out_path || exit 1
+    
+    #BAM to BCF
+    bcftools mpileup --threads $thr -Ou -o "$spp"_"$ID".bcf -r $reg_bcf -f $ref_genome $bam_file # bcftools Version: 1.9
+    #BCF to VCF
+    bcftools call --threads $thr -vmO v -o "$spp"_"$ID".vcf "$spp"_"$ID".bcf
+    #Index VCF (required for consensus)
+    bgzip -@ $thr "$spp"_"$ID".vcf ; bcftools index --threads $thr "$spp"_"$ID".vcf.gz ; gunzip -k "$spp"_"$ID".vcf.gz
+    #Create array of regions
+    IFS=',' read -ra regions <<< $reg_bcf
+    #Extract consensus by region
+    for reg in ${regions[@]} ; do
+        samtools faidx -@ $thr $ref_genome $reg | bcftools consensus -HA -I "$spp"_"$ID".vcf.gz # samtools Version: 1.6
+    done > seq_"$ID"_"$spp"_by_region.fa
+    #Join fragments in one single-lined fasta
+    only_seq=$(grep -v '>' seq_"$ID"_"$spp"_by_region.fa)
+    echo -e ">${spp}"'\n'"${only_seq}" > "$spp"_"$ID"_cons_sl.fa
+    single_line_fa "$spp"_"$ID"_cons_sl.fa
+    #Reverse-complement if needed
+    if [ $(grep -w "$ID" $file_regions | cut -f6 ) == -1 ] ; then
+        seqtk seq -r "$spp"_"$ID"_cons_sl.fa > "$spp"_"$ID"_cons.fa # version 1.4-r122
+    elif [ $(grep -w "$ID" $file_regions | cut -f6 ) == 1 ] ; then
+        mv "$spp"_"$ID"_cons_sl.fa "$spp"_"$ID"_cons.fa
+    fi
+    #Remove useless files
+    rm "$spp"_"$ID"_cons_sl.fa seq_"$ID"_"$spp"_by_region.fa
+    
+}
+
+#Function 6: Split fasta files into separate files
+split_fasta () {
+
+    fa_file="$1"
+    suffix="$2"
+    
+    awk '/^>/{if(x){close(x)}x=substr($0,2) "'"${suffix}"'.fa";print > x;next}{print > x}' "${fa_file}"
+    
 }
