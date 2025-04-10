@@ -12,8 +12,8 @@
 path_genome_reads="Local/path/to/genome/reads"
 path_transcriptome_reads="Local/path/to/transcriptome/reads"
 # Path arrays of species
-spp_genomes=( $( cat "Data/01.Map_assemblies/in/array_spp_genomes.txt" ) )
-spp_transcriptomes=( $( cat "Data/01.Map_assemblies/in/array_spp_transcriptomes.txt" ) )
+spp_genomes=( $( cat "Data/arrays/array_spp_genomes.txt" ) )
+spp_transcriptomes=( $( cat "Data/arrays/array_spp_transcriptomes.txt" ) )
 # Path reference genome files
 ref_genome_file="Local/path/to/reference/genome/fasta_file.fa" # Accession number GCF_001858045.2
 ref_genome_gtf="Local/path/to/reference/genome/gtf_file.gtf" # Accession number GCF_001858045.2
