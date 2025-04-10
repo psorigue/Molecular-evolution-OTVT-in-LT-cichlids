@@ -75,7 +75,7 @@ for spp in "${spp_transcriptomes[@]}"; do
     mkdir "${spp}"
 
     # Map transcriptomes
-    STAR --genomeDir $path_STAR_genome --sjdbGTFfile "${ref_genome_gtf}" --readFilesIn "${path_transcriptome_reads}${spp}.fastq" --readFilesCommand zcat --outFileNamePrefix "${spp}"_ --outSAMtype BAM SortedByCoordinate --outFilterMultimapNmax 1 --outFilterMatchNminOverLread 0.4 --outFilterScoreMinOverLread 0.4 --runThreadN 20
+    STAR --genomeDir $path_STAR_genome --sjdbGTFfile "${ref_genome_gtf}" --readFilesIn "${path_transcriptome_reads}/${spp}.fastq" --readFilesCommand zcat --outFileNamePrefix "${spp}"_ --outSAMtype BAM SortedByCoordinate --outFilterMultimapNmax 1 --outFilterMatchNminOverLread 0.4 --outFilterScoreMinOverLread 0.4 --runThreadN 20
     # STAR version=2.7.10a 
 
     # Index BAM
