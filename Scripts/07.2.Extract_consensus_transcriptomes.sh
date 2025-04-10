@@ -14,7 +14,7 @@ bam_files_transcriptomes="Local/path/to/bam_files_directory" # Directory contain
 file_regions="Data/04.Download_Ref_CDS_regions/out/regions_orenil_cds.txt"
 ref_genome_file="Local/path/to/reference/genome/fasta_file.fa" # Accession number GCF_001858045.2
 # Arrays
-speciesID=( $( cat "Data/arrays/array_spp_transcriptomes.txt" ) )
+species=( $( cat "Data/arrays/array_spp_transcriptomes.txt" ) )
 genes=( $( cat "Data/arrays/transcripts.txt" ) ) 
 
 
@@ -23,7 +23,7 @@ for gen in "${genes[@]}"; do
     cd "${output_consensus_transcriptomes}"
 
     mkdir "${gen}" ; cd "${gen}"
-    for spp in "${speciesID[@]}"; do
+    for spp in "${species[@]}"; do
         
         bam_file="${bam_files_transcriptomes}/${spp}*.bam" # BAM files from STAR aligner
         thr=2

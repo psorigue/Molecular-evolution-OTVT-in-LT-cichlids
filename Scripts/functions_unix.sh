@@ -135,3 +135,58 @@ split_fasta () {
     awk '/^>/{if(x){close(x)}x=substr($0,2) "'"${suffix}"'.fa";print > x;next}{print > x}' "${fa_file}"
     
 }
+
+
+#Function 7: Pick best coverage per spp (genome or transcriptome) and, in case transcriptome has less 0-covered positions, it replaces genome consensus by transcriptome consensus.
+group_best_cov () {
+    
+    gen=$1
+    spp=$2
+    spp_uc=${spp^}
+    file_seq=$3 # File with the fasta sequences from genome
+    best_cov_file=$4 # Format: CSV with col = list_genes, rows = list_spp
+    file_cons_tr=$5
+    
+    num_col=$(head -n1 $best_cov_file | sed "s/,/\t/g" | tr \\t \\n | grep -w -i -n $gen | awk -F: '{print $1}' ) # Print column where the gene is
+    cov=$( grep -e "$spp" $best_cov_file | cut -f$num_col -d, ) # Either gn or tr
+    
+        if [[ $cov == "tr" ]] ; then 
+            
+            sed -i -e "/$spp_uc/,+1d" $file_seq # Delete head and sequence of the spp to remove
+            
+            # Add line feed between the alignment file and the new sequence added
+            last_char=$(tail -c 1 "$file_seq")
+
+            # Check if the last character is not a newline
+            if [ "$last_char" != $'\n' ]; then
+                # Append a newline character to the end of $file_seq
+                echo >> "$file_seq"
+            fi
+            
+            
+            cat $file_cons_tr >> $file_seq # Append the transcriptome consensus
+            sed -i "s/$( grep $spp all_${gen}_CDS.fa )/>$spp_uc/g" $file_seq # Change the head of the sequence for the spp name
+            
+        fi
+        
+}
+
+
+#Function 8: Translate and align
+###
+aln_trn () {
+
+    gen=$1
+    file=$2
+    thr=$3
+    
+    echo $gen
+
+    sed -i s/-//g $file # Delete gaps
+    
+    seqkit translate --threads $thr -x $file > all_"$gen"_aa.fa # Output aa sequences. seqkit v2.8.2
+    
+    mafft --auto --thread $thr $file > aln_"$gen"_CDS.fa # Output alignment CDS. mafft v7.526
+    mafft --auto --thread $thr all_"$gen"_aa.fa > aln_"$gen"_aa.fa # Output alignment aa
+    
+}

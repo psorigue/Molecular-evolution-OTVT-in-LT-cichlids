@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script extracts the consensus sequences for each gene and individual from the BAM files and merges them to create a consensus for each species obtained from genomic sequences
 # To reduce space, the consensus sequences are only shown in the alignment files (Data 08)
-# MAFFT v7.526
+# mafft v7.526
 # seqtk version 1.4-r122
 # bcftools Version: 1.9
 # samtools Version: 1.6
