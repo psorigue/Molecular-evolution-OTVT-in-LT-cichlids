@@ -24,3 +24,5 @@ for gene in "${genes[@]}"; do
 
 
 done
+
+exit
