@@ -173,7 +173,6 @@ group_best_cov () {
 
 
 #Function 8: Translate and align
-###
 aln_trn () {
 
     gen=$1
@@ -189,4 +188,18 @@ aln_trn () {
     mafft --auto --thread $thr $file > aln_"$gen"_CDS.fa # Output alignment CDS. mafft v7.526
     mafft --auto --thread $thr all_"$gen"_aa.fa > aln_"$gen"_aa.fa # Output alignment aa
     
+}
+
+
+#Function 9: Quick alignment of separate files
+quick_align_fa_files () {
+
+    out_file=$1
+    sequences=${@:2}
+    
+    #Align sequences
+    cat $sequences > tmp_seq.fa
+    mafft --auto tmp_seq.fa > $out_file  # mafft v7.526
+    single_line_fa $out_file ; rm tmp_seq.fa
+
 }

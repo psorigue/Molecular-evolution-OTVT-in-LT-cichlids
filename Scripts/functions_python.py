@@ -77,6 +77,25 @@ def best_cov_file(genes_file, species_file, file_0cov1, file_0cov2):
     df_bcov.to_csv( "best_coverage.csv", header = True, index = True)
 
 
+# Function 5: Yn00. dNdS ratio for pairwise comparisons
+def yn00_an(file_seq, path_ctl_file):
+    from Bio.Phylo.PAML import yn00 # Biopython version 1.80
+    
+    #Create Yn object
+    yn_obj = yn00.Yn00()
+    
+    #Read control file
+    yn_obj.read_ctl_file(path_ctl_file)
+    
+    #Read sequences
+    yn_obj.alignment = file_seq
+    
+    #Set output and wd
+    yn_obj.out_file = "./results.txt" # Path output
+    yn_obj.working_dir = "./"
+    
+    #Run
+    yn_obj.run()
 
 
 
@@ -96,7 +115,10 @@ parser_best_cov_file.add_argument('genes_file', type=str, help="Provide gene fil
 parser_best_cov_file.add_argument('species_file', type=str, help="Provide species file path")
 parser_best_cov_file.add_argument('file_0cov1', type=str, help="Provide file 1 to compare")
 parser_best_cov_file.add_argument('file_0cov2', type=str, help="Provide file 2 to compare")
-
+## 5. Yn00
+parser_yn00 = subparsers.add_parser('yn00_an', help='dNdS pairwise')
+parser_yn00.add_argument('file_seq', type=str, help="Provide path of the sequence file")
+parser_yn00.add_argument('path_ctl_file', type=str, help="Provide path of the control file")
 
 
 
@@ -108,3 +130,5 @@ if args.subcommand == 'sum_0cov':
     sum_0cov(args.genes_file, args.suffix)
 elif args.subcommand == 'best_cov_file':
     best_cov_file(args.genes_file, args.species_file, args.file_0cov1, args.file_0cov2)
+elif args.subcommand == 'yn00_an':
+    yn00_an(args.file_seq, args.path_ctl_file)
