@@ -6,7 +6,7 @@
 # bcftools Version: 1.9
 # samtools Version: 1.6
 
-source "Scripts/functions_unix.sh"
+source Scripts/functions_unix.sh # To access custom functions defined in functions_unix.sh
 
 # Paths
 bam_files_directory="Local/path/to/bam_files_directory" # Directory containing BAM files

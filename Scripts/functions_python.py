@@ -77,7 +77,7 @@ def best_cov_file(genes_file, species_file, file_0cov1, file_0cov2):
     df_bcov.to_csv( "best_coverage.csv", header = True, index = True)
 
 
-# Function 5: Yn00. dNdS ratio for pairwise comparisons
+# Function 3: Yn00. dNdS ratio for pairwise comparisons
 def yn00_an(file_seq, path_ctl_file):
     from Bio.Phylo.PAML import yn00 # Biopython version 1.80
     
@@ -98,6 +98,113 @@ def yn00_an(file_seq, path_ctl_file):
     yn_obj.run()
 
 
+# Function 4. Parse JSON output Hyphy FEL and filter
+def hyphy_parse_fel(in_path, out_name, gene_name):
+    import phyphy
+    import argparse
+    import pandas as pd
+
+    p = phyphy.Extractor(in_path)
+    p.extract_csv(out_name + ".csv")
+
+    # Filter data and write output
+    ## Read CSV
+    dfp = pd.read_csv(out_name + ".csv")
+    ## Add gene name column and change the order of columns
+    dfp['gene'] = gene_name
+    ## Filter by p-value
+    dfp_filt = dfp[dfp['p-value'] < 0.05]
+    ## Filter only positive selection
+    dfp_filt_pos = dfp_filt[dfp_filt['alpha'] < dfp_filt['beta']]
+    dfp_filt_neg = dfp_filt[dfp_filt['alpha'] > dfp_filt['beta']]
+    ## write files
+    dfp_filt_pos.to_csv(out_name + "_filt_positive.csv", index = False)
+    dfp_filt_neg.to_csv(out_name + "_filt_negative.csv", index = False)
+
+
+# Function 5: Dataset for allele variant    
+def allele_site(alignment_file, out_dir, gen):
+    from Bio import AlignIO
+    import pandas as pd
+    import os
+
+    # Read alignment file
+    aln = AlignIO.read(alignment_file, "fasta")
+
+    aln_length = aln.get_alignment_length()
+
+    positions_with_change = []
+
+    # Loop through alignment positions
+    for position in range(aln_length):
+        # Gather unique amino acids at the position
+        unique_amino_acids = set(record.seq[position] for record in aln)
+
+        # Skip sites with no variation
+        if len(unique_amino_acids) <= 1:
+            continue
+
+        positions_with_change.append(position + 1)  # Save the position
+
+        site = position + 1  # Add 1 to position to match alignment numbering
+        sites = []
+
+        for record in aln:
+            species_name = record.id
+            amino_acid = record.seq[position]
+
+            # Skip species named "Orenil"
+            if "Orenil" in species_name:
+                continue
+
+            # Retain species with amino acid "X"
+            allele = "X" if amino_acid == "X" else amino_acid
+
+            sites.append([species_name, allele])
+
+        # Convert the data to a DataFrame
+        df = pd.DataFrame(sites, columns=["Species", "Allele"])
+
+        # Separate "X" from allele counts for determining most common alleles
+        df_with_x = df[df["Allele"] == "X"]
+        df_no_x = df[df["Allele"] != "X"]
+        
+        # Filter out species with a third allele (not counting "X")
+        allele_counts = df_no_x["Allele"].value_counts()
+        if len(allele_counts) < 2:
+            continue  # Skip if fewer than two alleles remain
+
+        top_two_alleles = allele_counts.index[:2]  # Get the two most common alleles
+        df_no_x = df_no_x[df_no_x["Allele"].isin(top_two_alleles)]
+
+        # Combine back rows with "X"
+        df = pd.concat([df_no_x, df_with_x]).drop_duplicates()
+
+        # Map the alleles to 0 (most common), 1 (second most common), "X" (unchanged)
+        most_common_allele, second_common_allele = top_two_alleles[:2]
+
+        def map_allele(allele):
+            if allele == most_common_allele:
+                return 0
+            elif allele == second_common_allele:
+                return 1
+            return "X"
+
+        df["Allele"] = df["Allele"].apply(map_allele)
+
+        # Sort the DataFrame by the Species column
+        df = df.sort_values(by="Species")
+
+        # Create output file path
+        out_file = os.path.join(out_dir, f"{gen}_site_{site}.txt")
+
+        # Write DataFrame to file
+        df.to_csv(out_file, index=False, sep="\t")
+
+    # Write list of positions with change
+    with open(os.path.join(out_dir, f"{gen}_all_positions_with_change.txt"), "w") as f:
+        f.write(" ".join(map(str, positions_with_change)) + "\n")
+
 
 # Top level parser
 parser = argparse.ArgumentParser(description='Parse function arguments')
@@ -115,10 +222,20 @@ parser_best_cov_file.add_argument('genes_file', type=str, help="Provide gene fil
 parser_best_cov_file.add_argument('species_file', type=str, help="Provide species file path")
 parser_best_cov_file.add_argument('file_0cov1', type=str, help="Provide file 1 to compare")
 parser_best_cov_file.add_argument('file_0cov2', type=str, help="Provide file 2 to compare")
-## 5. Yn00
+## Function3. Yn00
 parser_yn00 = subparsers.add_parser('yn00_an', help='dNdS pairwise')
 parser_yn00.add_argument('file_seq', type=str, help="Provide path of the sequence file")
 parser_yn00.add_argument('path_ctl_file', type=str, help="Provide path of the control file")
+## Function4. Hyphy parse FEL
+parser_hyphy_fel_parse = subparsers.add_parser('hyphy_parse_fel', help='parse hyphy_FEL output')
+parser_hyphy_fel_parse.add_argument('in_path', type=str, help="json file path")
+parser_hyphy_fel_parse.add_argument('out_path', type=str, help="name output")
+parser_hyphy_fel_parse.add_argument('gene_name', type=str, help="gene name")
+## Function5. Allele site
+parser_allele_site = subparsers.add_parser('allele_site', help='spot_snps_in_alignment')
+parser_allele_site.add_argument('alignment_file', type=str, help="alignment file path")
+parser_allele_site.add_argument('out_dir', type=str, help="positions file directory")
+parser_allele_site.add_argument('gen', type=str, help="gene")
 
 
 
@@ -132,3 +249,7 @@ elif args.subcommand == 'best_cov_file':
     best_cov_file(args.genes_file, args.species_file, args.file_0cov1, args.file_0cov2)
 elif args.subcommand == 'yn00_an':
     yn00_an(args.file_seq, args.path_ctl_file)
+elif args.subcommand == 'hyphy_parse_fel':
+    hyphy_parse_fel(args.in_path, args.out_path, args.gene_name)
+elif args.subcommand == 'allele_site':
+    allele_site(args.alignment_file, args.out_dir, args.gen)

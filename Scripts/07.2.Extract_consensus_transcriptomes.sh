@@ -4,8 +4,8 @@
 # bcftools Version: 1.9
 # samtools Version: 1.6
 
-source "Scripts/functions_unix.sh"
 
+source Scripts/functions_unix.sh # To access custom functions defined in functions_unix.sh
 
 # Paths
 output_consensus_transcriptomes="Local/path/to/output/consensus_transcriptomes" # Directory to store merged consensus sequences

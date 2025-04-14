@@ -13,12 +13,12 @@ suffix=otvt
 
 # Sum 0-covered positions
 cd $folder_gn
-python ~/scripts/Pyfun/functions_py.py sum_0cov $file_array "$suffix"_gn
+python Scripts/functions_python.py sum_0cov $file_array "$suffix"_gn
 cd $folder_tr
-python ~/scripts/Pyfun/functions_py.py sum_0cov $file_array "$suffix"_tr
+python Scripts/functions_python.py sum_0cov $file_array "$suffix"_tr
 
 # Best_coverage file
 cd $folder_gn
-python ~/scripts/Pyfun/functions_py.py best_cov_file $file_array $spp_file $folder/num0cov_"$suffix"_gn.csv $folder_tr/num0cov_"$suffix"_tr.csv
+python Scripts/functions_python.py best_cov_file $file_array $spp_file $folder/num0cov_"$suffix"_gn.csv $folder_tr/num0cov_"$suffix"_tr.csv
 
 exit
