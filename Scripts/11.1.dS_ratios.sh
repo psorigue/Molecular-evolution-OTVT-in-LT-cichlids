@@ -4,10 +4,9 @@
 # mafft v7.526
 # biopython 1.80
 
-
 # Paths
 path_aln="Data/08.Alignments/out/"
-path_dS="Data/11.dS_ratios/out/"
+path_dS="Data/11.dS_ratios/out/dS_genes/"
 # Control file yn00
 ctl_file="Data/11.dS_ratios/in/yn00.ctl"
 # Arrays
@@ -15,7 +14,7 @@ genes=( $(cat "Data/arrays/transcripts.txt") )
 species=( $(cat "Data/arrays/array_spp_tree.txt") )
 
 
-cd $path_dS
+cd "${path_dS}"
 
 for gen in "${genes[@]}" ; do
 
@@ -28,8 +27,11 @@ for gen in "${genes[@]}" ; do
     # Loop through each species
     for spp in "${species[@]}" ; do
 
+        # Create a directory for each species
+        mkdir $spp ; cd $spp
+
         #Create pairwise sequence file
-        grep -A1 "Orenil\|$spp" $path_yn00/$gen/aln_"$gen".fa | grep ">\|a" > $path_yn00/$gen/$spp/seq.fa
+        grep -A1 "Orenil\|$spp" "${path_aln}/${gen}/aln_${gen}_CDS_p2n.fa" | grep ">\|a" > seq.fa
         
         #Quick alignment
         quick_align_fa_files seq_out.fa seq.fa # This function is taken from functions_unix.sh
@@ -40,6 +42,9 @@ for gen in "${genes[@]}" ; do
         # Print dS + SE
         dS=$( awk '{print $(NF-2), $(NF-1), $NF}' rst | sed "s/ +- /\t/g" )
         echo -e "$spp\t$dS"
+
+        # Go back to the gene directory
+        cd $path_dS/$gen
 
     done > dS_all_spp.txt
 
