@@ -24,6 +24,6 @@ for (sit in Sites) {
 
     # Prune phyl tree and save it
     new_tan_tree <- keep.tip(tree_tan, spp_list) 
-    write.nexus(new_tan_tree, file = paste0(path_trees, sit, ".nex"), translate = T)
+    write.nexus(new_tan_tree, file = paste0(path_trees, sit, ".nex"), translate = T) # Important to translate to fit BT requirements
   
 }
