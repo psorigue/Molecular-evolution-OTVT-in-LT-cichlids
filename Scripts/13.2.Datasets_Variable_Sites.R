@@ -10,7 +10,7 @@ path_var_sites <- "Data/13.1.Variable_sites/out/variable_sites/"
 path_out_datasets_BT <- "Data/13.Variable_Sites/out/datasets_for_BT_pair_bonding/" # As an example, pair-bonding
 # Files
 ## Template with phenotype data
-pheno_template <- "Data/13.Variable_Sites/in/template_pb.txt" # As an example, pair-bonding template
+pheno_template <- read.csv("Data/13.Variable_Sites/in/templates_phenotypes/template_pb.txt", sep = "\t") # As an example, pair-bonding template
 # Genes
 file_array <- "Data/arrays/transcripts.txt"
 list_tr <- as.vector(scan(file_array, what = "character", sep = " "))

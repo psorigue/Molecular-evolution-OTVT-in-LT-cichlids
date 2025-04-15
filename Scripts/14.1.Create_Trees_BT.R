@@ -8,7 +8,7 @@ library(ape)
 path_datasets <- "Data/13.Variable_Sites/out/datasets_for_BT_pair_bonding/"
 path_trees <- "Data/14.BayesTraits/in/trees/"
 # Tree species
-tree_phyl <- "Data/14.BayesTraits/in/spp_tree.trees/"
+tree_phyl <- "Data/14.BayesTraits/in/spp_tree.trees"
 tree_tan <- read.nexus(tree_phyl)
 # Sites
 Sites <- as.vector(scan("Data/14.BayesTraits/in/list_sites.txt/", what = "character", sep = "\n"))
