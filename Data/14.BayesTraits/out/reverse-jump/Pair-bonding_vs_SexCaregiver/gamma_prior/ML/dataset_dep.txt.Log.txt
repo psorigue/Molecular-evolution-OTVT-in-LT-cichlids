@@ -1,0 +1,39 @@
+Options:
+Model:                           Discrete: Dependent
+Tree File Name:                  /Users/psorigue/fil/BayesTraitsV4/pb_vs_sb/reverse-jump/exp/tree.nex
+Data File Name:                  /Users/psorigue/fil/BayesTraitsV4/pb_vs_sb/reverse-jump/gamma/ML/dataset.txt
+Log File Name:                   /Users/psorigue/fil/BayesTraitsV4/pb_vs_sb/reverse-jump/gamma/ML/dataset.txt.Log.txt
+Save Initial Trees:              False
+Save Trees:                      False
+Summary:                         False
+Seed:                            4025134285
+Analsis Type:                    Maximum Likelihood
+ML Attempt Per Tree:             10
+ML Max Evaluations:              20000
+ML Tolerance:                    0.000001
+ML Algorithm:                    BOBYQA
+Rate Range:                      0.000000 - 100.000000
+Precision:                       64 bits
+Cores:                           1
+No of Rates:                     8
+Base frequency (PI's):           None
+Pis used in ancestral state estimation:      Yes
+Character Symbols:               00,01,10,11
+Using a covarion model:          False
+Normalise Q Matrix:              False
+Restrictions:
+    q12                          None
+    q13                          None
+    q21                          None
+    q24                          None
+    q31                          None
+    q34                          None
+    q42                          None
+    q43                          None
+Tree Information
+     Trees:                      1
+     Taxa:                       175
+     Sites:                      1
+     States:                     4
+Tree No	Lh	q12	q13	q21	q24	q31	q34	q42	q43	Root - P(0,0)	Root - P(0,1)	Root - P(1,0)	Root - P(1,1)	
+1	-134.952627	0.111042	0.035696	0.502170	0.000000	53.893846	98.147432	0.060922	0.277721	0.009201	0.002427	0.346841	0.641530	
