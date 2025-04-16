@@ -1,0 +1,7 @@
+2
+2
+Iterations 100000000
+Burnin 100000
+Stones 1000 20000
+PriorAll uniform 0 100
+run

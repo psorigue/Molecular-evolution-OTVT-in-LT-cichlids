@@ -1,0 +1,292 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./cyplep_PB.fa
+           206 sequences; 853,842,556 total letters
+
+
+
+Query= Orenil_VTR1Aa:100711102
+
+Length=4866
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  tarseq_43_arrow                                                     3836    0.0  
+
+
+
+Query_1  3        GCGCTGACAGGAGACACAATTCACAAAGCAACGAGTTTCTCTCTGTGGGCGCCAGGTAGC  62
+43       2174037  ............................................AC..............  2174096
+
+Query_1  63       TCCATATACGGATTGGAGAGGCACTTTGCAGCCCCTCTGGCACTGAATCTTGCTAGGGCG  122
+43       2174097  ............................................A.G.............  2174156
+
+Query_1  123      CACAGAGGGGCAGTGCCATGTACGCTCCTGACAAACGCATGCTCCTGAACGAAGAGAACC  182
+43       2174157  .....................................T......................  2174216
+
+Query_1  183      AGACTTTGGTGTTCACTGTCACCACTGACCTAATGATGGGAACGTCTGGAAACAGCACCG  242
+43       2174217  ............................................................  2174276
+
+Query_1  243      ACCACCATAACGGATCAGATCCGTTTGCAAGGAACGAGGAGGTGGCTCAAATAGAGATAA  302
+43       2174277  ..............................................A.............  2174336
+
+Query_1  303      TGGTTCTGAGCATCACCTTCGTGGTTGCTGTGATTGGGAACGTAAGCGTCCTGCTGGCCA  362
+43       2174337  ............................................................  2174396
+
+Query_1  363      TGTACAACACAAAGAAGAAGATGTCGCGAATGCACCTTTTCATCAAACACCTGAGCCTGG  422
+43       2174397  ............................................................  2174456
+
+Query_1  423      CCGATCTGGTGGTTGCTTTCTTCCAGGTGCTGCCACAGCTGTGCTGGGAAATCACCTTCC  482
+43       2174457  ............................................................  2174516
+
+Query_1  483      GCTTCTACGGCCCAGACTTTCTCTGCAGGATTGTGAAGCACCTCCAGGTGATGGGAATGT  542
+43       2174517  ............................................................  2174576
+
+Query_1  543      TTGCTTCCACCTACATGATGGTGATGATGACCCTGGATCGTTACATTGCCATCTGCCACC  602
+43       2174577  ....G........T..............................................  2174636
+
+Query_1  603      CTCTGAAAACCCTACAGCAATCCACACGACGCTCGTACATCATGATCATCTCCACGTGGA  662
+43       2174637  ..........A........G........................................  2174696
+
+Query_1  663      TTTGCAGCCTGGTGCTCAGCTGTTCACAGTACTTCATCTTCTCCCTGAGCGAGATCCAGA  722
+43       2174697  .A..T.......................................................  2174756
+
+Query_1  723      ACGGCTCGGGCGTCTACGACTGCTGGGCGCGCTTTATCGAGCCCTGGGGCGCCAGGGCGT  782
+43       2174757  ............................................................  2174816
+
+Query_1  783      ACATTACCTGGATAACCGTGGGCATCTTTCTCGTGCCCGTGGTCATTCTAATGATGTGCT  842
+43       2174817  ....C..........................G............C....C..........  2174876
+
+Query_1  843      ACGGGTTCATCTGCCACAGTATTTGGAAGAATATTAAATACAAGAAAAGAAAAACGACGG  902
+43       2174877  .......T....................................................  2174936
+
+Query_1  903      CTGGTGCTGCAAGCAGGAACGGACTGATTGGAAAGAACTCGGTCAGCAGCGTTACAACTA  962
+43       2174937  .......G...........T........................................  2174996
+
+Query_1  963      TCTCAAGAGCCAAACTGAGAACCGTTAAAATGACTTTTGTGATCGTTTTGGCGTACATTA  1022
+43       2174997  ...........................................A...............G  2175056
+
+Query_1  1023     TTTGCTGGGCACCGTTTTTCATCGTGCAGATGTGGTCTGTGTGGGATGAAAACTTCCAGT  1082
+43       2175057  ............................................................  2175116
+
+Query_1  1083     GGGATGGTGAGTGCTGTATAAATGAACACAATACTTATTAAGTGTCACACTTTTAATCGT  1142
+43       2175117  ...............-.........................A..................  2175175
+
+Query_1  1143     TCTAAAAAATGTTGAGAATTGCAGGGGGAGAAAAGTAACAGAAACTTAAGAATCGCGTTG  1202
+43       2175176  ...-..............................T...................A.....  2175234
+
+Query_1  1203     CGCAAGGaaaaaaaaaTCCACGAATCGCGCGCCTTTACGCACGAACGTATTTGACAAACA  1262
+43       2175235  .......G--...........A...T....................T.......A.....  2175292
+
+Query_1  1263     AAACCAAAATGTGTAAACATACAAATTTAAAACCTATACAGCTTCAAACCTTTCACGCGC  1322
+43       2175293  ......................T...C......G.......TG...............A.  2175352
+
+Query_1  1323     A------CACACGCACACCCACAACTACATTTCACCAAATAAATTAAATCTTATGCTCCG  1376
+43       2175353  .CGCGCT.....................................G..........T....  2175412
+
+Query_1  1377     TGCGTCTCTATTTGCCGAATTTTAGGTTTTGAAACCCCGAGTTTTCCGGGGAGATTTAGG  1436
+43       2175413  .A...G..C.....GA........T....C.................A............  2175472
+
+Query_1  1437     AAGTAAAAT-ATCCTACATCTGCATTTTGAGACGTTAAGTGGCCAAATGTTACGGGAACC  1495
+43       2175473  ...G....AA................................T.........          2175524
+
+Query_1  1496     GCTTTGGAACCGTGTATGGAAATAATTTGATAAAATCAGATTACATCAttttttttA-AA  1554
+43       2175627                                              ...-.....G.A.C..  2175641
+
+Query_1  1555     AAGTTGTAAGTCACATTAGCAAAACCTGTTTTATACAATTTATATGGTACTAATACAACA  1614
+43       2175642  .....T..............C....................................G..  2175701
+
+Query_1  1615     ATACTATATTATTGCACTAATCAGCAAATGCCCTACTTTGCCTTACTTGAAGTATTTTAA  1674
+43       2175702  .....................T.T........................A...........  2175761
+
+Query_1  1675     CCTGTT----AAAAA-TGAATTCAGAGAAAAATATTTCAGCCTTTTGTTCAAAGTTTATC  1729
+43       2175762  ......TTTT.....G........C.......                              2175793
+
+Query_1  1730     ATTCTGACTGTGGATCAGTGGAATTAATTATTGCTGACTAGCTGATAAGTTAATTCAGTT  1789
+43       2175796         .....A..T...A................G..............C........  2175848
+
+Query_1  1790     CTTGGCTGAA-TCAATTGTTAACTTTTGGTGACAGTGTTGGGATGGGTGGGCGTGGGGTA  1848
+43       2175849  ..........T......................------...-.A....T.T.......G  2175901
+
+Query_1  1849     AATGTTAAGAATTAAAATTTACTAGTAAAATTCTTAGGTTAGCTGTATCACTTTTAATTA  1908
+43       2175902  ............A...C.....GT...............................C....  2175961
+
+Query_1  1909     TTATCTCTGGTGTTTTGAAATAAAGGTTTTGAAGTCCTAGTGAGATGGATAATTTCAACA  1968
+43       2175962  ........TT...............T............................C.....  2176021
+
+Query_1  1969     ACTCAAACAAAAACAATGACAACTGTAATTAGATGATAAAGTCAGATATTGTGGCAGTTA  2028
+43       2176022  .........C...............C............................T.....  2176081
+
+Query_1  2029     GCTGGAAGGCCAAGGCCCACAAATAATTGGGCCCAAAGGAAAATTTACAGATGATTCACA  2088
+43       2176082  .............A.........-..............                        2176118
+
+Query_1  2089     GTTACACATTTTCAGATTCTGGTTTCTAAAAAGGCACCATGGTAGTTTttgttgttgttg  2148
+43       2176265                         ......................G..............  2176301
+
+Query_1  2149     ttgttgttATATATGTCCTCAACCTGCGAAGGATTGCAGGTaaaaaaacaaaacaaaaat  2208
+43       2176302  .................A.........A..T................-.--.....C...  2176358
+
+Query_1  2209     aaaaCATTTATATAGCTCTATAAACTCAAGTCTCAAGGTGCTAATTAATATATATGGACC  2268
+43       2176359  ----........................T...-.-T..CA....A...AC.G.....G..  2176412
+
+Query_1  2269     TACTATATTGGCAGCTGATGAAACAAATTCCTCCCAGAGTTGGACCACTGTTTATAGCTT  2328
+43       2176413  ..A...................G....C.......T........................  2176472
+
+Query_1  2329     TCCTCGTCTTCATTACAGATTATTTTCCTTATAATTTTAGGCACCAAAATTTCTTGTCTT  2388
+43       2176473  ......C........T..-..T.....T................................  2176531
+
+Query_1  2389     GGCTTAGAAAATGATCGTGGCTGCAGTGAAAACAGACCCTGtttttttttAAATGTGTTA  2448
+43       2176644                                                           ...  2176646
+43       2176532  ..............C.....................T......A...........C....  2176591
+
+Query_1  2449     ATTTATCGTCGCTTCCTTTGATACTAGTGTGAGGAACTCTGTGACAGT------------  2496
+43       2176647  ........C...........T....G......................GAAGACACCAAC  2176706
+43       2176592  ..........                                                    2176601
+
+Query_1  2497     -GATCACATTATCCTCCAATTAAAGTGTTTCAGATGTAGGAAGAGAGAAGGAATTTGTAC  2555
+43       2176707  A...................C.......................A.....A.....A...  2176766
+
+Query_1  2556     TTAAATCTATCTGACTAAGTGTCAGCGTATGAGGAGGTGGATTACCGCCTTTTGCTTATA  2615
+43       2176767  .........................T..T...................T...........  2176826
+
+Query_1  2616     TTATGAAAATTACATTCTCTTCCAAAAGTCTTAAAACTAGTTGGATCTGCAACAGAGATT  2675
+43       2176827  ................T.A..............................T..........  2176886
+
+Query_1  2676     TGTTCTAACTTTGGCACACCTTTGTAACTTTCAGAGTTTGTGTATCTGGCACATTTAGGC  2735
+43       2176887  .C..................................--------................  2176938
+
+Query_1  2736     AGCATTTAGACACCAGAGGCATTGAGTTAAACAGGCATTTCTACAGCCTGTACCAGATGT  2795
+43       2176939  .....................C......................................  2176998
+
+Query_1  2796     TTTGCGAATTAATCATCCTTTTCCTCCTTCCTCTCTCTGTTCTCCAGATTCAGAGAACAC  2855
+43       2176999  .....................C......................................  2177058
+
+Query_1  2856     AGCAGTGTCTCTGTCTGCACTCCTTGCCAGTCTCAACAGCTGCTGCAACCCGTGGATATA  2915
+43       2177059  .............................................T..............  2177118
+
+Query_1  2916     CATGATCTTCAGCGGCCACCTCCTCCAGGATTTTGTGCAGTGCTTCTCGTGTTGCCGCAA  2975
+43       2177119  ............T...............................................  2177178
+
+Query_1  2976     AGTCAACACCGACTTCAAGAAAGAAGATTCAGATAGTAGCCTCCGCAGAACGACTTTGCT  3035
+43       2177179  .A.........................C.....C..........................  2177238
+
+Query_1  3036     GACTAAGATGACCAATCGGAGCCCAACAGGTAGTACCGGCTACTGGAGAGAGCTGGATAA  3095
+43       2177239  ............................................................  2177298
+
+Query_1  3096     TTCCTCCAAGTCCTCTATTCAAGCAGAGTAAACACATGTTTGGCAGTGGCACCAAATGGC  3155
+43       2177299  ............................................................  2177358
+
+Query_1  3156     ATGAATGACAGGAACTGCAATTTCTGAAAATTATACAGAGAATCAAGCttttttttttAG  3215
+43       2177359  .....................G.................A......A.---.........  2177415
+
+Query_1  3216     TGTGaaaaaaaaCATGAAGCAGGGTGATGCGAGGTTCACAGAAGCAGAAAATATGGACAC  3275
+43       2177416  ...A..............A.......T.........T.......................  2177475
+
+Query_1  3276     ATTAGGGAACGTGCATACATCTTCTTTCTTTCTTTAGATAACCTCAGCAGAAACGTTAGA  3335
+43       2177476  ............................................................  2177535
+
+Query_1  3336     AAAATAATGAGAAAAAAGCGTGCACAGGCTTTAAGTTGTTCTCTTAAATGTAATCATAAA  3395
+43       2177536  ...................A..............A.......A..G..............  2177595
+
+Query_1  3396     TCTTCAATATTCAGTGTTTTGCAGATTCCTGCATGAGTTCTTCTGAGTGttttctttctt  3455
+43       2177596  .....................................................T..C...  2177655
+
+Query_1  3456     ttttttctttagcgagaacctttttttCCAGGAATCCTGATGCTTTCAAAGGTTGTTGTG  3515
+43       2177656  ............................................................  2177715
+
+Query_1  3516     CCTCCCCGCAGTGCTGCCGAACACCCTTTCCTGTTAAAGTGTTTACAAAGATAAAACCCA  3575
+43       2177716  ............................................................  2177775
+
+Query_1  3576     TATAGCAGCCGAGATGTGTGTAGTGATGGTGAAAACGACTCTTCCAGACCACTCGTCTCC  3635
+43       2177776  ............................................................  2177835
+
+Query_1  3636     AAGTAACCAAGGCAGTCACCTCATCCTTTGTGTTTAGCTTTCCATTTTTCTTGTTTTTCT  3695
+43       2177836  ..........................G................---------........  2177886
+
+Query_1  3696     TAGAACCACATTTTAGTGGCTTGTAAATTTGATTTGAACCTTTTGCTTTGACCTGAGGGa  3755
+43       2177887  ............................C.....C........................-  2177945
+
+Query_1  3756     aaaaaagtaaaataaaataaaaaaaaaGGGAAGCATGTGGAGTTACATTTATCAACCAGA  3815
+43       2177946  ..................-...................................G.....  2178004
+
+Query_1  3816     TTTTTGTGGTTATGTGCACTTTTATGATTTGTTGAAGGAATTGTTTCACGTTGCACAAGA  3875
+43       2178005  ................................................T...........  2178064
+
+Query_1  3876     CAGTCCTAAATTTGATGGCTTTCATTTCTGCTCAGCATTGGTAAATGAGATCTCCTTCAA  3935
+43       2178065  ............................................................  2178124
+
+Query_1  3936     GTTTTATGGacacacacacacacgcacacatacactcacaGATAGAAAGCAGGGGGCTCT  3995
+43       2178125  .......--.G...G.......--T.....G....A....A...................  2178180
+
+Query_1  3996     GATGAAGTGAGACTGACCACTGCTGGATAAGTCAGCCCACCTTCTCACAAACTGTTCCCA  4055
+43       2178181  ...................................--.......................  2178238
+
+Query_1  4056     TGTCTTTCATAAAATCTTGGGAAGAAGCTCACACATTCCACACACAACACGTCAGCACAC  4115
+43       2178239  ............................................................  2178298
+
+Query_1  4116     TTCCTGATTTTCCTCGGACATCCTGCACCACTGGAGGTTCTGCGTTTTGGCTTCATTTGC  4175
+43       2178299  ...............A..........................A.................  2178358
+
+Query_1  4176     ACTCATGATAAACAATTTCCTGGAAATCAATGTGATATGTGACACCGTAATGGTTGTCGG  4235
+43       2178359  .....A.........C.....................C........A.............  2178418
+
+Query_1  4236     ATTAAAATTAATccccccccaacccc-c-AAAAAGCTATATTGAATCAAGATTGTACATA  4293
+43       2178419  .......A......-A.....C....A.A...............................  2178477
+
+Query_1  4294     GATGTTGTGTATATATGTGTGCACTGTGTATCAAAGTATGTAAATATCAATTCAAATGTT  4353
+43       2178478  ...A......................................C.................  2178537
+
+Query_1  4354     GCATATTTGTATATTAAAAGCACTTAAATGTCTGTAAATAGGAGTAATATATGTAAATCT  4413
+43       2178538  ...................A........................................  2178597
+
+Query_1  4414     ATTGGGCATGAGTTGCTGGTCTGTAATGGCTTGTGCAAATCTTTAAGAAGTAACTTACTG  4473
+43       2178598  ................................................GT....C....C  2178657
+
+Query_1  4474     TAACACCTTATGTTGAAATATACACGCCAATGTACTAAATATTACGTTGTCTTTGTTCCT  4533
+43       2178658  .....T............................T.........................  2178717
+
+Query_1  4534     GTTTTTACTACATGGAACATTTCATAGTTTGTGCTTCATGAAGCTGGTGCACAACCACAG  4593
+43       2178718  .-...................................................G......  2178776
+
+Query_1  4594     AAATTTATGTGTGTTATTTCTGTTGAAAATGAAGTGCTTCGTGAAGTCATGTCTCTTGCC  4653
+43       2178777  .......................................T....................  2178836
+
+Query_1  4654     AATCTAAGCACTTGAAGCTTGCCAAGCTCTGGGATTATGCAACTGCTTGACCTTTCAATT  4713
+43       2178837  ............................................................  2178896
+
+Query_1  4714     GAAAACGTGTGAATGGGAAATTCTGCTAATGAGCAGCCTTTTGTCAACATGTTGTCCACC  4773
+43       2178897  ............................................................  2178956
+
+Query_1  4774     CCCATACTGATGGATAATATATGTCCCAATAGAACGAATAGCACCTTGTAATAAAGTGAT  4833
+43       2178957  ..................................T.........................  2179016
+
+Query_1  4834     AAATCATTGCATTAAAAGGTCATTTTACCGATT  4866
+43       2179017  .............................T...  2179049
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4128297881950
+
+
+  Database: ./cyplep_PB.fa
+    Posted date:  Jan 14, 2025  8:41 PM
+  Number of letters in database: 853,842,556
+  Number of sequences in database:  206
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,170 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./neomul_PB.fa
+           227 sequences; 879,627,951 total letters
+
+
+
+Query= Orenil_VTR2Bb:100698829
+
+Length=2496
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  tarseq_8_arrow                                                      3884    0.0  
+
+
+
+Query_1  45        taaatagtactatatatactacactatactattatacttgatattaaatatCAAGGAATC  104
+8        19034180  .....................T................................AA....  19034239
+
+Query_1  105       CTTTTTAACATATTGAAAGTCAAGCTTTATAATGCAATAAAAATCACATGATGTCTCTTC  164
+8        19034240  A...................................................A.......  19034299
+
+Query_1  165       TTTAGCCTAAACAACAATCCGCCAGCAGTAATCTCCCGTATGCTTTATACTTAATTATCA  224
+8        19034300  ......................T..............A.G....................  19034359
+
+Query_1  225       GGATTAACCCATGCCtttttttATGTGTAAGAAATGCTAATCAGATTCAATGAATATGAG  284
+8        19034360  .........T.....-............................................  19034418
+
+Query_1  285       CTCCACCCAGTTTCATTCTGACATAAAATACTGAGGCACAGTAGAAACCTTCCAGATTAA  344
+8        19034419  ...................................C........................  19034478
+
+Query_1  345       CACCAGACAGCATTCGCAAGCTGAACTCGACTGCAGGAGTAAAGCTTCCATTCGCCTTCA  404
+8        19034479  ...................A........................................  19034538
+
+Query_1  405       ATATTATCTGAGGTTTATGCAGGTATACAGAAATAAACCACATTGCAGTTACTTCTATGG  464
+8        19034539  .......T.........A....................A.....................  19034598
+
+Query_1  465       AACAGAATCTTCTTTTCAAAAAATATTTTATAATGGGAAATTACGTTCTGACTTTTGTTT  524
+8        19034599  .................-..C..........C...............T.........C..  19034657
+
+Query_1  525       GTTTGCATAAAATAAAAATCTTCTATTTTTCTTTCATTTCAGATACTTTTCGTCAACATC  584
+8        19034658  .............G.................C............................  19034717
+
+Query_1  585       GAAGGTCTTCAATCACAATGAATGACAGTGACTTTGTGGAGGCACAGGATGTGCCAAGAG  644
+8        19034718  ...........................................................A  19034777
+
+Query_1  645       ATGAGAGTCTGGCCAAGGTGGAGATCGCGCTGCTCAGTGTCATCTTCGTGAGCGCCGCCG  704
+8        19034778  ............................................................  19034837
+
+Query_1  705       TCCTCAACACCAGCCTGCTGCTCGTCCTGTGGAAACAGCGCAAACAGATGTCCAGAATGC  764
+8        19034838  ............................................................  19034897
+
+Query_1  765       GCGTCTTCGTGTTCCACCTGTGCCTGGCGGACCTGGTCGTCACTTTCTTCCAGGTGTGTC  824
+8        19034898  .....................................G......................  19034957
+
+Query_1  825       CGCAGCTTTTGTGGGACATCACAGACAGGTTCGTCGGACCGGACTTGGTGTGCCGACTTG  884
+8        19034958  ............................................................  19035017
+
+Query_1  885       TGAAGTACTTGCAAGTTCTCGGCATGTTTTCTTCGACCTACATGATCGTGGTGATGACAG  944
+8        19035018  .......T.......................A............................  19035077
+
+Query_1  945       TTGACAGGTACCAAGCTATCTGCAACCCGATGGTAAAGTTTCAGCGGACACGCACGAGAC  1004
+8        19035078  .............G.............................................T  19035137
+
+Query_1  1005      TAAATGTCCCCGTGTGCGTCGCGTGGGGGATTTCTCTGCTGGGCAGCTTGCCTCAGGTCT  1064
+8        19035138  ...................T....................A...................  19035197
+
+Query_1  1065      TCATTTTCTCACAGGTAGAGGTTACACCGGGTGTGTTTGACTGCTGGGCTACATTTATCC  1124
+8        19035198  ................G.............................T.............  19035257
+
+Query_1  1125      AGCCATGGGGGCTGCAGACTTACATCACCTGGACCACGCTGGTCATTTTTGTTTTACCCG  1184
+8        19035258  ............................................................  19035317
+
+Query_1  1185      TTATCACAGTTGTTGTTTGCCAAGTGCGCATCTGCCGAGCCATCCAGATCAACATCT---  1241
+8        19035318  .........................................................CAA  19035377
+
+Query_1  1242      ---ACCAAAAGACTCAGCAGAAGGGAAGGGTGGGTTTGCCATCCAGAGCCAGCGGTGTTG  1298
+8        19035378  AAG...................A....C.A............................G.  19035437
+
+Query_1  1299      CCGGCATGTCCAAGGCTAGAGTGAAAACACTGAAGATGACGGTGGTCATAGTACTCGCTT  1358
+8        19035438  ..........G.................................................  19035497
+
+Query_1  1359      ATATAGTCTGCTGGGCTCCGTTTTTCACTGTCCAGTTGTGGTCCGCGTGGGATAAGCAGG  1418
+8        19035498  ....T..............................C................C.......  19035557
+
+Query_1  1419      CGCCTACAGAAAGTAAGTATTGCGTATACTTGCTGTGTGATCGTCATAATCAATGTAGTT  1478
+8        19035558  ......A.....................T...............................  19035617
+
+Query_1  1479      CATGTGGTCTTTTACGTTTTCTAATTACGCAGAACCTGAGTGTATTTACGCACAAACACA  1538
+8        19035618  ...T........................A...........C...................  19035677
+
+Query_1  1539      AATTACTCATCTCTAGGTAGCAGGTGAGATTGCTTGGCAGACACGTGACACTTTGCCCTC  1598
+8        19035678  ..................G.........................................  19035737
+
+Query_1  1599      CTCTTTTAATTCCAGCTGCCACTTTCACCATCCTGATGTTGCTTGCCAGCCTGAACAGCT  1658
+8        19035738  ...................T........................................  19035797
+
+Query_1  1659      GCGCGAATCCCTGCATTTACCTTCTGTTCAGCGGTCAGGTTCCCAAGAGGCTGTTGTCGC  1718
+8        19035798  .......................T.............................G......  19035857
+
+Query_1  1719      TCCTGTGCAGGAGGCATTCAGGAGGAAAGGACTCAGTGCACGAGGAGGCGACGCTGGTCA  1778
+8        19035858  ......................C.......................A.............  19035917
+
+Query_1  1779      GCACTTTGTATCTAAGCTTAAAAAATCCCCCCG-AGTCAAAGTGA----AGCGCATTACT  1833
+8        19035918  ............................AAGT.A....C......AGGT...........  19035977
+
+Query_1  1834      AAAAATGGGAAACTCCTGCAAGGCAAACCGTGCAAAGTCTGCGCTCCTGGATATGCTGCC  1893
+8        19035978  ....................G.......................G...............  19036037
+
+Query_1  1894      TCTCTG------AGCCACCGTTTCAAAGGATGAAGGCAACGCATGCTGTATGTTATCTGG  1947
+8        19036038  ......AATTTT...............................................A  19036097
+
+Query_1  1948      CACATAAAAAGATATAGAGTGTAGTAAAAAGCATCCAGCAAAGGCGAGAGACTAAGAACA  2007
+8        19036098  .................T...............G.................G.G......  19036157
+
+Query_1  2008      GAGCTCCAGATGCTATTGGATAACAGCATCTGGAGAGACTAAACAACTGGTGTGGATCAT  2067
+8        19036158  -.CA.G.T.T..T.G..CA.C.......................................  19036216
+
+Query_1  2068      CAAGCTGTTTGGATAAATCTTTTTTCTTTGAGATATAAAATATTCATCCCATTTAGTGGT  2127
+8        19036217  .................................A..........................  19036276
+
+Query_1  2128      ACCTGAATGAGCC-----A---A------------TCTTTTCAGCCAGATTGGGTTCAGC  2167
+8        19036277  .............TTTTC.GGT.CCACTGAATCAG..................A......  19036336
+
+Query_1  2168      TGTATAGTGTTTTGCATACTGCCGTATATAGAAACATTCCTTGAGTTGATCTCACCGAAC  2227
+8        19036337  ..................................................T.....A.T.  19036396
+
+Query_1  2228      TAAAGTAAATAAAATCTATTCATAGCTTTCCAAACAAAAGATTAAAAGCAAGCATATGTG  2287
+8        19036397  ............................................................  19036456
+
+Query_1  2288      TTTCACTGATGTAACAGAGAGGAAACAGAGGCACGCTGTATGTTGGAACAAACTGTATTT  2347
+8        19036457  .........................T........A..T......................  19036516
+
+Query_1  2348      AAAGATTGTGAAATATGTTTGTCAGCCCTTTAAATGTTTCTATGGTGAAAACCTACTCAC  2407
+8        19036517  .................................C.........................T  19036576
+
+Query_1  2408      TGTTCACAAAATCACACGCCAGGTGCTTGTATTTTGTAAAATACTGTTCATGCCATGATC  2467
+8        19036577  ......................................................T.....  19036636
+
+Query_1  2468      GACTTTGTTTATTTATGGAATAAAATGTT  2496
+8        19036637  .............................  19036665
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2169145733706
+
+
+  Database: ./neomul_PB.fa
+    Posted date:  Jan 14, 2025  8:42 PM
+  Number of letters in database: 879,627,951
+  Number of sequences in database:  227
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

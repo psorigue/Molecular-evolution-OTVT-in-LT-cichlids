@@ -1,0 +1,170 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./cyplep_PB.fa
+           206 sequences; 853,842,556 total letters
+
+
+
+Query= Orenil_VTR2Bb:100698829
+
+Length=2496
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  tarseq_21_arrow                                                     3954    0.0  
+
+
+
+Query_1  45       taaatagtactatatatactacactatactattatacttgatattaaatatC-AAGGAAT  103
+21       7039874  .....................T..............................A..AA...  7039933
+
+Query_1  104      CCTTTTTAACATATTGAAAGTCAAGCTTTATAATGCAATAAAAATCACATGATGTCTCTT  163
+21       7039934  .A...................................................A......  7039993
+
+Query_1  164      CTTTAGCCTAAACAACAATCCGCCAGCAGTAATCTCCCGTATGCTTTATACTTAATTATC  223
+21       7039994  .......................T.A............A.....................  7040053
+
+Query_1  224      AGGATTAACCCATGCCtttttttATGTGTAAGAAATGCTAATCAGATTCAATGAATATGA  283
+21       7040054  .................................................G..........  7040113
+
+Query_1  284      GCTCCACCCAGTTTCATTCTGACATAAAATACTGAGGCACAGTAGAAACCTTCCAGATTA  343
+21       7040114  ............................................................  7040173
+
+Query_1  344      ACACCAGACAGCATTCGCAAGCTGAACTCGACTGCAGGAGTAAAGCTTCCATTCGCCTTC  403
+21       7040174  .T..................A.......................................  7040233
+
+Query_1  404      AATATTATCTGAGGTTTATGCAGGTATACAGAAATAAACCACATTGCAGTTACTTCTATG  463
+21       7040234  ........T.........A..........................A..............  7040293
+
+Query_1  464      GAACAGAATCTTCTTTTCAAAAAATATTTTATAATGGGAAATTACGTTCTGACTTTTGTT  523
+21       7040294  ..................-..C..........C...............T...........  7040352
+
+Query_1  524      TGTTTGCATAAAATAAAAATCTTCTATTTTTCTTTCATTTCAGATACTTTTCGTCAACAT  583
+21       7040353  .....A........G.................C...........................  7040412
+
+Query_1  584      CGAAGGTCTTCAATCACAATGAATGACAGTGACTTTGTGGAGGCACAGGATGTGCCAAGA  643
+21       7040413  ................T................C..........................  7040472
+
+Query_1  644      GATGAGAGTCTGGCCAAGGTGGAGATCGCGCTGCTCAGTGTCATCTTCGTGAGCGCCGCC  703
+21       7040473  ................................................T...........  7040532
+
+Query_1  704      GTCCTCAACACCAGCCTGCTGCTCGTCCTGTGGAAACAGCGCAAACAGATGTCCAGAATG  763
+21       7040533  .......................T....................................  7040592
+
+Query_1  764      CGCGTCTTCGTGTTCCACCTGTGCCTGGCGGACCTGGTCGTCACTTTCTTCCAGGTGTGT  823
+21       7040593  ....................T.................G.....................  7040652
+
+Query_1  824      CCGCAGCTTTTGTGGGACATCACAGACAGGTTCGTCGGACCGGACTTGGTGTGCCGACTT  883
+21       7040653  ..A...............................................T.........  7040712
+
+Query_1  884      GTGAAGTACTTGCAAGTTCTCGGCATGTTTTCTTCGACCTACATGATCGTGGTGATGACA  943
+21       7040713  ........T.......................A...........................  7040772
+
+Query_1  944      GTTGACAGGTACCAAGCTATCTGCAACCCGATGGTAAAGTTTCAGCGGACACGCACGAGA  1003
+21       7040773  ..............G.............................................  7040832
+
+Query_1  1004     CTAAATGTCCCCGTGTGCGTCGCGTGGGGGATTTCTCTGCTGGGCAGCTTGCCTCAGGTC  1063
+21       7040833  ....................T.......................A...............  7040892
+
+Query_1  1064     TTCATTTTCTCACAGGTAGAGGTTACACCGGGTGTGTTTGACTGCTGGGCTACATTTATC  1123
+21       7040893  .................G....................C.....................  7040952
+
+Query_1  1124     CAGCCATGGGGGCTGCAGACTTACATCACCTGGACCACGCTGGTCATTTTTGTTTTACCC  1183
+21       7040953  ............................................................  7041012
+
+Query_1  1184     GTTATCACAGTTGTTGTTTGCCAAGTGCGCATCTGCCGAGCCATCCAGATCAACATCTAC  1243
+21       7041013  ............................................................  7041072
+
+Query_1  1244     CAAAAGACTCAGCAGAAGGGAAGGGTGGGTTTGCCATCCAGAGCCAGCGGTGTTGCCGGC  1303
+21       7041073  ........C........A....C..............................G......  7041132
+
+Query_1  1304     ATGTCCAAGGCTAGAGTGAAAACACTGAAGATGACGGTGGTCATAGTACTCGCTTATATA  1363
+21       7041133  .....G.....................................................T  7041192
+
+Query_1  1364     GTCTGCTGGGCTCCGTTTTTCACTGTCCAGTTGTGGTCCGCGTGGGATAAGCAGGCGCCT  1423
+21       7041193  ..........................G...C................C............  7041252
+
+Query_1  1424     ACAGAAAGTAAGTATTGCGTATACTTGCTGTGTGATCGTCATAATCAATGTAGTTCATGT  1483
+21       7041253  .A.....................T..T...............................T.  7041312
+
+Query_1  1484     GGTCTTTTACGTTTTCTAATTACGCAGAACCTGAGTGTATTTACGCACAAACACAAATTA  1543
+21       7041313  .......................A...........CA.......................  7041372
+
+Query_1  1544     CTCATCTCTAGGTAGCAGGTGAGATTGCTTGGCAGACACGTGACACTTTGCCCTCCTCTT  1603
+21       7041373  T............G....A.........................................  7041432
+
+Query_1  1604     TTAATTCCAGCTGCCACTTTCACCATCCTGATGTTGCTTGCCAGCCTGAACAGCTGCGCG  1663
+21       7041433  .............TT................................C............  7041492
+
+Query_1  1664     AATCCCTGCATTTACCTTCTGTTCAGCGGTCAGGTTCCCAAGAGGCTGTTGTCGCTCCTG  1723
+21       7041493  ..................T.............................G...........  7041552
+
+Query_1  1724     TGCAGGAGGCATTCAGGAGGAAAGGACTCAGTGCACGAGGAGGCGACGCTGGTCAGCACT  1783
+21       7041553  .................C.......................A..................  7041612
+
+Query_1  1784     TTGTATCTAAGCTTAAAAAATCCCCCCGAGTCAAAGTGA----AGCGCATTACTAAAAAT  1839
+21       7041613  ................................C......AGGT.................  7041672
+
+Query_1  1840     GGGAAACTCCTGCAAGGCAAACCGTGCAAAGTCTGCGCTCCTGGATATGCTGCCTCTCTG  1899
+21       7041673  ..............G.......................G.....................  7041732
+
+Query_1  1900     ------AGCCACCGTTTCAAAGGATGAAGGCAACGCATGCTGTATGTTATCTGGCACATA  1953
+21       7041733  AATTTT......................................................  7041792
+
+Query_1  1954     AAAAGATATAGAGTGTAGTAAAAAGCATCCAGCAAAGGCGAGAGACTAAGAACAGAGCTC  2013
+21       7041793  ...........T...............G...........A.....G.G....T.-.-.--  7041848
+
+Query_1  2014     CAGATGCTATTGGATAACAGCATCTGGAGAGACTAAACAACTGGTGTGGATCATCAAGCT  2073
+21       7041849  ---.....G...................................................  7041905
+
+Query_1  2074     GTTTGGATAAATCTTTTTTCTTTGAGATATAAAATATTCATCCCATTTAGTGGTACCTGA  2133
+21       7041906  ...........................A................................  7041965
+
+Query_1  2134     ATGAGCCAATCTTTTCAGCCAGATTGGGTTCAGCTGTATAGTGTTTTGCATACTGCCGTA  2193
+21       7041966  ........G..................A.............................A..  7042025
+
+Query_1  2194     TATAGAAACATTCCTTGAGTTGATCTCACCGAACTAAAGTAAATAAAATCTATTCATAGC  2253
+21       7042026  ..C.....................T.....A.T...........................  7042085
+
+Query_1  2254     TTTCCAAACAAAAGATTAAAAGCAAGCATATGTGTTTCACTGATGTAACAGAGAGGAAAC  2313
+21       7042086  .........G.................................................T  7042145
+
+Query_1  2314     AGAGGCACGCTGTATGTTGGAACAAACTGTATTTAAAGATTGTGAAATATGTTTGTCAGC  2373
+21       7042146  ........A..T..........................................C.....  7042205
+
+Query_1  2374     CCTTTAAATGTTTCTATGGTGAAAACCTACTCACTGTTCACAAAATCACACGCCAGGTGC  2433
+21       7042206  ............................................................  7042265
+
+Query_1  2434     TTGTATTTTGTAAAATACTGTTCATGCCATGATCGACTTTGTTTATTTATGGAATAAAAT  2493
+21       7042266  .....................................................-......  7042324
+
+Query_1  2494     GTT  2496
+21       7042325  ...  7042327
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2105560503216
+
+
+  Database: ./cyplep_PB.fa
+    Posted date:  Jan 14, 2025  8:41 PM
+  Number of letters in database: 853,842,556
+  Number of sequences in database:  206
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

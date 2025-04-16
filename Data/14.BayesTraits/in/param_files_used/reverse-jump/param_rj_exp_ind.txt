@@ -1,0 +1,7 @@
+2
+2
+Iterations 100000000
+RJHP exp 0 10
+BurnIn 1000000
+Stones 1000 10000
+run

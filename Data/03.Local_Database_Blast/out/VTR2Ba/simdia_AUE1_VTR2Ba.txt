@@ -1,0 +1,222 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./simdia_PB.fa
+           823 sequences; 848,827,444 total letters
+
+
+
+Query= Orenil_VTR2Ba:100692153
+
+Length=3493
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024387279.1 Simochromis diagramma unplaced genomic scaffold,...  3518    0.0  
+
+
+
+Query_1  1        GCCGCTGGATTCACCTGGAGTAGTT-TTTAATCCCCTCTGTGCTGCGCTTGGGTTGAACG  59
+554      5287886  .....................G...A..................................  5287945
+
+Query_1  60       CATGGCTTGGATCGGTGTAAACATCAGTAATGTCTCTT---------CACCGTTTGGTGG  110
+554      5287946  .....................T........C.......CGGAGAGTG............A  5288005
+
+Query_1  111      CGATCCTCGGGATGAGCGCTTGGCGCAGGTGGAAATCGCCCTTCTCGCCATCATCTTCAT  170
+554      5288006  ............................................................  5288065
+
+Query_1  171      CACAGCGGGGATCCTAAACTTTGGGATCTTGCTGGTGCTGTGGAAGCGCAGGAAGCCGCT  230
+554      5288066  ............................................................  5288125
+
+Query_1  231      CTCCAGAATGCGCGTCTTCGTTTTCCACCTGTGCGTAGCTGACTTGGTGGTCACATTTTT  290
+554      5288126  T..A................................C.......................  5288185
+
+Query_1  291      CCAAGTCTGCCCCCAACTCATCTGGGACATCACCGACAGATTCATCGGTCCAGATGTGCT  350
+554      5288186  .......................................G....................  5288245
+
+Query_1  351      GTGTCGGGCGGTGAAGTACCTGCAGGTGGTCGGGATGTTCGCCTCCACGTACATGATCGT  410
+554      5288246  ............A...............................................  5288305
+
+Query_1  411      GGTGATGACTATAGATCGATACCAAGCCATCTGCAATCCCATGGTAACTTTCCAGAGGCG  470
+554      5288306  A.................G.........................................  5288365
+
+Query_1  471      CAGGGCGCGCTGGAACGGTCCGGTGTGCGCCGCCTGGTGCGTCTCCGTCCTCTGCAGCCT  530
+554      5288366  ............................................................  5288425
+
+Query_1  531      CCCGCAGGTCTTCATCTTCTCTCGGGTCGAGGTCGCTCCCGGCGTGTACGATTGTTGGGC  590
+554      5288426  ......................................................C.....  5288485
+
+Query_1  591      GCAGTTCATCGAGCCGTGGGGACGTAGAGCCTACGTAACCTGGACGACTTTGGTGATATT  650
+554      5288486  ........................G...................................  5288545
+
+Query_1  651      CGTCCTGCCGATTCTCACCGTGATCGTGTGCCAGGTGCGCATCTGCCGCGCCGTGCAGCT  710
+554      5288546  .........A.........................................A........  5288605
+
+Query_1  711      AAACTTCCACATGAAGATGCATCACGTCGGGGAAGCGGTCAGCAAGCCTCCGTCATCGAG  770
+554      5288606  T................C...C......................................  5288665
+
+Query_1  771      GGCCAGCAGCGTGGCTGGAGTGTCCAAGGCCAGGGTGAAGACTGTGAAGATGACCGTGGT  830
+554      5288666  ...............A..........................G.................  5288725
+
+Query_1  831      CATCGTGCTCGCATACATCCTCTGCTGGACACCTTTCTTCACCGTGCAGCTCTGGTCTGT  890
+554      5288726  ...................................................T...G....  5288785
+
+Query_1  891      CTGGGACGACGAGGCACCCACACAGAGTAAGAAGACACTGATCTCACAACACGCAAAAAG  950
+554      5288786  ...................................                           5288820
+
+Query_1  951      GGCACAGCCTGACATAATAGTCACTGGAAAGaaaaaaaaaTGTTATTACTGCAAGTTTAA  1010
+554      5288821                                            ..................  5288838
+
+Query_1  1011     CTGGCTACAAGCGCCATCATGCTCAGGAAAACAATAGAGGAGGAAACTAGAATTTTCTGC  1070
+554      5288839  ..........A.................................................  5288898
+
+Query_1  1071     ACAATTGCTTTGAACTCATTTCGACCGCTCACATTCTGCAGACCAGAA-TCATTCCACTT  1129
+554      5288910                                               ...C...........  5288924
+554      5288899  .T..................                                          5288918
+
+Query_1  1130     AAACAATCCCGTTACACTTAATGCATCCAGTAAATTACATTGTTTCTAAGTGCTTTTACA  1189
+554      5288925  .T....................A..................A.......---------..  5288975
+
+Query_1  1190     TTGTCTAACATCTTCGCCTTAAAATCTTTTAGCATTACAGCGAAAGTGTACTTTAAAAGT  1249
+554      5288976  ---...-...------...........C....T......AT...................  5289025
+
+Query_1  1250     TAAATTACAAGGAAAGGATGCCCTCTCCGCTTGAATGAAGTCACTGTAATCGACAGACAG  1309
+554      5289026  G.......G...G.C.............A...............................  5289085
+
+Query_1  1310     TACATTAGGTCAAAGGTTAATGGTCCTTAATTTCACAAAGCATCAACAGATAACTTAAAA  1369
+554      5289086  ............................--------........................  5289137
+
+Query_1  1370     TAGTCACAAATCTGTAAGAGGTAACCAAGCGAAAATAAAGTGACTCTCATGTCCTCCTCA  1429
+554      5289138  ...C................AC........CC...........................C  5289197
+
+Query_1  1430     TCTATCTCCAGGTGCAACCTTCACCATCTTGATGCTGCTTGCCAGTTTAAACAGCTGTGT  1489
+554      5289198  ............................................................  5289257
+
+Query_1  1490     GAACCCCTGCATCTACATGCTGTTTAGCGGAAAGCTACCCAAAAGTGTGGTCAGCCTGCT  1549
+554      5289258  .............................................G..............  5289317
+
+Query_1  1550     TTGTGTAGGTCAGCCTGACCTGAAGGAGTCCATGCAGGAAGAGGCCACTGTGGTCAGCTC  1609
+554      5289318  ..........................................A.................  5289377
+
+Query_1  1610     CATGTACATCAGCCTCAAGAGCCTATCGGACTGCAGATGAAAGTCCCGATGATCACACAC  1669
+554      5289378  ...........................................C................  5289437
+
+Query_1  1670     CGATTACATCTCATTTCACATGGTGTGAAAGTACGGCTCCCTCATGGTAAAGACTGAAAG  1729
+554      5289438  T.......C........G.......................C.................C  5289497
+
+Query_1  1730     TCTTCTAATAAGTGTGAAGGCAAACAGCCTAGCAGTGTAATGTTCCTACTGTACAGATGA  1789
+554      5289498  ..................................................C.........  5289557
+
+Query_1  1790     TCACTGCATACAACGCTTTCATACAGAAAGTGCCAGACACACTATCTTTCACATCACATT  1849
+554      5289558  .............................A............G.....G...........  5289617
+
+Query_1  1850     TTGaaaacgtttttcaaattaaaagaacaaaaacaat-taaaaaaaaTAGCTGTGACTGA  1908
+554      5289618  ........A............................AA.....................  5289677
+
+Query_1  1909     AATATGTCCTCAAGTATTGGATGAATTCACTAAAATCCCAAATTTGACATTCGTGGTGCT  1968
+554      5289678  ................C.....A.............................A.......  5289737
+
+Query_1  1969     CAGAGGAAGAGGAAGAGTCTCTCTGCAAGAACTAACCTGAGCCTGAATATTACTTTGACT  2028
+554      5289738  .............................C............T.................  5289797
+
+Query_1  2029     TTATTAGCAGGAAATGCTCAGATATGAATGGTCTCCAGCTGATAATAACTTGAACAGTAG  2088
+554      5289798  .....................................................G......  5289857
+
+Query_1  2089     CGTTTTCTTCTGGCACCGTTATCAGGTAGGAGTTTTATTTTGTCTGAGACCAGCTG----  2144
+554      5289858  T.......................................................ACGA  5289917
+
+Query_1  2145     G---------CGAAAGCCAATAATCACATCCCCATCAGCTTCAGTTGTGATTTGATTAAA  2195
+554      5289918  .TAAATACCT........................C.........................  5289977
+
+Query_1  2196     AAGACTGCGGTGCATGACTTGAAATGTTGTTTCTGATATTTTACTGCGTTTAATA-TTTC  2254
+554      5289978  ...................C..............................G....T....  5290037
+
+Query_1  2255     CCCAAAAAGGTTGTTTATCAGCTGATCTTGTGAAATGTTTCACCTAAATGCGAATGTT-C  2313
+554      5290038  .....................................................T....C.  5290097
+
+Query_1  2314     CCGTGTCTGTGTTTAAATGTCTCGTATGTCATCTGAATTAAATACTTCAAGCTCCTTTTA  2373
+554      5290098  ..................A........................C................  5290157
+
+Query_1  2374     CGCCCATGTGTACATACGATCATGTGTATAACAGTGTCCGACCTACACTCGGTGGTTGAA  2433
+554      5290158  .............................G.........................C....  5290217
+
+Query_1  2434     ATAGTTAACAGACGACATTAATAGCACTTATTTTCAGACACTCTGTGTTAAGTGCCCCTA  2493
+554      5290218  ...........G......C.....T........................C..........  5290277
+
+Query_1  2494     GAGAGTCATTGATACATGTTGACATTTTTCCATTCATCCCCCAAGGATCTAGGGCTGTGA  2553
+554      5290278  .....................C.........T............................  5290337
+
+Query_1  2554     TTTCTGATGACTCGTTTCTTTCTTCCCATCAGCACTGTCACGTTGAGAAAAGAAAATAAT  2613
+554      5290338  ............T......................C....................-...  5290396
+
+Query_1  2614     CCCTTTGGATTTAAAGCTCAACTTTTTATTTGCACTCTCTCAGAGGCCTCGATTACACAT  2673
+554      5290397  .......................G..........----...G.........G........  5290452
+
+Query_1  2674     ACTTCTGTTTGCTCACTTTATATTTAGGCCTCAAATTTTCTGCTGAACATCACTTAATAG  2733
+554      5290453  ...........................A...................G............  5290512
+
+Query_1  2734     CGTCTCCATCTTCCACGAGGAGGATGGAATGCAAGCGTAAGTGCAATTTTTCAATCCTGC  2793
+554      5290513  ...T.............T....A.........G......--..T....A.......G...  5290570
+
+Query_1  2794     GCTCTATATTATTATACAACATGTCATTAGAACTCGCAGAGAGCGAGGTGGGAAAGATTA  2853
+554      5290571  ......................A............A.G......................  5290630
+
+Query_1  2854     GC-AAAACCCAGCACGCTGCACATCTTTCTGAAGCGAGCGGTTGAAGATGTGCATGTTCT  2912
+554      5290631  ..A...........T..G.....................................C....  5290690
+
+Query_1  2913     GCGTGTAATTTGCTAGCCAGGAGAACTGAATAAAACATTTCTGTGAAACATCATTACGGC  2972
+554      5290691  .T........................................C..............A..  5290750
+
+Query_1  2973     CACAAGAAATCCGCTTCTGTGCTTTCATTAGGCTGCACAGACAAATCCGACACAAATTGT  3032
+554      5290751  ..........G...................C.............................  5290810
+
+Query_1  3033     CCAACAATAAATCTGCTTTTACCCTCATCAGTGAGCGCCCAGCAGGGTCTCGGCAGGGAC  3092
+554      5290811  ...............................C...............A............  5290870
+
+Query_1  3093     ATTTAACCGTAATAAGAACACCGGCTGCTGGGCGCTCGTGAGGTCATCAATATTTAAACC  3152
+554      5290871  .......A............A..........................T............  5290930
+
+Query_1  3153     AATCAGTGCACCCCCTAAAATATAAATGTTTTACTACACCAAGACCAAAAGTTCATCATA  3212
+554      5290931  ......C.....................G..CC......................C....  5290990
+
+Query_1  3213     GAACTTGATAAATAAAAATATTAGCCACCCCACTTCAGTTTTCATGCCTTACAGGGTCGC  3272
+554      5290991  ......................G........................A............  5291050
+
+Query_1  3273     ATTTCAGTTCTGTTTGGTAGTGTTTATAGTATAAAACACTATGATGTGTCCTTATACTGG  3332
+554      5291051  ............................................C..........T....  5291110
+
+Query_1  3333     GATTATACTGACCGCATACCCAGCAATCAATTGGAAATGACTAAGAATAACTGGAATAAA  3392
+554      5291111  .............A...........T............T...T.C........AC.....  5291170
+
+Query_1  3393     ATAATGAAACACTGACAGCTCAGTAATGAAATATATGATGGCCTACTTGTAACAGTTGTG  3452
+554      5291171  ....C...............................A.A...............A.....  5291230
+
+Query_1  3453     TGTTGTCTAGAAAACCTCAATAAAGTTTGTTTGTGCTGGCC  3493
+554      5291231  .........................................  5291271
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2939403937102
+
+
+  Database: ./simdia_PB.fa
+    Posted date:  Jan 14, 2025  8:41 PM
+  Number of letters in database: 848,827,444
+  Number of sequences in database:  823
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,345 @@
+#NEXUS
+[R-package APE, Fri Jan 24 17:35:51 2025]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 166;
+	TAXLABELS
+		Altcal
+		Altcom
+		Altshe
+		Asplep
+		Astbur
+		Auldew
+		Baicen
+		Batfas
+		Batvit
+		Benhor
+		Bentri
+		Boumic
+		Calmac
+		Calmel
+		Calple
+		Carsch
+		Chabri
+		Chacya
+		Chando
+		Chapop
+		Cphfro
+		Cphgib
+		Cteben
+		Ctehor
+		Cunlon
+		Cyafoa
+		Cyafur
+		Cypcol
+		Cyplep
+		Cypmic
+		Cyppav
+		Cypzon
+		Ectdes
+		Enamel
+		Erecya
+		Eremar
+		Gnaper
+		Gnapfe
+		Gralem
+		Gwcbel
+		Gwcchr
+		Hapmic
+		Intloo
+		Juldic
+		Julorn
+		Jultra
+		Lamcal
+		Lamkun
+		Lamlap
+		Lamlem
+		Lammel
+		Lamoce
+		Lamorn
+		Lamsig
+		Lamspe
+		Lchabe
+		Lchaur
+		Lchsta
+		Lepatt
+		Lepcun
+		Lepelo
+		Lepkam
+		Lepken
+		Lepmim
+		Leppro
+		Lesper
+		Lessta
+		Limdar
+		Loblab
+		Mdcten
+		Neobif
+		Neobou
+		Neobre
+		Neobri
+		Neobue
+		Neocal
+		Neocau
+		Neochi
+		Neochr
+		Neocyl
+		Neofal
+		Neofas
+		Neofur
+		Neogra
+		Neohel
+		Neoleu
+		Neolon
+		Neolou
+		Neomar
+		Neomee
+		Neomod
+		Neomon
+		Neomul
+		Neomux
+		Neonve
+		Neoobs
+		Neooli
+		Neopec
+		Neople
+		Neopro
+		Neopul
+		Neosav
+		Neosex
+		Neosim
+		Neospl
+		Neotet
+		Neotoa
+		Neotre
+		Neovar
+		Neowal
+		Ophboo
+		Ophhet
+		Ophnas
+		Ophven
+		Pcynig
+		Perecc
+		Permic
+		Petfam
+		Petfas
+		Petort
+		Petpol
+		Pettre
+		Pleela
+		Plemul
+		Plepar
+		Plestr
+		Pscbab
+		Psccur
+		Pscmar
+		Psephi
+		Regcal
+		Simdia
+		Spaery
+		Spamar
+		Tanirs
+		Telbif
+		Telbra
+		Telbri
+		Telshe
+		Telvit
+		Trezeb
+		Trioto
+		Troann
+		Trobri
+		Trodub
+		Trolun
+		Tromoo
+		Trompi
+		Tronig
+		Tropol
+		Trored
+		Varmoo
+		Xchhec
+		Xenbat
+		Xenbou
+		Xenfla
+		Xenkil
+		Xenlon
+		Xennas
+		Xenoch
+		Xenorn
+		Xenpap
+		Xensim
+		Xensin
+		Xenspi
+		Xensun
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Altcal,
+		2	Altcom,
+		3	Altshe,
+		4	Asplep,
+		5	Astbur,
+		6	Auldew,
+		7	Baicen,
+		8	Batfas,
+		9	Batvit,
+		10	Benhor,
+		11	Bentri,
+		12	Boumic,
+		13	Calmac,
+		14	Calmel,
+		15	Calple,
+		16	Carsch,
+		17	Chabri,
+		18	Chacya,
+		19	Chando,
+		20	Chapop,
+		21	Cphfro,
+		22	Cphgib,
+		23	Cteben,
+		24	Ctehor,
+		25	Cunlon,
+		26	Cyafoa,
+		27	Cyafur,
+		28	Cypcol,
+		29	Cyplep,
+		30	Cypmic,
+		31	Cyppav,
+		32	Cypzon,
+		33	Ectdes,
+		34	Enamel,
+		35	Erecya,
+		36	Eremar,
+		37	Gnaper,
+		38	Gnapfe,
+		39	Gralem,
+		40	Gwcbel,
+		41	Gwcchr,
+		42	Hapmic,
+		43	Intloo,
+		44	Juldic,
+		45	Julorn,
+		46	Jultra,
+		47	Lamcal,
+		48	Lamkun,
+		49	Lamlap,
+		50	Lamlem,
+		51	Lammel,
+		52	Lamoce,
+		53	Lamorn,
+		54	Lamsig,
+		55	Lamspe,
+		56	Lchabe,
+		57	Lchaur,
+		58	Lchsta,
+		59	Lepatt,
+		60	Lepcun,
+		61	Lepelo,
+		62	Lepkam,
+		63	Lepken,
+		64	Lepmim,
+		65	Leppro,
+		66	Lesper,
+		67	Lessta,
+		68	Limdar,
+		69	Loblab,
+		70	Mdcten,
+		71	Neobif,
+		72	Neobou,
+		73	Neobre,
+		74	Neobri,
+		75	Neobue,
+		76	Neocal,
+		77	Neocau,
+		78	Neochi,
+		79	Neochr,
+		80	Neocyl,
+		81	Neofal,
+		82	Neofas,
+		83	Neofur,
+		84	Neogra,
+		85	Neohel,
+		86	Neoleu,
+		87	Neolon,
+		88	Neolou,
+		89	Neomar,
+		90	Neomee,
+		91	Neomod,
+		92	Neomon,
+		93	Neomul,
+		94	Neomux,
+		95	Neonve,
+		96	Neoobs,
+		97	Neooli,
+		98	Neopec,
+		99	Neople,
+		100	Neopro,
+		101	Neopul,
+		102	Neosav,
+		103	Neosex,
+		104	Neosim,
+		105	Neospl,
+		106	Neotet,
+		107	Neotoa,
+		108	Neotre,
+		109	Neovar,
+		110	Neowal,
+		111	Ophboo,
+		112	Ophhet,
+		113	Ophnas,
+		114	Ophven,
+		115	Pcynig,
+		116	Perecc,
+		117	Permic,
+		118	Petfam,
+		119	Petfas,
+		120	Petort,
+		121	Petpol,
+		122	Pettre,
+		123	Pleela,
+		124	Plemul,
+		125	Plepar,
+		126	Plestr,
+		127	Pscbab,
+		128	Psccur,
+		129	Pscmar,
+		130	Psephi,
+		131	Regcal,
+		132	Simdia,
+		133	Spaery,
+		134	Spamar,
+		135	Tanirs,
+		136	Telbif,
+		137	Telbra,
+		138	Telbri,
+		139	Telshe,
+		140	Telvit,
+		141	Trezeb,
+		142	Trioto,
+		143	Troann,
+		144	Trobri,
+		145	Trodub,
+		146	Trolun,
+		147	Tromoo,
+		148	Trompi,
+		149	Tronig,
+		150	Tropol,
+		151	Trored,
+		152	Varmoo,
+		153	Xchhec,
+		154	Xenbat,
+		155	Xenbou,
+		156	Xenfla,
+		157	Xenkil,
+		158	Xenlon,
+		159	Xennas,
+		160	Xenoch,
+		161	Xenorn,
+		162	Xenpap,
+		163	Xensim,
+		164	Xensin,
+		165	Xenspi,
+		166	Xensun
+	;
+	TREE * UNTITLED = [&R] ((12:9.129948,(141:7.930123,(8:0.876381,9:0.876381):7.053742):1.199825):0.579735,((((73:0.628694,76:0.628694):4.961629,((93:1.361275,104:1.361275):2.616731,(((48:1.551335,(54:0.759525,49:0.759525):0.791809):0.700962,53:2.252296):1.646718,((82:2.890646,(47:2.787688,(77:1.863115,88:1.863115):0.924573):0.102959):0.833462,((109:3.45657,((1:1.663488,(2:0.893639,3:0.893639):0.769849):0.808868,(51:2.211904,(52:1.551388,55:1.551388):0.660516):0.260452):0.984214):0.151638,(50:3.032022,(65:1.898375,(((61:1.02744,64:1.02744):0.4484,(62:0.918983,63:0.918983):0.556857):0.33091,((90:1.288972,59:1.288972):0.134404,(72:0.8225,99:0.8225):0.600876):0.383374):0.091625):1.133647):0.576186):0.1159):0.174907):0.07899):1.612317):0.580559,(((103:1.388377,108:1.388377):2.390274,(107:3.179587,152:3.179587):0.599064):1.403544,(((87:1.804766,(95:0.651304,98:0.651304):1.153463):0.642901,((75:2.095346,((96:1.382359,100:1.382359):0.486731,(71:1.578794,(94:1.489376,(80:1.207729,86:1.207729):0.281647):0.089417):0.290296):0.226256):0.263192,(83:2.17647,(18:2.09446,((17:0.316292,19:0.316292):0.822547,(44:0.973331,(20:0.836392,(46:0.593253,45:0.593253):0.243138):0.136939):0.165508):0.955621):0.08201):0.182069):0.089129):1.660258,(((81:0.833509,(78:0.375988,110:0.375988):0.457521):2.570008,(84:1.899924,(89:1.781926,((74:1.276817,(85:0.731879,105:0.731879):0.544939):0.142684,(102:1.16764,(97:0.877633,101:0.877633):0.290007):0.251861):0.362425):0.117997):1.503594):0.581422,(((60:1.644558,106:1.644558):1.506751,(91:1.879134,(92:1.314006,79:1.314006):0.565129):1.272175):0.408697,(((136:1.904606,138:1.904606):0.516576,140:2.421182):0.647518,(137:1.110479,139:1.110479):1.958222):0.491306):0.424933):0.122986):1.07427):0.988687):2.51678,(((23:1.741422,(22:1.459961,21:1.459961):0.281462):6.028513,((((57:2.716454,142:2.716454):0.193163,(7:0.844381,131:0.844381):2.065235):0.120493,(37:2.283296,(56:1.637012,(58:1.517304,(40:0.848579,41:0.848579):0.668724):0.119709):0.646284):0.746814):4.24339,(39:5.737087,(((15:1.641131,(13:1.010601,14:1.010601):0.63053):2.71513,((16:1.903437,(33:1.724977,(66:1.36152,67:1.36152):0.363457):0.178461):0.236605,((26:0.495937,27:0.495937):1.257473,((6:0.715006,25:0.715006):0.872565,(113:1.180316,(111:1.073193,(112:0.700259,114:0.70026):0.372933):0.107123):0.407255):0.165839):0.386632):2.216219):0.545393,((158:1.279058,161:1.279058):1.570825,(159:2.74758,((4:2.119291,(166:1.399538,162:1.399538):0.719754):0.376457,(165:2.059076,(70:1.848975,(156:1.599259,((154:1.098425,155:1.098425):0.364286,(163:1.333715,(34:1.270835,(164:0.987114,(157:0.515641,160:0.515641):0.471472):0.283721):0.06288):0.128996):0.136548):0.249716):0.2101):0.436672):0.251832):0.102303):2.051771):0.835433):1.536413):0.496436):0.298685,((((10:1.036414,11:1.036413):4.742374,((42:1.478303,(125:1.367541,(117:0.965553,126:0.965553):0.401987):0.110762):0.163368,((116:1.082696,124:1.082696):0.248302,(123:0.915993,153:0.915993):0.415006):0.310672):4.137117):0.462342,(115:3.784718,(31:1.999952,(30:1.882303,(32:1.520696,(29:1.317941,28:1.317941):0.202754):0.361607):0.117649):1.784766):2.456412):1.564611,(((35:2.053541,135:2.053541):0.145081,(36:1.658498,(133:0.612665,134:0.612665):1.045833):0.540123):4.896589,(130:5.67615,(5:5.556325,((145:3.019682,(((143:1.157709,148:1.157709):0.210052,(150:1.223072,(151:0.950695,147:0.950694):0.272377):0.144689):0.690344,(149:1.485848,(146:1.070442,144:1.070443):0.415406):0.572257):0.961577):1.310374,(69:3.531931,((122:2.307636,121:2.307636):0.833205,((132:2.7494,((43:1.093953,119:1.093953):0.702021,120:1.795973):0.953427):0.292488,(118:2.869987,(68:2.727137,((24:2.236443,38:2.236443):0.266498,(128:2.136905,(127:1.808132,129:1.808132):0.328773):0.366036):0.224196):0.14285):0.171902):0.098952):0.39109):0.798126):1.226269):0.119824):1.41906):0.710531):0.26288):0.619042):1.02202);
+END;

@@ -1,0 +1,154 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./simdia_PB.fa
+           823 sequences; 848,827,444 total letters
+
+
+
+Query= Orenil_OT:100709702
+
+Length=2081
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024387200.1 Simochromis diagramma unplaced genomic scaffold,...  2300    0.0  
+
+
+
+Query_1  1        TTTCTGTGTCACTCTC-AAGGGTGCTTTGGAAATATATAAGACACACCAGCGACACCGTA  59
+475      7912477  .....C..........A..A............G..................A........  7912536
+
+Query_1  60       TGAGACAGAGAAGCCAGCAATCATCCAAGAGCAACCTAAAGAGGAACTTGAGCTAACAAG  119
+475      7912537  .............T.....G........................................  7912596
+
+Query_1  120      TGTGTACATTTGCTCTCTGTGAAGCGTAGATTTTGTGGTCAGCCTTACTAAGTG-ATTTA  178
+475      7912597  ...........................G..........................TT...T  7912656
+
+Query_1  179      TTCTCTGTTTTTCTCTTCTATTCCTAGCAGAAATGACCGGAGCTGCTGTGTCTGTGTGCC  238
+475      7912657  ..................C....T....................................  7912716
+
+Query_1  239      TGCTTTTTCTCCTGTCTGTATGTTCAGCGTGTTACATCTCCAACTGCCCTATTGGAGGAA  298
+475      7912717  ....................................................C.......  7912776
+
+Query_1  299      AGAGGTCCATAATGGATGCACCACTGCGCAAGGTGAGCTCAATCAGTCAGCCAATAGGTC  358
+475      7912777  .A..........................................................  7912836
+
+Query_1  359      TTTAACTTTGCAGCTTTTGAAGCTTCTGACAATATTATTAGCAAACTGGCACATCTTTCT  418
+475      7912837  ......................................................G.....  7912896
+
+Query_1  419      CTTCATTCATTTATTCAGATAATGCAAAGCCTGAAGAGAGATTTAGGTGACAATATTAGA  478
+475      7912897  ................................A...................          7912948
+
+Query_1  479      CAAAGTTAAGGACAGACATTTTCCGCAATTGCATGTGAAAAACTTGGGTCGGGGGCCAAA  538
+475      7912949                               .....................A.........  7912979
+
+Query_1  539      ACCATCAGAAAGAAAATACAAACTGAGAAAGCCTAAAAATGCTTTTTAAGGTGGTAAATT  598
+475      7912980  .............................................A......A.......  7913039
+
+Query_1  599      ATGGTGAAGTTCATAGCAACACCAAAAATAATCATCCGTTTCAACCTCTAGTGCATGTCA  658
+475      7913040  .......C.....A......................T.......................  7913099
+475      7954304                                              ....C......A...T  7954319
+
+Query_1  659      TGTGGCCCCGGAGACAGAGGCCGCTGCTTCGGGCCAAGTATCTGCTGCGGGGAAGGTCTT  718
+475      7913100  ......................A.....................................  7913159
+475      7954320  ........T........G...........T..C..C...........T.....C...T.C  7954379
+
+Query_1  719      GGTTGCCTGCTCGGCTCCCCGGAAACAGCTCACTGTGTGGAGGAGAACTACCTGCTCACC  778
+475      7913160  .................T..................A.......................  7913219
+475      7954380  ..C........T........A.......................................  7954439
+
+Query_1  779      CCCTGCCAGGCAGGAGGGAGAGCCTGCGGTTCTGAAGGAGGACGCTGCGCTGCTTCAGGA  838
+475      7913220  .................AC..C....T.................................  7913279
+475      7954440  .....................T....T..G.....G.....G.A.......AT...T...  7954499
+
+Query_1  839      CTCTGCTGTGATGCAGGTCAGAAAATCCTGACGTGAATATAAGCAGTAGTAAAAGGAGTA  898
+475      7913280  ...............................T..A.........................  7913339
+475      7954500  T.......                                                      7954507
+
+Query_1  899      TTTTAGTCCTTTATTGAAGTAATTAATACCACTACCAGAATACTTAGAAAAATAATCCTG  958
+475      7913340  .....................................---.--..-.C.G..........  7913393
+
+Query_1  959      CAAGCTGAAGCAAATAGCAGGGAAG-----TATTAGCAATATTTGCTTAAAGTACAAGAA  1013
+475      7913394  ......A.............A....TACTA..............................  7913453
+
+Query_1  1014     AGCAAAGCATATCGTTTAAGCTGATCAGTCAAGCTGATTGTAATTATTATATTTACAGCT  1073
+475      7913454  .......TT...A...............................................  7913513
+
+Query_1  1074     GGGTGGCTTGTTCAGTATTCTGTGTAAGCATACATCCTATTTTATAAGCTTATTACATCT  1133
+475      7913514  .......................................A..................G.  7913573
+
+Query_1  1134     GACATGATAAAGGCACAGTATCTAGGGTAAACAACATGAAGTAAAAAGTAGAAATTTTCC  1193
+475      7913574  ...T.....................A........................T.........  7913633
+
+Query_1  1194     TCTAAAATGCAGTGAAGTACAATTATTAAGTACCATAACATTGAAAAACTCTAGTGAGGG  1253
+475      7913634  .........T................A....G.T................T.........  7913693
+
+Query_1  1254     TTATCAAGTACAAGCACTTGATTGATTCATGAAATTATGCAGTCTCTATTCCGGTCCAAG  1313
+475      7913694  ....................................G.......................  7913753
+
+Query_1  1314     ATTCAGTATAGCTAAACCTGCACAAGTCACAGATTCTCTAGCATAAATATGATGACTTTC  1373
+475      7913754  G.....C...............G..................TG....C............  7913813
+
+Query_1  1374     ATCCAAACTCCCTAAAGTTGTAATCATTGTTAAttttttttGTTATTTTATATAATGTAA  1433
+475      7913814  .......---...G......C..........G--..........................  7913868
+
+Query_1  1434     GGAATAATGCAAGAATTATAAATGTTATTCCTAATAT--AGC--TCTGCATGCTTTAG-T  1488
+475      7913869  .......................C..........G..TT..GAA...T-.G.AA.A..A.  7913927
+
+Query_1  1489     ACCAATG-TAATTAAAGGAGAAAGA--AAATCCACCTTTGCTTTGAGTGATACTACTTTG  1545
+475      7913928  T..T..AC...AGC.T.C.T...T.CT....G..--.--.....-...-...........  7913981
+
+Query_1  1546     ATCATGATGACCTAATTTACCCTACCCTGCTCTTTAAGGGTCCATGAATACAGGTCACAA  1605
+475      7913982  G...C..................................A....................  7914041
+
+Query_1  1606     AACCTGATAACAACAGATCATAAAGTGTAGACGATGACCATTTTTGGTAATAACTCCTTC  1665
+475      7914042  .GA....................................G....................  7914101
+
+Query_1  1666     TGATTTGTTCTTAACCCTGCCTCAGAGAGCTGCGCCACAGATCAATCCTGCCTTATCGAG  1725
+475      7914102  ..G..............................A..........................  7914161
+
+Query_1  1726     GAGGAAGGAGATGAACAAACCAGCCAGTTCGATGGCAGCGACCCCGGTGACATCATCCTC  1785
+475      7914162  ............................................................  7914221
+
+Query_1  1786     AGGCTCCTGCATTTGGCTGGCCACAGTTCTCCTCATCGAGTCCACCAATGAGCTGCTTTT  1845
+475      7914222  .A.......................................................C..  7914281
+
+Query_1  1846     GC-GTCAAGGTCTCACTGCAAGCTCTCGAGCTGTAGGGATTAAATGGGACTTGTAGTTCA  1904
+475      7914282  .AT.........................................................  7914341
+
+Query_1  1905     CATAGTTGTGTTTTTATGTTTGTTGTCACGATGCTGATTTTGCTCTTTTTCCCTGCAGTA  1964
+475      7914342  ............................T.......G.......................  7914401
+
+Query_1  1965     CTTCTGTAGAGTGCCTTTGTCAATATAGCCTATTTTTATGTATGAAATTAGGGGTGAATA  2024
+475      7914402  ............................................................  7914461
+
+Query_1  2025     CCGGCTGTGGTCATCCTGTTATCTGCATGTTGAAATAAAGTTTGAAGAGAGTATAAA  2081
+475      7914462  .TT.T....................................................  7914518
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1740894448454
+
+
+  Database: ./simdia_PB.fa
+    Posted date:  Jan 14, 2025  8:41 PM
+  Number of letters in database: 848,827,444
+  Number of sequences in database:  823
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

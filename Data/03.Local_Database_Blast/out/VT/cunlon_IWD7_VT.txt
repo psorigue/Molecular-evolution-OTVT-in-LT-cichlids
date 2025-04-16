@@ -1,0 +1,135 @@
+BLASTN 2.5.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ./cunlon_PB.fa
+           311 sequences; 860,204,776 total letters
+
+
+
+Query= Orenil_VT:100708704
+
+Length=1698
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  000041F                                                             2614    0.0  
+
+
+
+Query_1  1        CGCAGTACAAGCCAGACATCCACACCGGCGGAGGACACACAGATGCAGCGCGGCGCTCAC  60
+38       3789159  ........C..A..............................G.................  3789218
+
+Query_1  61       TCCAAACCGACAGCGATGCCTCACTCCTTGTTCCCACTGTGCGTCCTAGGACTCCTCGCC  120
+38       3789219  .....C.............................C....................T..G  3789278
+
+Query_1  121      TTCTCCTCCGCCTGCTACATCCAGAACTGCCCCCGAGGAGGCAAACGAGCGCTGACTGAG  180
+38       3789279  .........................................G..G..............A  3789338
+
+Query_1  181      ACTGGAATCAGACAGGTGAGCATTGTTCTTTCTGCTAAAATAGCATGCTTATTCTTTAAC  240
+38       3789339  ......................................G.C...................  3789398
+
+Query_1  241      TGGCTGTGTTTGATTCTAAATTGCCATTAGCCTATAACATTAG-AAAAAATATAACCAAT  299
+38       3789399  .......................G.T.....G...........A...............A  3789458
+
+Query_1  300      AGAG-AAAACGGTCCAGCAATTCACAAAATTAAAGGAATGCTAAGCAGCCTTTAAATAAG  358
+38       3789459  ....A.....A...............G.................................  3789518
+
+Query_1  359      GGAAACCGACCGTGCAATGGATGTTATGGGATCAAAATGTGAGTGGTTTACTGGGTTGGG  418
+38       3789519  .........G.............................................-----  3789573
+
+Query_1  419      CTCAGAAGGCATTCATATATCAGATTTtaataaaaacggaacagaa-t-aaacagataaa  476
+38       3789574  ---------------...G......................G....A.C.T.........  3789618
+
+Query_1  477      aaataaaagtcacttatggaaaggttt-aaaaaataacACCAACTCAAATGGATC-GTTT  534
+38       3789619  ...........................A....................T..A...TT...  3789678
+
+Query_1  535      TAAAGTCATAAATTAGATATTACTCATGTAGTTTAAAAATACTGATTTACAATGAGAGAC  594
+38       3789679  ........C..........................................G........  3789738
+
+Query_1  595      TGTAGGAAAGAAGATGGTTGTGACTTATTTCACATGGTCATACTGCTATAATTCTCCTGC  654
+38       3789739  ............A.................A.....C.....T............T....  3789798
+
+Query_1  655      TGAGGCAATGCAATGAATGTTGATTTTCTTGAATACGAGAGGCAAAAGAATGTGAAAGTA  714
+38       3789799  ....................................A...T.G.......C.........  3789858
+
+Query_1  715      TCTTTCGTCTTGTAATATGAAATAATATAACAGAAAATAATATTGCTAAAATCGATTCCA  774
+38       3789859  ..A..G..............T.....................C.......T..A......  3789918
+
+Query_1  775      TTCTCCTCCAGTGCAAGTCTTGTGGCCCTGGAGACAGGGGCCGCTGCTTTGGCCCCACTA  834
+38       3789919  .........................................................G..  3789978
+38       3749071      ....T......T...A.................A...........C..G..A.G..  3749126
+
+Query_1  835      TCTGCTGTGGGGACAGTTTCGGCTGCCTGCTTGGCTCCCCAGAAACAGCTCACTGTGTGG  894
+38       3789979  .............TG..........T.........A........................  3790038
+38       3749127  .......C.....AG..C.T..T........C........G...................  3749186
+
+Query_1  895      AGGAGAACTACTTGCTCACTCCCTGCCAGGCAGGAGGGAGATCCTGTGGGTCTGAGGGAG  954
+38       3790039  ...........C.......C........................................  3790098
+38       3749187  ...........C.......C.................AC..C.......T.....A....  3749246
+
+Query_1  955      GGCACTGCGCTGCTTCTGGACTCTGCTGCAATTCTGGTACAAACTGGTCTGATTGATTGA  1014
+38       3790099  ...........A........T...................G...................  3790158
+38       3749247  .A.G............A...........                                  3749274
+
+Query_1  1015     CATGTTGACATGTAAGATATGAACTTCATTTCTTATTTTTGTTCTTTTCAGAGGGCTGTA  1074
+38       3790159  ............................................................  3790218
+
+Query_1  1075     TGGTGGACTCTGACTGCCTGGGAGAGACAGAGGCCACAGATCCAGTCCACGGCTCTGCAA  1134
+38       3790219  ............................................................  3790278
+
+Query_1  1135     GAAGCTCACCAACAGAGCTGCTGATGCGTCTTCTCCATGTGGCTGCCAGAGGACAGAATG  1194
+38       3790279  ...............................C............................  3790338
+
+Query_1  1195     AGTACTGATATTTTATGTGTGGGCGTCCATCTGCTGCTCAAGACCTGGAACTGCAACAGA  1254
+38       3790339  ............................................................  3790398
+
+Query_1  1255     AATGAAGTTCATCCATGTTCCACTATAAGCCTTGGGATCTGAACTCTGAACAGTTTAAAT  1314
+38       3790399  ....................................................A.......  3790458
+
+Query_1  1315     TTTCTCGGTTCTGTTACTGTTTCTGTTTGAAGTGTCTTTCTGATTAGCCGGGCTAAAAAT  1374
+38       3790459  .....T..........................................T...........  3790518
+
+Query_1  1375     ACAAGGGGAGAAGAACCACATTAATTGATAGGAAAACATTAGGTTTCATGTTTGCT-CCC  1433
+38       3790519  ...................................................G....C...  3790578
+
+Query_1  1434     CCTAAAAAATGTATATACTAATGCACATACTGTAAACAAAGTTTATTCTCTATAAAAAGA  1493
+38       3790579  .......................................................G....  3790638
+
+Query_1  1494     CACCCGAGAGCTCCAATTTAAATAACTGAGATATAGTAGAGCACATTGTAAATAAGTCAG  1553
+38       3790639  ...................C..-.....................................  3790697
+
+Query_1  1554     AGGTTAAAGATTACAGTTGATACAGGCATCCAGGTAAAACAGCAGAATGTCAATGCTTGA  1613
+38       3790698  ............................................................  3790757
+
+Query_1  1614     TCAGTTGCTTCTTGTGTAGTAGAAATATTGTTGTATATTAAAAATGGGAGAAACAATACA  1673
+38       3790758  ............................................................  3790817
+
+Query_1  1674     GAATGAAATGAATG  1687
+38       3790818  ........-.....  3790830
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1435666718433
+
+
+  Database: ./cunlon_PB.fa
+    Posted date:  Jan 14, 2025  8:42 PM
+  Number of letters in database: 860,204,776
+  Number of sequences in database:  311
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

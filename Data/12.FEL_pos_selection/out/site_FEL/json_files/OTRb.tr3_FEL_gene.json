@@ -1,0 +1,2013 @@
+{
+ "MLE":{
+   "content":{
+     "0":      [
+[0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [7.098735347719758, 0, 1.338989133079952, 3.299811588753172, 0.06928783016920959, 0.3341851187255313],
+      [0, 2.248631710343679, 1.69083123378556, 0.5641708264934309, 0.4525846175733668, 0.4219979256349381],
+      [0, 0, 0, 0, 1, 0],
+      [6.018869312879677, 0, 1.249147718355231, 3.117574882506901, 0.07745197337365561, 0.3117624842884691],
+      [0.08149244584781141, 0.01010855113179126, 0, -0.009030019058030803, 1, 0],
+      [0, 1.78244307050942, 1.24232730541597, 0.7162928913425652, 0.3973626067887633, 0.3100602445528701],
+      [0, 1.662550832522215, 1.312379133694925, 0.4775899648118909, 0.4895159962974222, 0.3275437908879286],
+      [0, 0, 0, 0, 1, 0],
+      [4.125841669306624, 4.489576879731362, 4.350977844952646, 0.004742874980273371, 0.9450942652378352, 1.085917735824399],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 4.517044430622372, 3.659712584927276, 1.313651688714813, 0.2517345601540488, 0.9133916433526539],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 1.742190050674144, 1.286530820670823, 0.595016151940591, 0.4404859329986112, 0.3210925648522513],
+      [0, 0, 0, 0, 1, 0],
+      [4.761072005268053, 3.652518755589918, 3.957900131139776, 0.04366716555263395, 0.8344740776645378, 0.9878133381010529],
+      [0, 0, 0, 0, 1, 0],
+      [13.03563378391291, 0, 3.13049133948043, 5.605308189067319, 0.01790614512948507, 0.7813085215614279],
+      [0, 2.103292092389949, 1.307357314474966, 0.9397732674591737, 0.3323361583380846, 0.3262904444560721],
+      [0, 0, 0, 0, 1, 0],
+      [6.340295642339804, 0, 1.327265100234236, 3.099027923997564, 0.07833905824130816, 0.3312590327613567],
+      [0, 0, 0, 0, 1, 0],
+      [3.996543661246027, 0, 1.225249917054039, 2.35176980718607, 0.1251408622560368, 0.3057980672758023],
+      [0, 2.083482618443294, 1.36375881647096, 0.8399221653500142, 0.3594190325677269, 0.3403671402074963],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [3.677363218312187, 0, 1.196038627472001, 2.246698674004531, 0.1338997959582984, 0.2985075090211251],
+      [0, 2.083482618443294, 1.382194503564499, 0.8221503173818974, 0.3645522128911479, 0.3449683218959314],
+      [2.47132214193133, 0, 1.42598379605593, 1.094354409689117, 0.2955084224269753, 0.3558972604127774],
+      [3.70560351955287, 4.211987495338475, 4.027580307165872, 0.01061014799113025, 0.9179585481765268, 1.005204127408307],
+      [4.141859488576093, 0, 1.445825075392349, 2.094889697834745, 0.1477923775917845, 0.360849250034572],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [7.51505605793047, 0, 2.807042273356469, 3.911823948717068, 0.04794753301394317, 0.7005820526948249],
+      [0, 0, 0, 0, 1, 0],
+      [2.472115715167517, 0, 1.42902540004884, 1.096575204255807, 0.2950189342622651, 0.3566563844163821],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [3.315815331170816, 2.580383274513715, 2.901476760343809, 0.03227121135959266, 0.8574337102270699, 0.7241510268306028],
+      [6.382398863230453, 1.562554597678662, 2.507127776049976, 0.9085976842973125, 0.3404867683531013, 0.6257293452203918],
+      [3.689277109899759, 0, 1.324882027831239, 2.035686022022968, 0.1536448482736278, 0.3306642651756818],
+      [2.47132214193133, 0, 1.42598379605593, 1.094648025593582, 0.295443646505429, 0.3558972604127774],
+      [10000, 2.238126161622528, 2.26102693324078, 1.165104322665442, 0.2804094587111853, 0.564307458111071],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [6.559741535931957, 0, 1.444263466265644, 3.00023008394114, 0.08325269275764025, 0.3604595033827747],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [14.71779515946353, 0, 3.422814262542544, 5.695536406573627, 0.01700811335455188, 0.8542665227402725],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 1.924542361567106, 1.402120043539788, 0.6234397835032972, 0.4297719057910401, 0.3499413413012463],
+      [0, 0, 0, 0, 1, 0],
+      [7.01610044930537, 0, 1.699595190115381, 2.806623374525886, 0.09387577857481932, 0.4241852352360623],
+      [0, 0, 0, 0, 1, 0],
+      [2.687822933250582, 0, 1.564858111510338, 1.079003673001477, 0.2989205481385205, 0.3905575339366605],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [10.95969262611723, 0, 2.844894303995321, 5.454722927385649, 0.01951549873906566, 0.7100291684633829],
+      [4.442335043826003, 0, 1.266556041316008, 2.506892561237681, 0.1133492417618092, 0.3161072562748393],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [6.340295642339804, 0, 1.400396858680304, 2.993888879905743, 0.08357922899706016, 0.3495112685526138],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 3.182945798475187, 1.597340855096877, 1.374662077616129, 0.2410124865680034, 0.3986645821970368],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 1.886864443075496, 1.223628699916419, 0.8635369381188838, 0.3527507938765553, 0.3053934436472527],
+      [0, 1.813000419811204, 1.383658604129318, 0.5428296079222328, 0.4612624052865426, 0.3453337323454955],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [2.47132214193133, 0, 1.427016525344562, 1.094887023120098, 0.2953909336219912, 0.3561550091512896],
+      [0, 3.420557380469408, 1.441090325003419, 1.719780146209207, 0.1897213474944132, 0.3596675502867773],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 1.771020983446662, 1.184165187748497, 0.8068937728985652, 0.3690402042217715, 0.2955441340648605],
+      [0, 0, 0, 0, 1, 0],
+      [0, 5.529922468903231, 3.808356757371004, 2.214054899995254, 0.136758789639091, 0.9504902793226887],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [9.661177008305188, 0, 1.880886706889077, 3.230648879065342, 0.07227204722943492, 0.4694320005459429] 
+      ]
+    },
+   "headers":    [
+["alpha", "Synonymous substitution rate at a site"],
+    ["beta", "Non-synonymous substitution rate at a site"],
+    ["alpha=beta", "The rate estimate under the neutral model"],
+    ["LRT", "Likelihood ratio test statistic for beta = alpha, versus beta &neq; alpha"],
+    ["p-value", "Asymptotic p-value for evidence of selection, i.e. beta &neq; alpha"],
+    ["Total branch length", "The total length of branches contributing to inference at this site, and used to scale dN-dS"] 
+    ]
+  },
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond and Simon DW Frost",
+   "citation":"Not So Different After All: A Comparison of Methods for Detecting Amino Acid Sites Under Selection (2005). _Mol Biol Evol_ 22 (5): 1208-1222",
+   "contact":"spond@temple.edu",
+   "info":"FEL (Fixed Effects Likelihood)\n    estimates site-wise synonymous (&alpha;) and non-synonymous (&beta;) rates, and\n    uses a likelihood ratio test to determine if beta &neq; alpha at a site.\n    The estimates aggregate information over all branches,\n    so the signal is derived from\n    pervasive diversification or conservation. A subset of branches can be selected\n    for testing as well, in which case an additional (nuisance) parameter will be\n    inferred -- the non-synonymous rate on branches NOT selected for testing.\n    Multiple partitions within a NEXUS file are also supported\n    for recombination - aware analysis. Version 2.5 adds MH support.\n    ",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "settings":{
+     "ci":0,
+     "multihit":"None",
+     "pvalue":0.05,
+     "resample":0,
+     "site-filter":{
+       "site-filter":null,
+       "site-save-filter":null
+      },
+     "srv":1
+    },
+   "version":"2.5"
+  },
+ "branch attributes":{
+   "0":{
+     "Altcal":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Altcal"
+      },
+     "Altcom":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Altcom"
+      },
+     "Altshe":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Altshe"
+      },
+     "Arcstr":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Arcstr"
+      },
+     "Asplep":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Asplep"
+      },
+     "Astbur":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Astbur"
+      },
+     "Astfla":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Astfla"
+      },
+     "Astpal":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Astpal"
+      },
+     "Auldew":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Auldew"
+      },
+     "Baicen":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Baicen"
+      },
+     "Batfas":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Batfas"
+      },
+     "Batfer":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Batfer"
+      },
+     "Batgra":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Batgra"
+      },
+     "Bathor":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Bathor"
+      },
+     "Batleo":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Batleo"
+      },
+     "Batmin":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Batmin"
+      },
+     "Batvit":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Batvit"
+      },
+     "BenhoM":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"BenhoM"
+      },
+     "Benhor":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Benhor"
+      },
+     "Benmel":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Benmel"
+      },
+     "Bentri":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Bentri"
+      },
+     "Boumic":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Boumic"
+      },
+     "Calmac":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Calmac"
+      },
+     "Calmel":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Calmel"
+      },
+     "Calple":{
+       "Global MG94xREV":0.002439198315438087,
+       "Nucleotide GTR":0.002423674707629607,
+       "original name":"Calple"
+      },
+     "Carsch":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Carsch"
+      },
+     "Chabif":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Chabif"
+      },
+     "Chabri":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Chabri"
+      },
+     "Chacya":{
+       "Global MG94xREV":0.002485061699252895,
+       "Nucleotide GTR":0.002471706911302688,
+       "original name":"Chacya"
+      },
+     "Chando":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Chando"
+      },
+     "Chapop":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Chapop"
+      },
+     "Cphfr5":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cphfr5"
+      },
+     "Cphfro":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cphfro"
+      },
+     "Cphgib":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cphgib"
+      },
+     "Cteben":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cteben"
+      },
+     "Ctehor":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ctehor"
+      },
+     "Ctepol":{
+       "Global MG94xREV":0.007361981723654233,
+       "Nucleotide GTR":0.007281076417227316,
+       "original name":"Ctepol"
+      },
+     "Cunlon":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cunlon"
+      },
+     "Cyafoa":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cyafoa"
+      },
+     "Cyafur":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cyafur"
+      },
+     "Cypcol":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cypcol"
+      },
+     "Cypdwj":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cypdwj"
+      },
+     "Cypkan":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cypkan"
+      },
+     "Cypkib":{
+       "Global MG94xREV":2.916685570359904e-05,
+       "Nucleotide GTR":0,
+       "original name":"Cypkib"
+      },
+     "Cyplep":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cyplep"
+      },
+     "Cypmic":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cypmic"
+      },
+     "Cyppav":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cyppav"
+      },
+     "Cypzon":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Cypzon"
+      },
+     "Ectdes":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ectdes"
+      },
+     "EctspN":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"EctspN"
+      },
+     "Enamel":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Enamel"
+      },
+     "Erecya":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Erecya"
+      },
+     "Eremar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Eremar"
+      },
+     "Gnaper":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Gnaper"
+      },
+     "Gnapfe":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Gnapfe"
+      },
+     "Gralem":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Gralem"
+      },
+     "Gwcbel":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Gwcbel"
+      },
+     "Gwcchr":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Gwcchr"
+      },
+     "Hapmic":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Hapmic"
+      },
+     "HemstZ":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"HemstZ"
+      },
+     "Hemste":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Hemste"
+      },
+     "Hplkil":{
+       "Global MG94xREV":0.002449299805129061,
+       "Nucleotide GTR":0.002419300818362223,
+       "original name":"Hplkil"
+      },
+     "HplspC":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"HplspC"
+      },
+     "Hplsta":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Hplsta"
+      },
+     "Hplvan":{
+       "Global MG94xREV":0.002445077706465919,
+       "Nucleotide GTR":0.002418032542786926,
+       "original name":"Hplvan"
+      },
+     "Intloo":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Intloo"
+      },
+     "Juldic":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Juldic"
+      },
+     "Julkom":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Julkom"
+      },
+     "JulmaN":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"JulmaN"
+      },
+     "JulmaS":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"JulmaS"
+      },
+     "Julmrk":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Julmrk"
+      },
+     "Julorn":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Julorn"
+      },
+     "JulreK":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"JulreK"
+      },
+     "Julreg":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Julreg"
+      },
+     "Jultra":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Jultra"
+      },
+     "Julunt":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Julunt"
+      },
+     "Lamcal":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lamcal"
+      },
+     "Lamkun":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lamkun"
+      },
+     "Lamlap":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lamlap"
+      },
+     "Lamlem":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lamlem"
+      },
+     "Lammel":{
+       "Global MG94xREV":0.007542717419728583,
+       "Nucleotide GTR":0.007474244993515368,
+       "original name":"Lammel"
+      },
+     "Lamoce":{
+       "Global MG94xREV":0.002490597557149722,
+       "Nucleotide GTR":0.002478407516756286,
+       "original name":"Lamoce"
+      },
+     "LamorC":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"LamorC"
+      },
+     "LamorS":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"LamorS"
+      },
+     "Lamorn":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lamorn"
+      },
+     "Lamsig":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lamsig"
+      },
+     "Lamspe":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lamspe"
+      },
+     "Lamtig":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lamtig"
+      },
+     "Lchabe":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lchabe"
+      },
+     "Lchaur":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lchaur"
+      },
+     "Lchsta":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lchsta"
+      },
+     "Lepatt":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lepatt"
+      },
+     "Lepcun":{
+       "Global MG94xREV":0.002484589465558227,
+       "Nucleotide GTR":0.002472661156108992,
+       "original name":"Lepcun"
+      },
+     "Lepelo":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lepelo"
+      },
+     "Lepkam":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lepkam"
+      },
+     "Lepken":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lepken"
+      },
+     "LepmeK":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"LepmeK"
+      },
+     "Lepmim":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lepmim"
+      },
+     "Leppro":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Leppro"
+      },
+     "Lesper":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lesper"
+      },
+     "Lessta":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Lessta"
+      },
+     "Limdar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Limdar"
+      },
+     "Loblab":{
+       "Global MG94xREV":0.004912336322756376,
+       "Nucleotide GTR":0.004866496799277135,
+       "original name":"Loblab"
+      },
+     "Mdcrot":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Mdcrot"
+      },
+     "Mdcten":{
+       "Global MG94xREV":0.002430808383973185,
+       "Nucleotide GTR":0.002419882920652463,
+       "original name":"Mdcten"
+      },
+     "Neobif":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neobif"
+      },
+     "Neobou":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neobou"
+      },
+     "NeobrM":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"NeobrM"
+      },
+     "Neobre":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neobre"
+      },
+     "Neobri":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neobri"
+      },
+     "Neobue":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neobue"
+      },
+     "NeocaK":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"NeocaK"
+      },
+     "Neocal":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neocal"
+      },
+     "Neocau":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neocau"
+      },
+     "Neochi":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neochi"
+      },
+     "Neochr":{
+       "Global MG94xREV":0.002490129592644149,
+       "Nucleotide GTR":0.002472547153703801,
+       "original name":"Neochr"
+      },
+     "Neocra":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neocra"
+      },
+     "Neocyg":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neocyg"
+      },
+     "Neocyl":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neocyl"
+      },
+     "Neodev":{
+       "Global MG94xREV":0.002479070682460633,
+       "Nucleotide GTR":0.002471815639196993,
+       "original name":"Neodev"
+      },
+     "Neoese":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neoese"
+      },
+     "NeofaM":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"NeofaM"
+      },
+     "Neofal":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neofal"
+      },
+     "Neofas":{
+       "Global MG94xREV":0.002486640249575932,
+       "Nucleotide GTR":0.002474191160357292,
+       "original name":"Neofas"
+      },
+     "NeofuU":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"NeofuU"
+      },
+     "Neofur":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neofur"
+      },
+     "NeogrM":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"NeogrM"
+      },
+     "Neogra":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neogra"
+      },
+     "Neohec":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neohec"
+      },
+     "Neohel":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neohel"
+      },
+     "Neokom":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neokom"
+      },
+     "NeoleL":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"NeoleL"
+      },
+     "Neoleu":{
+       "Global MG94xREV":0.002489984731085443,
+       "Nucleotide GTR":0.002477993273026275,
+       "original name":"Neoleu"
+      },
+     "Neolon":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neolon"
+      },
+     "Neolou":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neolou"
+      },
+     "Neomar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neomar"
+      },
+     "Neomee":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neomee"
+      },
+     "Neomod":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neomod"
+      },
+     "Neomon":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neomon"
+      },
+     "Neomul":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neomul"
+      },
+     "Neomux":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neomux"
+      },
+     "Neonig":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neonig"
+      },
+     "Neonve":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neonve"
+      },
+     "Neoobs":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neoobs"
+      },
+     "Neooli":{
+       "Global MG94xREV":0.002483715349242592,
+       "Nucleotide GTR":0.002471711748142426,
+       "original name":"Neooli"
+      },
+     "Neopec":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neopec"
+      },
+     "Neopet":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neopet"
+      },
+     "Neople":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neople"
+      },
+     "Neopro":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neopro"
+      },
+     "Neopul":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neopul"
+      },
+     "Neosav":{
+       "Global MG94xREV":0.002483368418507144,
+       "Nucleotide GTR":0.002471562721655958,
+       "original name":"Neosav"
+      },
+     "Neosex":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neosex"
+      },
+     "Neosim":{
+       "Global MG94xREV":0.00248192283395575,
+       "Nucleotide GTR":0.002472151543705467,
+       "original name":"Neosim"
+      },
+     "Neospl":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neospl"
+      },
+     "Neotet":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neotet"
+      },
+     "Neotim":{
+       "Global MG94xREV":0.002499763520096494,
+       "Nucleotide GTR":0.002480030812061666,
+       "original name":"Neotim"
+      },
+     "Neotoa":{
+       "Global MG94xREV":0.004984829527171363,
+       "Nucleotide GTR":0.004964253994324073,
+       "original name":"Neotoa"
+      },
+     "Neotre":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neotre"
+      },
+     "Neovar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neovar"
+      },
+     "NeoveB":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"NeoveB"
+      },
+     "NeoveS":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"NeoveS"
+      },
+     "Neowal":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Neowal"
+      },
+     "Node149":{
+       "Global MG94xREV":0.002445114584698477,
+       "Nucleotide GTR":0.002419518571044533
+      },
+     "Node27":{
+       "Global MG94xREV":0.002482643997436649,
+       "Nucleotide GTR":0.002472686553356541
+      },
+     "Node324":{
+       "Global MG94xREV":0.002434900706393036,
+       "Nucleotide GTR":0.002418214328666004
+      },
+     "Node325":{
+       "Global MG94xREV":0.004874382596265344,
+       "Nucleotide GTR":0.004845922333439002
+      },
+     "Node335":{
+       "Global MG94xREV":0.002433598543244591,
+       "Nucleotide GTR":0.002418212070769891
+      },
+     "Node339":{
+       "Global MG94xREV":0.002435343570428987,
+       "Nucleotide GTR":0.002420115936631248
+      },
+     "Node34":{
+       "Global MG94xREV":0.002433835928917438,
+       "Nucleotide GTR":0.00241835436571222
+      },
+     "Node408":{
+       "Global MG94xREV":0.002433516042815992,
+       "Nucleotide GTR":0.002418553176816443
+      },
+     "Node425":{
+       "Global MG94xREV":0.002433169100719622,
+       "Nucleotide GTR":0.002419398571279256
+      },
+     "Node43":{
+       "Global MG94xREV":0.00244624172823721,
+       "Nucleotide GTR":0.002426428936614193
+      },
+     "Node438":{
+       "Global MG94xREV":0.002429407521392888,
+       "Nucleotide GTR":0.002418613836106507
+      },
+     "Node449":{
+       "Global MG94xREV":0.002404634249200886,
+       "Nucleotide GTR":0.002418535202969369
+      },
+     "Node46":{
+       "Global MG94xREV":0.004898494979623613,
+       "Nucleotide GTR":0.004844661248842008
+      },
+     "Node462":{
+       "Global MG94xREV":0.002434697163248022,
+       "Nucleotide GTR":0.00241895719761571
+      },
+     "Node465":{
+       "Global MG94xREV":0.004880836060968902,
+       "Nucleotide GTR":0.004844485632454151
+      },
+     "Node492":{
+       "Global MG94xREV":0.00243473350425291,
+       "Nucleotide GTR":0.002418939458531386
+      },
+     "Node498":{
+       "Global MG94xREV":0.002490748731929134,
+       "Nucleotide GTR":0.002481657415161395
+      },
+     "Node52":{
+       "Global MG94xREV":0.002446233356686578,
+       "Nucleotide GTR":0.002419275006957895
+      },
+     "Node61":{
+       "Global MG94xREV":0.004897354675781326,
+       "Nucleotide GTR":0.00484310490614596
+      },
+     "Node70":{
+       "Global MG94xREV":0.002445139551336119,
+       "Nucleotide GTR":0.00242060496603344
+      },
+     "Ophboo":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ophboo"
+      },
+     "Ophhet":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ophhet"
+      },
+     "Ophnas":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ophnas"
+      },
+     "Ophpar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ophpar"
+      },
+     "Ophven":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ophven"
+      },
+     "Ophwhi":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ophwhi"
+      },
+     "Ortcho":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ortcho"
+      },
+     "Ortmaz":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ortmaz"
+      },
+     "Ortred":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ortred"
+      },
+     "Ortuvi":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Ortuvi"
+      },
+     "PcybrN":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"PcybrN"
+      },
+     "Pcybri":{
+       "Global MG94xREV":0.002435005063816224,
+       "Nucleotide GTR":0.00241984295777242,
+       "original name":"Pcybri"
+      },
+     "Pcynig":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pcynig"
+      },
+     "Pcytem":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pcytem"
+      },
+     "Perecc":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Perecc"
+      },
+     "Permic":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Permic"
+      },
+     "Peteph":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Peteph"
+      },
+     "Petfam":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petfam"
+      },
+     "Petfas":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petfas"
+      },
+     "Petgia":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petgia"
+      },
+     "Pethor":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pethor"
+      },
+     "Petiko":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petiko"
+      },
+     "Petkas":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petkas"
+      },
+     "Petkip":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petkip"
+      },
+     "Petmac":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petmac"
+      },
+     "Petmos":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petmos"
+      },
+     "Petort":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petort"
+      },
+     "Petpol":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petpol"
+      },
+     "Petrai":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petrai"
+      },
+     "Petred":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Petred"
+      },
+     "Pettex":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pettex"
+      },
+     "Pettre":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pettre"
+      },
+     "Phaacu":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Phaacu"
+      },
+     "Pleela":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pleela"
+      },
+     "Plemul":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Plemul"
+      },
+     "Plepar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Plepar"
+      },
+     "Plestr":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Plestr"
+      },
+     "Pscbab":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pscbab"
+      },
+     "Psccur":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Psccur"
+      },
+     "Pscmar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pscmar"
+      },
+     "Pscmrg":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pscmrg"
+      },
+     "Pscple":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Pscple"
+      },
+     "Psephi":{
+       "Global MG94xREV":0.007321197880336457,
+       "Nucleotide GTR":0.007276147017035748,
+       "original name":"Psephi"
+      },
+     "Regcal":{
+       "Global MG94xREV":0.002430234827666479,
+       "Nucleotide GTR":0.0024198397687357,
+       "original name":"Regcal"
+      },
+     "Sarcar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Sarcar"
+      },
+     "Sermac":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Sermac"
+      },
+     "Simdia":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Simdia"
+      },
+     "Spaery":{
+       "Global MG94xREV":0.002432316121701594,
+       "Nucleotide GTR":0.002418788165683693,
+       "original name":"Spaery"
+      },
+     "Spamar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Spamar"
+      },
+     "Tanirs":{
+       "Global MG94xREV":0.002431742387288865,
+       "Nucleotide GTR":0.002419125121324031,
+       "original name":"Tanirs"
+      },
+     "Tchdha":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Tchdha"
+      },
+     "Telbif":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Telbif"
+      },
+     "Telbra":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Telbra"
+      },
+     "Telbri":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Telbri"
+      },
+     "TeldhN":{
+       "Global MG94xREV":0.002485188682742996,
+       "Nucleotide GTR":0.002473186494679312,
+       "original name":"TeldhN"
+      },
+     "TeldhS":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"TeldhS"
+      },
+     "TeldhT":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"TeldhT"
+      },
+     "Tellon":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Tellon"
+      },
+     "Telluf":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Telluf"
+      },
+     "Telshe":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Telshe"
+      },
+     "TelteS":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"TelteS"
+      },
+     "Telvit":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Telvit"
+      },
+     "Thobra":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Thobra"
+      },
+     "Trecap":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trecap"
+      },
+     "Tremac":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Tremac"
+      },
+     "Tremar":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Tremar"
+      },
+     "Trenig":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trenig"
+      },
+     "Tresti":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Tresti"
+      },
+     "Treuni":{
+       "Global MG94xREV":0.002438197627354953,
+       "Nucleotide GTR":0.002420556757934905,
+       "original name":"Treuni"
+      },
+     "Trezeb":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trezeb"
+      },
+     "Trioto":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trioto"
+      },
+     "Troann":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Troann"
+      },
+     "TrobrK":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"TrobrK"
+      },
+     "Trobri":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trobri"
+      },
+     "Trodub":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trodub"
+      },
+     "Trokir":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trokir"
+      },
+     "Troluk":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Troluk"
+      },
+     "Trolun":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trolun"
+      },
+     "Tromoo":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Tromoo"
+      },
+     "Tromor":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Tromor"
+      },
+     "Trompi":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trompi"
+      },
+     "Tronig":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Tronig"
+      },
+     "Tropol":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Tropol"
+      },
+     "Trored":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Trored"
+      },
+     "Varmoo":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Varmoo"
+      },
+     "Xchhec":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xchhec"
+      },
+     "Xenbat":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xenbat"
+      },
+     "Xenbou":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xenbou"
+      },
+     "Xencau":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xencau"
+      },
+     "Xenfla":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xenfla"
+      },
+     "Xenkil":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xenkil"
+      },
+     "Xenlon":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xenlon"
+      },
+     "Xennas":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xennas"
+      },
+     "XenniS":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"XenniS"
+      },
+     "Xenoch":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xenoch"
+      },
+     "Xenorn":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xenorn"
+      },
+     "XenpaK":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"XenpaK"
+      },
+     "Xenpap":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xenpap"
+      },
+     "Xensim":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xensim"
+      },
+     "Xensin":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xensin"
+      },
+     "XenspN":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"XenspN"
+      },
+     "Xenspi":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xenspi"
+      },
+     "Xensun":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"Xensun"
+      }
+    },
+   "attributes":{
+     "Global MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137] 
+      ],
+     "name":"fel.filter.default"
+    }
+  },
+ "fits":{
+   "Global MG94xREV":{
+     "AIC-c":2579.868967687624,
+     "Equilibrium frequencies":      [
+[0.01744037529167645],
+      [0.02226542768661301],
+      [0.02421872834246911],
+      [0.02113679717437076],
+      [0.008907713041365367],
+      [0.01137211999504831],
+      [0.01236977293742397],
+      [0.01079566928428973],
+      [0.0115200921625677],
+      [0.01470723964932021],
+      [0.01599747585125593],
+      [0.01396173232501842],
+      [0.01798987552633427],
+      [0.02296695259843012],
+      [0.02498179660704092],
+      [0.02180276191497899],
+      [0.01784805438749959],
+      [0.02278589523823308],
+      [0.02478485545312574],
+      [0.02163088231970345],
+      [0.009115936106398206],
+      [0.0116379500313656],
+      [0.01265892370180422],
+      [0.01104802444402792],
+      [0.01178938113588907],
+      [0.01505103008169414],
+      [0.01637142631857214],
+      [0.01428809608240298],
+      [0.01841039951540503],
+      [0.02350381871011348],
+      [0.02556576089006049],
+      [0.02231241438032404],
+      [0.01598562149192685],
+      [0.02040820185354227],
+      [0.02219857186693013],
+      [0.01937371378369238],
+      [0.008164694088086887],
+      [0.01042353749625882],
+      [0.01133797322659175],
+      [0.009895170261217915],
+      [0.01055916686327329],
+      [0.01348046485773143],
+      [0.01466307860396023],
+      [0.01279714252627706],
+      [0.01648928627058314],
+      [0.0210512104769185],
+      [0.02289799032816978],
+      [0.01998412841596311],
+      [0.02021384247017472],
+      [0.01918920644240086],
+      [0.008086936874603145],
+      [0.01032426798026618],
+      [0.01122999499799658],
+      [0.009800932699080448],
+      [0.01335208241345441],
+      [0.01452343342913357],
+      [0.01267526776493731],
+      [0.01633224903943849],
+      [0.02085072734191245],
+      [0.02267991921575737],
+      [0.01979380773489879] 
+      ],
+     "Log Likelihood":-987.4447543227333,
+     "Rate Distributions":{
+       "non-synonymous/synonymous rate ratio for *test*":        [
+[0.3931612796305333, 1] 
+        ]
+      },
+     "display order":1,
+     "estimated parameters":300
+    },
+   "Nucleotide GTR":{
+     "AIC-c":3092.100655512471,
+     "Equilibrium frequencies":      [
+[0.2501885265500561],
+      [0.2400816641836341],
+      [0.2440315253177362],
+      [0.2656982839485736] 
+      ],
+     "Log Likelihood":-1008.423695041487,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.1599841845763937,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.2411394339020233,
+       "Substitution rate from nucleotide C to nucleotide G":0.3849774728780357,
+       "Substitution rate from nucleotide C to nucleotide T":1.058693441721464,
+       "Substitution rate from nucleotide G to nucleotide T":0.147753233540616
+      },
+     "display order":0,
+     "estimated parameters":535
+    }
+  },
+ "input":{
+   "file name":"/ifs/igc/folders/ANB/Pol/OTVT/pos_selection/FEL/OTRb.tr3/./inp/aln_OTRb.tr3.fa",
+   "number of sequences":265,
+   "number of sites":138,
+   "partition count":1,
+   "trees":{
+     "0":"(Altcal,Lepkam,Neomee,Neomul,Lepmim,Lepken,Neocau,Lamlap,LamorC,LamorS,Neople,Lamkun,Lepatt,Neohec,Leppro,LepmeK,Lepelo,Neobou,NeocaK,NeoveB,Neovar,NeoveS,Neolou,(Lammel,Altcom,Altshe)Node27,Neosim,(((Trecap,Tremac)Node492,(Batmin,Batfer,Batvit,HemstZ,Bathor,Batgra,Hemste,Batfas,Batleo)Node465,Treuni,Trezeb,Tremar,Tresti,Boumic,Trenig)Node462,((Cypcol,Cyplep,Cyppav,Cypdwj,Cypzon,Cypkib,Cypmic)Node449,(Mdcten,Xenbou,Xensim,Xensin,Xenbat,Xenoch)Node438,Enamel,Ophven,Auldew,Ophwhi,Xennas,Gwcchr,Ophboo,Cyafur,Carsch,Cypkan,XenspN,Xenpap,Ophpar,Xenfla,EctspN,Cyafoa,XenpaK,Calmac,Ophnas,Ophhet,Xenspi,Calmel,Lchsta,Xensun,Cunlon,Ectdes,Mdcrot,Gralem,Gwcbel,Lchabe,Lessta,Asplep,Xencau,Lesper,(Regcal,Trioto,Lchaur,Gnaper,Xenorn,Tchdha,Xenlon,Baicen,XenniS)Node408,(Pcybri,Pcynig,PcybrN,Pcytem)Node425,Calple,Xenkil)Node339,Ortcho,Lamlem,Chabri,Neocyg,Neomux,Neoese,Julunt,Neotre,Juldic,JulmaS,Telvit,Neonve,Neocal,TeldhS,Neomon,Neobue,Telluf,Neobre,Julreg,Jultra,Telbri,Neogra,Neolon,Chando,Neohel,Neospl,Neopro,Neocra,Neoobs,Neomar,Neofal,Neonig,Telbra,Neosex,Neocyl,Neomod,Varmoo,Tellon,Julkom,Lamtig,Julorn,Neotet,Neopet,NeofuU,Neobif,Neofur,NeoleL,NeogrM,Chabif,Neopec,NeofaM,Neotim,Neochr,Neooli,JulmaN,JulreK,Lepcun,Neodev,Neotoa,((Tanirs,Erecya,Spamar,Eremar,Spaery)Node325,Xchhec)Node324,(Neoleu,Pleela)Node335,Cphfro,Benmel,Permic,Benhor,Cteben,Bentri,Hapmic,Cphfr5,Plemul,Plestr,Plepar,BenhoM,Cphgib,Perecc,((Ortred,Ortmaz,Ortuvi)Node149,(Hplvan,Arcstr,Astbur,(Astpal,Hplsta,Astfla,HplspC)Node52,Hplkil)Node46,(Pscmar,Pscmrg)Node61,Intloo,Ctehor,Ctepol,(Loblab,Trokir,Tronig)Node70,Tromoo,Sermac,Peteph,Tromor,Petred,Petrai,Pettex,Psccur,Petfam,Petiko,Trodub,Trored,Petkas,Limdar,Pettre,Pscbab,Petmac,Pethor,Sarcar,Trompi,Petpol,Pscple,Petort,Troluk,Phaacu,Petmos,Petgia,Petfas,Thobra,Trolun,Troann,Trobri,Tropol,TrobrK,Petkip,Gnapfe,Simdia)Node43,Chapop,Neobri,NeobrM,Chacya,TelteS,Neokom,Telshe,Julmrk,TeldhT,Neosav,Telbif,Neopul,TeldhN,Neochi,Neowal)Node34,Psephi,Lamorn,(Lamoce,Lamspe)Node498,Neofas,Lamcal,Lamsig)"
+    }
+  },
+ "runtime":"2.5.62",
+ "tested":{
+   "0":{
+     "Altcal":"test",
+     "Altcom":"test",
+     "Altshe":"test",
+     "Arcstr":"test",
+     "Asplep":"test",
+     "Astbur":"test",
+     "Astfla":"test",
+     "Astpal":"test",
+     "Auldew":"test",
+     "Baicen":"test",
+     "Batfas":"test",
+     "Batfer":"test",
+     "Batgra":"test",
+     "Bathor":"test",
+     "Batleo":"test",
+     "Batmin":"test",
+     "Batvit":"test",
+     "BenhoM":"test",
+     "Benhor":"test",
+     "Benmel":"test",
+     "Bentri":"test",
+     "Boumic":"test",
+     "Calmac":"test",
+     "Calmel":"test",
+     "Calple":"test",
+     "Carsch":"test",
+     "Chabif":"test",
+     "Chabri":"test",
+     "Chacya":"test",
+     "Chando":"test",
+     "Chapop":"test",
+     "Cphfr5":"test",
+     "Cphfro":"test",
+     "Cphgib":"test",
+     "Cteben":"test",
+     "Ctehor":"test",
+     "Ctepol":"test",
+     "Cunlon":"test",
+     "Cyafoa":"test",
+     "Cyafur":"test",
+     "Cypcol":"test",
+     "Cypdwj":"test",
+     "Cypkan":"test",
+     "Cypkib":"test",
+     "Cyplep":"test",
+     "Cypmic":"test",
+     "Cyppav":"test",
+     "Cypzon":"test",
+     "Ectdes":"test",
+     "EctspN":"test",
+     "Enamel":"test",
+     "Erecya":"test",
+     "Eremar":"test",
+     "Gnaper":"test",
+     "Gnapfe":"test",
+     "Gralem":"test",
+     "Gwcbel":"test",
+     "Gwcchr":"test",
+     "Hapmic":"test",
+     "HemstZ":"test",
+     "Hemste":"test",
+     "Hplkil":"test",
+     "HplspC":"test",
+     "Hplsta":"test",
+     "Hplvan":"test",
+     "Intloo":"test",
+     "Juldic":"test",
+     "Julkom":"test",
+     "JulmaN":"test",
+     "JulmaS":"test",
+     "Julmrk":"test",
+     "Julorn":"test",
+     "JulreK":"test",
+     "Julreg":"test",
+     "Jultra":"test",
+     "Julunt":"test",
+     "Lamcal":"test",
+     "Lamkun":"test",
+     "Lamlap":"test",
+     "Lamlem":"test",
+     "Lammel":"test",
+     "Lamoce":"test",
+     "LamorC":"test",
+     "LamorS":"test",
+     "Lamorn":"test",
+     "Lamsig":"test",
+     "Lamspe":"test",
+     "Lamtig":"test",
+     "Lchabe":"test",
+     "Lchaur":"test",
+     "Lchsta":"test",
+     "Lepatt":"test",
+     "Lepcun":"test",
+     "Lepelo":"test",
+     "Lepkam":"test",
+     "Lepken":"test",
+     "LepmeK":"test",
+     "Lepmim":"test",
+     "Leppro":"test",
+     "Lesper":"test",
+     "Lessta":"test",
+     "Limdar":"test",
+     "Loblab":"test",
+     "Mdcrot":"test",
+     "Mdcten":"test",
+     "Neobif":"test",
+     "Neobou":"test",
+     "NeobrM":"test",
+     "Neobre":"test",
+     "Neobri":"test",
+     "Neobue":"test",
+     "NeocaK":"test",
+     "Neocal":"test",
+     "Neocau":"test",
+     "Neochi":"test",
+     "Neochr":"test",
+     "Neocra":"test",
+     "Neocyg":"test",
+     "Neocyl":"test",
+     "Neodev":"test",
+     "Neoese":"test",
+     "NeofaM":"test",
+     "Neofal":"test",
+     "Neofas":"test",
+     "NeofuU":"test",
+     "Neofur":"test",
+     "NeogrM":"test",
+     "Neogra":"test",
+     "Neohec":"test",
+     "Neohel":"test",
+     "Neokom":"test",
+     "NeoleL":"test",
+     "Neoleu":"test",
+     "Neolon":"test",
+     "Neolou":"test",
+     "Neomar":"test",
+     "Neomee":"test",
+     "Neomod":"test",
+     "Neomon":"test",
+     "Neomul":"test",
+     "Neomux":"test",
+     "Neonig":"test",
+     "Neonve":"test",
+     "Neoobs":"test",
+     "Neooli":"test",
+     "Neopec":"test",
+     "Neopet":"test",
+     "Neople":"test",
+     "Neopro":"test",
+     "Neopul":"test",
+     "Neosav":"test",
+     "Neosex":"test",
+     "Neosim":"test",
+     "Neospl":"test",
+     "Neotet":"test",
+     "Neotim":"test",
+     "Neotoa":"test",
+     "Neotre":"test",
+     "Neovar":"test",
+     "NeoveB":"test",
+     "NeoveS":"test",
+     "Neowal":"test",
+     "Node149":"test",
+     "Node27":"test",
+     "Node324":"test",
+     "Node325":"test",
+     "Node335":"test",
+     "Node339":"test",
+     "Node34":"test",
+     "Node408":"test",
+     "Node425":"test",
+     "Node43":"test",
+     "Node438":"test",
+     "Node449":"test",
+     "Node46":"test",
+     "Node462":"test",
+     "Node465":"test",
+     "Node492":"test",
+     "Node498":"test",
+     "Node52":"test",
+     "Node61":"test",
+     "Node70":"test",
+     "Ophboo":"test",
+     "Ophhet":"test",
+     "Ophnas":"test",
+     "Ophpar":"test",
+     "Ophven":"test",
+     "Ophwhi":"test",
+     "Ortcho":"test",
+     "Ortmaz":"test",
+     "Ortred":"test",
+     "Ortuvi":"test",
+     "PcybrN":"test",
+     "Pcybri":"test",
+     "Pcynig":"test",
+     "Pcytem":"test",
+     "Perecc":"test",
+     "Permic":"test",
+     "Peteph":"test",
+     "Petfam":"test",
+     "Petfas":"test",
+     "Petgia":"test",
+     "Pethor":"test",
+     "Petiko":"test",
+     "Petkas":"test",
+     "Petkip":"test",
+     "Petmac":"test",
+     "Petmos":"test",
+     "Petort":"test",
+     "Petpol":"test",
+     "Petrai":"test",
+     "Petred":"test",
+     "Pettex":"test",
+     "Pettre":"test",
+     "Phaacu":"test",
+     "Pleela":"test",
+     "Plemul":"test",
+     "Plepar":"test",
+     "Plestr":"test",
+     "Pscbab":"test",
+     "Psccur":"test",
+     "Pscmar":"test",
+     "Pscmrg":"test",
+     "Pscple":"test",
+     "Psephi":"test",
+     "Regcal":"test",
+     "Sarcar":"test",
+     "Sermac":"test",
+     "Simdia":"test",
+     "Spaery":"test",
+     "Spamar":"test",
+     "Tanirs":"test",
+     "Tchdha":"test",
+     "Telbif":"test",
+     "Telbra":"test",
+     "Telbri":"test",
+     "TeldhN":"test",
+     "TeldhS":"test",
+     "TeldhT":"test",
+     "Tellon":"test",
+     "Telluf":"test",
+     "Telshe":"test",
+     "TelteS":"test",
+     "Telvit":"test",
+     "Thobra":"test",
+     "Trecap":"test",
+     "Tremac":"test",
+     "Tremar":"test",
+     "Trenig":"test",
+     "Tresti":"test",
+     "Treuni":"test",
+     "Trezeb":"test",
+     "Trioto":"test",
+     "Troann":"test",
+     "TrobrK":"test",
+     "Trobri":"test",
+     "Trodub":"test",
+     "Trokir":"test",
+     "Troluk":"test",
+     "Trolun":"test",
+     "Tromoo":"test",
+     "Tromor":"test",
+     "Trompi":"test",
+     "Tronig":"test",
+     "Tropol":"test",
+     "Trored":"test",
+     "Varmoo":"test",
+     "Xchhec":"test",
+     "Xenbat":"test",
+     "Xenbou":"test",
+     "Xencau":"test",
+     "Xenfla":"test",
+     "Xenkil":"test",
+     "Xenlon":"test",
+     "Xennas":"test",
+     "XenniS":"test",
+     "Xenoch":"test",
+     "Xenorn":"test",
+     "XenpaK":"test",
+     "Xenpap":"test",
+     "Xensim":"test",
+     "Xensin":"test",
+     "XenspN":"test",
+     "Xenspi":"test",
+     "Xensun":"test"
+    }
+  },
+ "timers":{
+   "FEL analysis":{
+     "order":2,
+     "timer":15
+    },
+   "Model fitting":{
+     "order":1,
+     "timer":9
+    },
+   "Total time":{
+     "order":0,
+     "timer":24
+    }
+  }
+}
