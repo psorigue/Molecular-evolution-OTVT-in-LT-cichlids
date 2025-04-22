@@ -4,9 +4,9 @@
 # mafft v7.526
 # seqtk version 1.4-r122
 # bcftools Version: 1.9
-# samtools Version: 1.6
+# samtools Version: 1.21
 
-source Scripts/functions_unix.sh # To access custom functions defined in functions_unix.sh
+source Scripts/functions_bash.sh # To access custom functions defined in functions_bash.sh
 
 # Paths
 bam_files_directory="Local/path/to/bam_files_directory" # Directory containing BAM files
@@ -34,7 +34,7 @@ for gen in "${genes[@]}"; do
         thr=2
 
         mkdir "${spp} ; cd ${spp}"
-        get_consensus_gen "${gen}" "${file_regions}" "${spp}" "${bam_file}" "." "${ref_genome_file}" "${thr}" # Function taken from Scripts/functions_unix.sh.
+        get_consensus_gen "${gen}" "${file_regions}" "${spp}" "${bam_file}" "." "${ref_genome_file}" "${thr}" # Function taken from Scripts/functions_bash.sh.
         cp "${spp}"_"${gen}"_cons.fa ../ # Copy outside the species folder
 
         cd "${output_consensus_individual}/${gen}"

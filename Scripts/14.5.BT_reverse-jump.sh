@@ -2,6 +2,7 @@
 # This script runs BayesTraits Discrete using Reversible-Jump method. Here I show the corelation between phenotypes, 
 # but this was also run for the site that showed corelated evolution with pair-bonding.
 # The interpretation of the results of the Reversible-jump needs to be done manually (shown in output files)
+# BayesTraits V4
 
 # Files
 dataset="Data/14.BayesTraits/in/reverse-jump/dataset_pb_sc.txt" # Dataset file to be used.

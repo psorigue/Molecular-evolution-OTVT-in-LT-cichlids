@@ -1,5 +1,5 @@
 # This script checks the convergence of the MCMC runs using the Geweke diagnostic. It creates a dataframe with the z-scores of the Geweke diagnostic for all sites
-library(coda)
+library(coda) # version 0.19-4.1
 
 folder_datasets="Local/path/to/BayesTraits/datasets/" # Path to output of script 14.2
 folder_out="Data/14.BayesTraits/out/" # Path to output of this script

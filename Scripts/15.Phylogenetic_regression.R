@@ -2,8 +2,8 @@
 # This script is used to run a phylogenetic regression with the read counts of the brain transcriptomes.
 # This script is used for pair-bonding phenotype, but it was also run for the sex of the caregiver.
 
-library(ape)
-library(phylolm)
+library(ape) # version 5.8
+library(phylolm) # version 2.6.5
 library(dplyr)
 
 # Dataset counts

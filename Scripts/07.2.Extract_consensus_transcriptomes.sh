@@ -1,11 +1,11 @@
 #!/bin/bash
-# This script extracts the consensus sequences for each gene and individual from the BAM files and merges them to create a consensus for each species obtained from genomic sequences
+# This script extracts the consensus sequences for each gene and individual from the BAM files and merges them to create a consensus for each species obtained from transcriptomes.
 # seqtk version 1.4-r122
 # bcftools Version: 1.9
-# samtools Version: 1.6
+# samtools Version: 1.21
 
 
-source Scripts/functions_unix.sh # To access custom functions defined in functions_unix.sh
+source Scripts/functions_bash.sh # To access custom functions defined in functions_bash.sh
 
 # Paths
 output_consensus_transcriptomes="Local/path/to/output/consensus_transcriptomes" # Directory to store merged consensus sequences
@@ -29,7 +29,7 @@ for gen in "${genes[@]}"; do
         thr=2
 
         mkdir "${spp} ; cd ${spp}"
-        get_consensus_gen "${gen}" "${file_regions}" "${spp}" "${bam_file}" "." "${ref_genome_file}" "${thr}" # Function taken from Scripts/functions_unix.sh.
+        get_consensus_gen "${gen}" "${file_regions}" "${spp}" "${bam_file}" "." "${ref_genome_file}" "${thr}" # Function taken from Scripts/functions_bash.sh.
         cp "${spp}"_"${gen}"_cons.fa ../"${spp}"_"${gen}"_cons_tr.fa # Copy outside the species folder
 
         # Change header fasta file

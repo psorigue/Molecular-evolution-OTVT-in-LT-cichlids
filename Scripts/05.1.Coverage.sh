@@ -1,8 +1,8 @@
 #!/bin/bash
 # This script calculates the coverage depth for each position of CDS regions for genomes and transcriptomes using the BAM files obtained with script 01
-# Samtools depth version 1.6
+# Samtools depth version 1.21
 
-source Scripts/functions_unix.sh # To access custom functions defined in functions_unix.sh
+source Scripts/functions_bash.sh # To access custom functions defined in functions_bash.sh
 
 # Files
 bam_list_file_gn="Local/path/to/bam_list_file_genomes.txt" # "\n-separated list of bam files from which to analyze the coverage"
@@ -27,7 +27,7 @@ for gen in "${genes[@]}"; do
     # Create ";"-separated string with regions to input in coverage function
     regions=$( awk -F'\t' -v gen="${gen}" '$1 == gen { gsub(",", ";", $5); print $5 }' "${file_regions}" )
 
-    ps_coverage "${bam_list_file_gn}" "${regions}" "${out_file_gn}" # Function taken from "Scripts/functions_unix.sh". samtools depth version 1.6
+    ps_coverage "${bam_list_file_gn}" "${regions}" "${out_file_gn}" # Function taken from "Scripts/functions_bash.sh". samtools depth version 1.6
     
     cat "coverage_${gen}.txt" > "cov_${gen}.txt"
     rm "coverage_${gen}.txt"

@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script creates a file indicating the best coverage per species (either genome of transcriptome BAM). 
+# This script creates a file indicating the source with the best coverage per gene and species (either genome of transcriptome BAM). 
 
 # Paths
 folder_gn="Data/05.Coverage/out/cov_genomes/"

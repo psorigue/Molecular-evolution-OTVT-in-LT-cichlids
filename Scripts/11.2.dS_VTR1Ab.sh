@@ -3,7 +3,7 @@
 # mafft v7.526
 # biopython 1.80
 
-source Scripts/functions_unix.sh # To access functions defined in functions_unix.sh
+source Scripts/functions_bash.sh # To access functions defined in functions_bash.sh
 
 # Paths
 path_aln="Data/11.dS_ratios/in/VTR1Ab_exons/"
@@ -34,7 +34,7 @@ for ex in "${exons[@]}" ; do
         grep -A1 "Orenil\|${spp}" "${path_aln}/${ex}/${ex}.fa" | grep ">\|a" > seq.fa
         
         # Quick alignment
-        quick_align_fa_files seq_out.fa seq.fa # This function is taken from functions_unix.sh
+        quick_align_fa_files seq_out.fa seq.fa # This function is taken from functions_bash.sh
         
         # Yn00 function
         python Scripts/functions_python.py yn00_an seq_out.fa "${ctl_file}" # Biopython version 1.80

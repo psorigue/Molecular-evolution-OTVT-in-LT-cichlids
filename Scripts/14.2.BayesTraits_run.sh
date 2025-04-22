@@ -4,6 +4,7 @@
 # the amino acid variant and the phenotype data (both discrete).
 # This script shows the general script to run BayesTraits.
 # For space purposes, the output files are not shown. Only the likelihood values and log Bayes factors are shown.
+# BayesTraits V4
 
 folder_BT="Local/path/to/BayesTraits" # Path where BayesTraitsV4 is installed
 folder_datasets="${folder_BT}/datasets" # Where datasets are stored. Should be inside $folder_BT

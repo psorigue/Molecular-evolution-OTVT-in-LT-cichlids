@@ -6,7 +6,7 @@
 
 
 
-source Scripts/functions_unix.sh # To access custom functions defined in functions_unix.sh
+source Scripts/functions_bash.sh # To access custom functions defined in functions_bash.sh
 
 # Path
 path_aln="Data/08.Alignments/out/"

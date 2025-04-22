@@ -4,7 +4,7 @@
 # mafft v7.526
 # biopython 1.80
 
-source Scripts/functions_unix.sh # To access custom functions defined in functions_unix.sh
+source Scripts/functions_bash.sh # To access custom functions defined in functions_bash.sh
 
 # Paths
 path_aln="Data/08.Alignments/out/"
@@ -35,7 +35,7 @@ for gen in "${genes[@]}" ; do
         grep -A1 "Orenil\|${spp}" "${path_aln}/${gen}/aln_${gen}_CDS_p2n.fa" | grep ">\|a" > seq.fa
         
         # Quick alignment
-        quick_align_fa_files seq_out.fa seq.fa # This function is taken from functions_unix.sh
+        quick_align_fa_files seq_out.fa seq.fa # This function is taken from functions_bash.sh
         
         # Yn00 function
         python Scripts/functions_python.py yn00_an seq_out.fa "${ctl_file}" # Biopython version 1.80
