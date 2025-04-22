@@ -118,9 +118,10 @@ Runs a phylogenetic regression with the read counts of the brain transcriptomes.
 - R version 4.4.0.
 - R packages: Ape (version 5.8), Phylolm (version 2.6.5)
 ### **`functions_python.py`**
-This file contains a repertoire of functions in Python language used during the analysis. The functions are accessed from the scripts.
+This file contains a repertoire of functions in Python language used during the analysis. The functions are accessed and called from the scripts.
 ### **`functions_bash.py`**
 This file contains a repertoire of functions in bash language used during the analysis. The functions are accessed and called from the scripts.
+
 ---
 
 
