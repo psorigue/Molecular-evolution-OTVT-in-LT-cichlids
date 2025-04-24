@@ -3,28 +3,6 @@ Pol Sorigue, Walter Salzburger, Rui Oliveira (2025)
 
 ---
 
-## **Repository Structure**
-
-EDIT
-
-```
-├─ Data/                     # Input and output data files
-│   ├── 01.Map_assemblies/    # Mapping assemblies
-│   ├── 02.Local_Database_Blast/ # BLAST-related data
-│   ├── 09.Nucleotide_Diversity/ # Nucleotide diversity analysis
-│   ├── 13.Variable_Sites/    # Variable site datasets
-│   ├── 14.BayesTraits/       # Phylogenetic tree data
-├── Scripts/                  # Bash and R scripts for analysis
-│   ├── 01.Map_assemblies.sh  # Maps raw reads to reference genomes
-│   ├── 03.Local_Database_Blast.sh # Creates local BLAST databases
-│   ├── 09.2.NucDiv_by_domain.R # Calculates nucleotide diversity by domain
-│   ├── 14.1.Create_Trees_BT.R # Prunes species trees for BayesTraits
-│   ├── functions_bash.sh     # Helper functions for bash-based operations
-├── README.md                 # Project documentation
-```
-
----
-
 ## **Scripts**
 The versions refer to the versions used during the analysis.
 ### **`01.Map_assemblies.sh`**: 
