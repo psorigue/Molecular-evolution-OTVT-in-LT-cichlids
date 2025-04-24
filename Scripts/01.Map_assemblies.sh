@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # All raw reads are publicly available from the NCBI SRA database under BioProject PRJNA550295 (genomes) and PRJNA552202 (transcriptomes)
 # I did not include the reference genome (Oreochromis niloticus) in the data but it is available from NCBI under the accession number GCF_001858045.2
 # The following script maps the raw reads to the reference genomes and generates a BAM file for each sample
