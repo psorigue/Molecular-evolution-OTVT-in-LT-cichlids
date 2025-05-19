@@ -21,10 +21,10 @@ path_out <- "Data/15.Phylogenetic_Regression/out/"
 
 
 
-# Make average iso_data per species
+# Make median iso_data per species
 iso <- iso_data %>%
   group_by(X) %>%  # Group by species and tissue
-  summarise(across(3:4, \(x) median(x, na.rm = TRUE)), .groups = "drop")  # Compute mean for gene count columns
+  summarise(across(3:4, \(x) median(x, na.rm = TRUE)), .groups = "drop")  # Compute median for gene count columns
 colnames(iso) <- c("spp", "d15N", "d13C")
 
 
