@@ -1,5 +1,4 @@
 # This script serves as a repository of functions that are used in the pipeline.
-# It is not intended to be run directly, but rather to be imported into other scripts.
 # To run a function of this script, call this script by 'python3 functions_python.py <function_name> <args>'
 
 import argparse
