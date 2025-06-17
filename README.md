@@ -28,7 +28,6 @@ Calculates the coverage depth for each position of CDS regions for genomes and t
 ### **`05.2.Best_Coverage_File.sh`**
 This script creates a file indicating the source with the best coverage per gene and species (either genome of transcriptome BAM).
 - Python3
-### **`06.Gene_checkup.sh`**
 ### **`07.1.Extract_consensus_genomes.sh`**
 Extracts the consensus sequences for each gene and individual from the BAM files and merges them to create a consensus for each species obtained from genomic sequences.
 - MAFFT v7.526
