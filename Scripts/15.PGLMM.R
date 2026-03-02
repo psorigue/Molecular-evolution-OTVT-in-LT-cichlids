@@ -71,42 +71,52 @@ extract_results <- function(model, gene, phenotype) {
   # -----------------------------
   # Convergence diagnostics
   # -----------------------------
-  geweke_vals <- geweke.diag(sol)$z
-  convergence_ok <- all(abs(geweke_vals) < 3)
+  geweke_vals <- geweke.diag(sol)$z # Geweke diagnostic z-scores
+  convergence_ok <- all(abs(geweke_vals) < 3) # Return convergence diagnostic result
   
   # Effective sample size (minimum across fixed effects)
-  eff_samp_min <- min(effectiveSize(sol))
+  eff_samp_min <- min(effectiveSize(sol)) # Minimum effective sample size across all parameters
   
   # -----------------------------
-  # Extract pMCMC
+  # Extract pMCMC and posterior mean
   # -----------------------------
-  extract_p <- function(term) {
-    if (!(term %in% colnames(sol))) return(NA)
+  extract_stats <- function(term) {
+    if (!(term %in% colnames(sol))) return(c(NA, NA))
     
     post <- sol[, term]
-    pMCMC <- 2 * min(mean(post > 0), mean(post < 0))
-    return(pMCMC)
+    mean_post <- mean(post)                  # Posterior mean
+    pMCMC <- 2 * min(mean(post > 0), mean(post < 0))  # Two-tailed pMCMC
+    
+    return(c(mean_post, pMCMC))
   }
-  
-  pheno_p <- extract_p(pheno_term)
-  sex_p   <- extract_p(sex_term)
-  int_p   <- extract_p(inter_term)
-  d15N_p  <- extract_p("d15N")
-  d13C_p  <- extract_p("d13C")
+  # Define term names dynamically
+  pheno_stats <- extract_stats(pheno_term)
+  sex_stats   <- extract_stats(sex_term)
+  int_stats   <- extract_stats(inter_term)
+  d15N_stats  <- extract_stats("d15N")
+  d13C_stats  <- extract_stats("d13C")
   
   return(data.frame(
     phenotype = phenotype,
     gene = gene,
     
-    eff_samp_min = eff_samp_min, # Return minimum effective sample size for fixed effects
-    convergence_ok = convergence_ok, # Return Convergence diagnostic
+    eff_samp_min = eff_samp_min,
+    convergence_ok = convergence_ok,
     
-    # Return pMCMC values
-    p_pheno = pheno_p,
-    p_sex = sex_p,
-    p_interaction = int_p,
-    p_d15N = d15N_p,
-    p_d13C = d13C_p
+    mean_pheno = pheno_stats[1],
+    p_pheno = pheno_stats[2],
+    
+    mean_sex = sex_stats[1],
+    p_sex = sex_stats[2],
+    
+    mean_interaction = int_stats[1],
+    p_interaction = int_stats[2],
+    
+    mean_d15N = d15N_stats[1],
+    p_d15N = d15N_stats[2],
+    
+    mean_d13C = d13C_stats[1],
+    p_d13C = d13C_stats[2]
   ))
 }
 
