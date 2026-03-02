@@ -1,7 +1,9 @@
-library(tidyverse)
-library(ape)
-library(MCMCglmm)
-library(coda)
+# PGLMM analysis for gene expression data. This script runs Phylogenetic Generalized Linear Mixed Models (PGLMM) using MCMCglmm for each gene and phenotype, extracts pMCMC values, and saves results to a file.
+
+library(tidyverse) # version 2.0.0
+library(ape) # version 5.8
+library(MCMCglmm) # version 2.36
+library(coda) # version 0.19-4.1
 
 # Read input data
 input_file <- "Data/16.PGLMM/inp_exp_scaled.txt"
@@ -13,7 +15,6 @@ tree_tan <- read.tree("Data/16.PGLMM/tree_tan.nwk")
 # Define output file path
 output_file <- paste0("Data/16.PGLMM/out/", phenotype, "_results.txt")
   
-
 # Convert factors in initial data frame
 df$spp <- factor(df$spp)
 df$sex <- factor(df$sex)

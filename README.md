@@ -90,10 +90,10 @@ Randomizes the input dataset for BayesTraits 200 times. It creates a new dataset
 ### **`14.5.BT_reverse-jump.sh`**
 Runs BayesTraits Discrete using Reversible-Jump method.
 - BayesTraits V4
-### **`15.Phylogenetic_regression.R`**
-Runs a phylogenetic regression with the read counts of the brain transcriptomes.
+### **`15.PGLMM.R`**
+Runs Phylogenetic Generalized Linear Mixed Models (PGLMM) with the read counts of the brain transcriptomes.
 - R version 4.4.0.
-- R packages: Ape (version 5.8), Phylolm (version 2.6.5)
+- R packages: Ape (version 5.8), MCMCglmm (version 2.36), Coda (version 0.19-4.1)
 ### **`functions_python.py`**
 This file contains a repertoire of functions in Python language used during the analysis. The functions are accessed and called from the scripts.
 ### **`functions_bash.py`**
