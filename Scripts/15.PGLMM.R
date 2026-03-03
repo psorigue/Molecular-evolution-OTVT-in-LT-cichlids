@@ -12,9 +12,6 @@ df <- read.table(input_file, header = TRUE, sep = "\t")
 # Read Phylogeny in Newick format
 tree_tan <- read.tree("Data/16.PGLMM/tree_tan.nwk")
 
-# Define output file path
-output_file <- paste0("Data/16.PGLMM/out/", phenotype, "_results.txt")
-  
 # Convert factors in initial data frame
 df$spp <- factor(df$spp)
 df$sex <- factor(df$sex)
@@ -54,8 +51,8 @@ run_pglmm <- function(data, gene_name, phenotype, inv.phylo) {
     family = "gaussian",
     ginverse = list(spp = inv.phylo$Ainv),
     data = as.data.frame(df_gene),
-    nitt = 300000,
-    burnin = 10000,
+    nitt = 1000000,
+    burnin = 100000,
     thin = 100,
     verbose = FALSE
   )
@@ -72,7 +69,7 @@ extract_results <- function(model, gene, phenotype) {
   # Convergence diagnostics
   # -----------------------------
   geweke_vals <- geweke.diag(sol)$z # Geweke diagnostic z-scores
-  convergence_ok <- all(abs(geweke_vals) < 3) # Return convergence diagnostic result
+  convergence_ok <- all(abs(geweke_vals) < 1.95) # Return convergence diagnostic result for all variables.
   
   # Effective sample size (minimum across fixed effects)
   eff_samp_min <- min(effectiveSize(sol)) # Minimum effective sample size across all parameters
@@ -128,9 +125,12 @@ phenotypes <- c("Sex_caregiver", "Pair_bonding")
 all_genes <- unique(df_long$GeneID)
 
 for (phenotype in phenotypes) {
-  #phenotype <- "Pair_bonding"
+  
   cat("\nRunning phenotype:", phenotype, "\n")
   
+  # Define output file path
+  output_file <- paste0("Data/16.PGLMM/out/", phenotype, "_results.txt")
+
   # Remove NAs for this phenotype
   df_pheno <- df_long[!is.na(df_long[[phenotype]]), ]
 
