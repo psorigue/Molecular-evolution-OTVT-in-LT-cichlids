@@ -33,25 +33,30 @@ df_long <- df %>%
 # Function to run PGLMM for a given gene and phenotype
 run_pglmm <- function(data, gene_name, phenotype, inv.phylo) {
 
+  # Subset data for the specific gene
   df_gene <- subset(data, GeneID == gene_name)
   
+  # Ensure species factor levels match the phylogeny
   df_gene$spp <- factor(df_gene$spp, levels = rownames(inv.phylo$Ainv))
   
+  # Define the formula dynamically based on the phenotype
   formula_txt <- paste0(
     "log_expression ~ ",
     phenotype,
     " * sex + d15N + d13C"
   )
   
+  # Convert to formula object
   formula_obj <- as.formula(formula_txt)
   
+  # Run the MCMCglmm model
   model <- MCMCglmm(
     formula_obj,
     random = ~ spp,
     family = "gaussian",
     ginverse = list(spp = inv.phylo$Ainv),
     data = as.data.frame(df_gene),
-    nitt = 1000000,
+    nitt = 5000000,
     burnin = 100000,
     thin = 100,
     verbose = FALSE
@@ -68,52 +73,72 @@ extract_results <- function(model, gene, phenotype) {
   # -----------------------------
   # Convergence diagnostics
   # -----------------------------
-  geweke_vals <- geweke.diag(sol)$z # Geweke diagnostic z-scores
-  convergence_ok <- all(abs(geweke_vals) < 1.95) # Return convergence diagnostic result for all variables.
-  
-  # Effective sample size (minimum across fixed effects)
-  eff_samp_min <- min(effectiveSize(sol)) # Minimum effective sample size across all parameters
+  geweke_vals <- geweke.diag(sol)$z
+  convergence_ok <- all(abs(geweke_vals) < 1.95)
   
   # -----------------------------
-  # Extract pMCMC and posterior mean
+  # Extract posterior stats + HPD
   # -----------------------------
   extract_stats <- function(term) {
-    if (!(term %in% colnames(sol))) return(c(NA, NA))
     
+    if (!(term %in% colnames(sol))) return(c(NA, NA, NA, NA))
+    
+    # Extract posterior samples for the term
     post <- sol[, term]
-    mean_post <- mean(post)                  # Posterior mean
-    pMCMC <- 2 * min(mean(post > 0), mean(post < 0))  # Two-tailed pMCMC
+    mean_post <- mean(post)
     
-    return(c(mean_post, pMCMC))
+    # Two-tailed Bayesian pMCMC
+    pMCMC <- 2 * min(mean(post > 0), mean(post < 0))
+    
+    # 95% HPD interval
+    hpd <- HPDinterval(as.mcmc(post), prob = 0.95)
+    CI_low  <- hpd[1]
+    CI_high <- hpd[2]
+    
+    return(c(mean_post, pMCMC, CI_low, CI_high))
   }
-  # Define term names dynamically
+  
+  # Define term names based on phenotype
   pheno_stats <- extract_stats(pheno_term)
   sex_stats   <- extract_stats(sex_term)
   int_stats   <- extract_stats(inter_term)
   d15N_stats  <- extract_stats("d15N")
   d13C_stats  <- extract_stats("d13C")
   
+  # Compile results into a data frame
   return(data.frame(
-    phenotype = phenotype,
     gene = gene,
-    
-    eff_samp_min = eff_samp_min,
     convergence_ok = convergence_ok,
     
+    # Phenotype effect
     mean_pheno = pheno_stats[1],
     p_pheno = pheno_stats[2],
+    HPD_low_pheno = pheno_stats[3],
+    HPD_high_pheno = pheno_stats[4],
     
+    # Sex effect
     mean_sex = sex_stats[1],
     p_sex = sex_stats[2],
+    HPD_low_sex = sex_stats[3],
+    HPD_high_sex = sex_stats[4],
     
+    # Interaction
     mean_interaction = int_stats[1],
     p_interaction = int_stats[2],
+    HPD_low_interaction = int_stats[3],
+    HPD_high_interaction = int_stats[4],
     
+    # d15N
     mean_d15N = d15N_stats[1],
     p_d15N = d15N_stats[2],
+    HPD_low_d15N = d15N_stats[3],
+    HPD_high_d15N = d15N_stats[4],
     
+    # d13C
     mean_d13C = d13C_stats[1],
-    p_d13C = d13C_stats[2]
+    p_d13C = d13C_stats[2],
+    HPD_low_d13C = d13C_stats[3],
+    HPD_high_d13C = d13C_stats[4]
   ))
 }
 
@@ -156,9 +181,10 @@ for (phenotype in phenotypes) {
   # -------------------------------
   
   for (g in all_genes) {
-    #g <- "OT"
+    
     cat("   Gene:", g, "\n")
     
+    # Run model with error handling
     model <- try(run_pglmm(df_pheno, g, phenotype, inv.phylo))
     
     if (inherits(model, "try-error")) {
@@ -166,6 +192,7 @@ for (phenotype in phenotypes) {
       next
     }
     
+    # Extract results
     res <- extract_results(model, g, phenotype)
     results_list[[g]] <- res
   }

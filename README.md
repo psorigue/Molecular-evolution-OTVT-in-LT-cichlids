@@ -91,7 +91,7 @@ Randomizes the input dataset for BayesTraits 200 times. It creates a new dataset
 Runs BayesTraits Discrete using Reversible-Jump method.
 - BayesTraits V4
 ### **`15.PGLMM.R`**
-Runs Phylogenetic Generalized Linear Mixed Models (PGLMM) with the read counts of the brain transcriptomes.
+Runs Phylogenetic Generalized Linear Mixed Models (PGLMM) with the gene read counts of the brain transcriptomes.
 - R version 4.4.0.
 - R packages: Ape (version 5.8), MCMCglmm (version 2.36), Coda (version 0.19-4.1)
 ### **`functions_python.py`**
