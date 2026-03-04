@@ -56,7 +56,7 @@ run_pglmm <- function(data, gene_name, phenotype, inv.phylo) {
     family = "gaussian",
     ginverse = list(spp = inv.phylo$Ainv),
     data = as.data.frame(df_gene),
-    nitt = 5000000,
+    nitt = 1000000,
     burnin = 100000,
     thin = 100,
     verbose = FALSE
@@ -66,15 +66,27 @@ run_pglmm <- function(data, gene_name, phenotype, inv.phylo) {
 }
 
 # Function to extract results
-extract_results <- function(model, gene, phenotype) {
+extract_results <- extract_results <- function(model, gene, phenotype,
+                            pheno_term, sex_term, inter_term) {
   
   sol <- model$Sol
   
   # -----------------------------
-  # Convergence diagnostics
+  # Convergence diagnostics (ONLY pheno, sex, interaction)
   # -----------------------------
-  geweke_vals <- geweke.diag(sol)$z
-  convergence_ok <- all(abs(geweke_vals) < 1.95)
+  get_geweke <- function(term) {
+    
+    z_val <- geweke.diag(as.mcmc(sol[, term]))$z
+    conv_ok <- abs(z_val) < 1.95
+    
+    return(c(z_val, conv_ok))
+  }
+
+  pheno_conv <- get_geweke(pheno_term)
+  sex_conv   <- get_geweke(sex_term)
+  int_conv   <- get_geweke(inter_term)
+  d15N_conv  <- get_geweke("d15N")
+  d13C_conv  <- get_geweke("d13C")
   
   # -----------------------------
   # Extract posterior stats + HPD
@@ -108,7 +120,22 @@ extract_results <- function(model, gene, phenotype) {
   # Compile results into a data frame
   return(data.frame(
     gene = gene,
-    convergence_ok = convergence_ok,
+
+    # Convergence diagnostics
+    geweke_pheno = pheno_conv[1],
+    conv_pheno = pheno_conv[2],
+    
+    geweke_sex = sex_conv[1],
+    conv_sex = sex_conv[2],
+    
+    geweke_interaction = int_conv[1],
+    conv_interaction = int_conv[2],
+    
+    geweke_d15N = d15N_conv[1],
+    conv_d15N = d15N_conv[2],
+    
+    geweke_d13C = d13C_conv[1],
+    conv_d13C = d13C_conv[2],
     
     # Phenotype effect
     mean_pheno = pheno_stats[1],
@@ -193,7 +220,8 @@ for (phenotype in phenotypes) {
     }
     
     # Extract results
-    res <- extract_results(model, g, phenotype)
+    res <- extract_results(model, g, phenotype,
+                       pheno_term, sex_term, inter_term)
     results_list[[g]] <- res
   }
   
