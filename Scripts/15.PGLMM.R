@@ -66,7 +66,7 @@ run_pglmm <- function(data, gene_name, phenotype, inv.phylo) {
 }
 
 # Function to extract results
-extract_results <- extract_results <- function(model, gene, phenotype,
+extract_results <- function(model, gene, phenotype,
                             pheno_term, sex_term, inter_term) {
   
   sol <- model$Sol
@@ -87,6 +87,22 @@ extract_results <- extract_results <- function(model, gene, phenotype,
   int_conv   <- get_geweke(inter_term)
   d15N_conv  <- get_geweke("d15N")
   d13C_conv  <- get_geweke("d13C")
+
+  # -----------------------------
+  # Effective sample size
+  # -----------------------------
+  get_ess <- function(term) {
+    
+    ess_val <- effectiveSize(as.mcmc(sol[, term]))
+    
+    return(ess_val)
+  }
+  
+  ess_pheno <- get_ess(pheno_term)
+  ess_sex   <- get_ess(sex_term)
+  ess_int   <- get_ess(inter_term)
+  ess_d15N  <- get_ess("d15N")
+  ess_d13C  <- get_ess("d13C")
   
   # -----------------------------
   # Extract posterior stats + HPD
@@ -110,7 +126,7 @@ extract_results <- extract_results <- function(model, gene, phenotype,
     return(c(mean_post, pMCMC, CI_low, CI_high))
   }
   
-  # Define term names based on phenotype
+  # Extract stats for each term
   pheno_stats <- extract_stats(pheno_term)
   sex_stats   <- extract_stats(sex_term)
   int_stats   <- extract_stats(inter_term)
@@ -124,18 +140,21 @@ extract_results <- extract_results <- function(model, gene, phenotype,
     # Convergence diagnostics
     geweke_pheno = pheno_conv[1],
     conv_pheno = pheno_conv[2],
-    
     geweke_sex = sex_conv[1],
     conv_sex = sex_conv[2],
-    
     geweke_interaction = int_conv[1],
     conv_interaction = int_conv[2],
-    
     geweke_d15N = d15N_conv[1],
     conv_d15N = d15N_conv[2],
-    
     geweke_d13C = d13C_conv[1],
     conv_d13C = d13C_conv[2],
+
+    # ESS
+    ESS_pheno = ess_pheno,
+    ESS_sex = ess_sex,
+    ESS_interaction = ess_int,
+    ESS_d15N = ess_d15N,
+    ESS_d13C = ess_d13C,
     
     # Phenotype effect
     mean_pheno = pheno_stats[1],
