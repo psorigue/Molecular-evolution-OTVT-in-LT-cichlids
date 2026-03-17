@@ -1,5 +1,5 @@
 # Molecular evolution of the nonapeptide signalling in Lake Tanganyika cichlid radiation
-Pol Sorigue, Walter Salzburger, Rui Oliveira (2025)
+Pol Sorigue, Walter Salzburger, Rui Oliveira (2026)
 
 ---
 
